@@ -1,0 +1,33 @@
+{
+  "alpaca": {
+    "startDate": "2026-06-01",
+    "startBalance": 2340.62,
+    "trades": [
+      {
+        "date": "2026-06-01",
+        "ticker": "FCX",
+        "direction": "put",
+        "contracts": 1,
+        "entry": 1.86,
+        "exit": 1.32,
+        "holdMin": 57,
+        "pnlUsd": -54.00,
+        "pnlPct": -29.0
+      }
+    ]
+  },
+  "robinhood": {
+    "startDate": "2026-06-01",
+    "startBalance": 41.25,
+    "trades": [],
+    "openPositions": [
+      {
+        "ticker": "UNCY",
+        "shares": 5,
+        "costBasis": 7.71,
+        "currentPrice": 7.94,
+        "openDate": "2026-06-01"
+      }
+    ]
+  }
+}
