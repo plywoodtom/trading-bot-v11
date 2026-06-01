@@ -11,8 +11,9 @@
         "entry": 1.86,
         "exit": 1.32,
         "holdMin": 57,
-        "pnlUsd": -54.00,
-        "pnlPct": -29.0
+        "pnlUsd": -54.12,
+        "pnlPct": -29.0,
+        "fees": 0.12
       }
     ]
   },
