@@ -19,14 +19,14 @@
   },
   "robinhood": {
     "startDate": "2026-06-01",
-    "startBalance": 40.00,
+    "startBalance": 40.0,
     "trades": [],
     "openPositions": [
       {
         "ticker": "UNCY",
         "shares": 5,
         "costBasis": 7.46,
-        "currentPrice": 7.87,
+        "currentPrice": 7.59,
         "openDate": "2026-06-01"
       }
     ]
