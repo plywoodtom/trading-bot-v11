@@ -14,6 +14,18 @@
         "pnlUsd": -54.12,
         "pnlPct": -29.0,
         "fees": 0.12
+      },
+      {
+        "date": "2026-06-02",
+        "ticker": "FCX",
+        "direction": "put",
+        "contracts": 2,
+        "entry": 2.11,
+        "exit": 1.54,
+        "holdMin": 37,
+        "pnlUsd": -114.1,
+        "pnlPct": -27.0,
+        "fees": 0.24
       }
     ]
   },
@@ -26,7 +38,7 @@
         "ticker": "UNCY",
         "shares": 5,
         "costBasis": 7.46,
-        "currentPrice": 7.59,
+        "currentPrice": 7.22,
         "openDate": "2026-06-01"
       }
     ]
