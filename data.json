@@ -13,7 +13,8 @@
         "holdMin": 57,
         "pnlUsd": -54.12,
         "pnlPct": -29.0,
-        "fees": 0.12
+        "fees": 0.12,
+        "strategy": "v-reversal"
       },
       {
         "date": "2026-06-02",
@@ -25,7 +26,8 @@
         "holdMin": 37,
         "pnlUsd": -114.1,
         "pnlPct": -27.0,
-        "fees": 0.24
+        "fees": 0.24,
+        "strategy": "v-reversal"
       }
     ]
   },
@@ -42,5 +44,58 @@
         "openDate": "2026-06-01"
       }
     ]
+  },
+  "paperB125": {
+    "startDate": "2026-05-08",
+    "startBalance": 10000.0,
+    "trades": [],
+    "openPositions": [
+      {
+        "ticker": "NVDA",
+        "optionSym": "NVDA260612C00220000",
+        "contracts": 1,
+        "entryDate": "2026-05-11",
+        "entry": 12.955,
+        "expiry": "2026-06-12",
+        "costBasis": 1295.5
+      },
+      {
+        "ticker": "META",
+        "optionSym": "META260612C00600000",
+        "contracts": 1,
+        "entryDate": "2026-05-11",
+        "entry": 24.55,
+        "expiry": "2026-06-12",
+        "costBasis": 2455.0
+      }
+    ],
+    "equityHistory": [
+      {"date": "2026-05-08", "equity": 10000.0},
+      {"date": "2026-05-11", "equity": 9982.35},
+      {"date": "2026-05-12", "equity": 9554.35},
+      {"date": "2026-05-14", "equity": 11944.85},
+      {"date": "2026-05-15", "equity": 11001.85},
+      {"date": "2026-05-18", "equity": 10170.85},
+      {"date": "2026-05-19", "equity": 9786.85},
+      {"date": "2026-05-20", "equity": 9773.35},
+      {"date": "2026-05-21", "equity": 9096.35},
+      {"date": "2026-05-22", "equity": 9056.35},
+      {"date": "2026-05-25", "equity": 9149.85},
+      {"date": "2026-05-26", "equity": 8949.85},
+      {"date": "2026-05-27", "equity": 8908.85},
+      {"date": "2026-05-28", "equity": 10228.85},
+      {"date": "2026-05-29", "equity": 9835.35},
+      {"date": "2026-06-01", "equity": 9258.85},
+      {"date": "2026-06-02", "equity": 9001.35},
+      {"date": "2026-06-03", "equity": 9274.35},
+      {"date": "2026-06-04", "equity": 9891.35}
+    ]
+  },
+  "orbV21Paper": {
+    "startDate": "2026-06-05",
+    "startBalance": 10000.0,
+    "trades": [],
+    "openPositions": [],
+    "equityHistory": []
   }
 }
