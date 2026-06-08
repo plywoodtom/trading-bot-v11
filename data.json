@@ -40,7 +40,7 @@
         "ticker": "UNCY",
         "shares": 5,
         "costBasis": 7.46,
-        "currentPrice": 6.92,
+        "currentPrice": 6.66,
         "openDate": "2026-06-01"
       }
     ],
@@ -64,6 +64,10 @@
       {
         "date": "2026-06-05",
         "equity": 37.3
+      },
+      {
+        "date": "2026-06-08",
+        "equity": 36.0
       }
     ]
   },
@@ -178,6 +182,10 @@
     "equityHistory": [
       {
         "date": "2026-06-05",
+        "equity": 99659.89
+      },
+      {
+        "date": "2026-06-08",
         "equity": 99659.89
       }
     ]
