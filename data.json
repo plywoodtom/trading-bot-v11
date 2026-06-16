@@ -28,6 +28,20 @@
         "pnlPct": -27.0,
         "fees": 0.24,
         "strategy": "v-reversal"
+      },
+      {
+        "date": "2026-06-16",
+        "ticker": "DDOG",
+        "direction": "long",
+        "shares": 1,
+        "entry": 231.5157,
+        "exit": 232.39,
+        "holdMin": 369,
+        "pnlUsd": 0.87,
+        "pnlPct": 0.38,
+        "reason": "eod",
+        "strategy": "orb-v2.1",
+        "mode": "live"
       }
     ]
   },
@@ -40,7 +54,7 @@
         "ticker": "UNCY",
         "shares": 5,
         "costBasis": 7.46,
-        "currentPrice": 7.11,
+        "currentPrice": 7.15,
         "openDate": "2026-06-01"
       }
     ],
@@ -88,6 +102,10 @@
       {
         "date": "2026-06-15",
         "equity": 38.25
+      },
+      {
+        "date": "2026-06-16",
+        "equity": 38.45
       }
     ]
   },
@@ -197,7 +215,36 @@
   "orbV21Paper": {
     "startDate": "2026-06-05",
     "startBalance": 10000.0,
-    "trades": [],
+    "trades": [
+      {
+        "date": "2026-06-16",
+        "ticker": "DDOG",
+        "direction": "long",
+        "shares": 107,
+        "entry": 231.5157,
+        "exit": 232.39,
+        "holdMin": 369,
+        "pnlUsd": 93.55,
+        "pnlPct": 0.38,
+        "reason": "eod",
+        "strategy": "orb-v2.1",
+        "mode": "paper"
+      },
+      {
+        "date": "2026-06-16",
+        "ticker": "TRIP",
+        "direction": "long",
+        "shares": 1975,
+        "entry": 12.6363,
+        "exit": 12.665,
+        "holdMin": 367,
+        "pnlUsd": 56.65,
+        "pnlPct": 0.23,
+        "reason": "eod",
+        "strategy": "orb-v2.1",
+        "mode": "paper"
+      }
+    ],
     "openPositions": [],
     "equityHistory": [
       {
@@ -227,6 +274,10 @@
       {
         "date": "2026-06-15",
         "equity": 99659.89
+      },
+      {
+        "date": "2026-06-16",
+        "equity": 99501.94
       }
     ]
   }
