@@ -42,6 +42,20 @@
         "reason": "eod",
         "strategy": "orb-v2.1",
         "mode": "live"
+      },
+      {
+        "date": "2026-06-23",
+        "ticker": "HIVE",
+        "direction": "long",
+        "shares": 134,
+        "entry": 4.8724,
+        "exit": 4.6,
+        "holdMin": 370,
+        "pnlUsd": -36.51,
+        "pnlPct": -5.59,
+        "reason": "eod",
+        "strategy": "orb-v2.1",
+        "mode": "live"
       }
     ]
   },
@@ -54,7 +68,7 @@
         "ticker": "UNCY",
         "shares": 5,
         "costBasis": 7.46,
-        "currentPrice": 7.86,
+        "currentPrice": 8.03,
         "openDate": "2026-06-01"
       }
     ],
@@ -118,6 +132,10 @@
       {
         "date": "2026-06-22",
         "equity": 42.0
+      },
+      {
+        "date": "2026-06-23",
+        "equity": 42.85
       }
     ]
   },
@@ -255,6 +273,20 @@
         "reason": "eod",
         "strategy": "orb-v2.1",
         "mode": "paper"
+      },
+      {
+        "date": "2026-06-23",
+        "ticker": "HIVE",
+        "direction": "long",
+        "shares": 5106,
+        "entry": 4.8724,
+        "exit": 4.6,
+        "holdMin": 370,
+        "pnlUsd": -1391.05,
+        "pnlPct": -5.59,
+        "reason": "eod",
+        "strategy": "orb-v2.1",
+        "mode": "paper"
       }
     ],
     "openPositions": [],
@@ -306,6 +338,10 @@
       {
         "date": "2026-06-22",
         "equity": 99523.94
+      },
+      {
+        "date": "2026-06-23",
+        "equity": 98655.92
       }
     ]
   }
