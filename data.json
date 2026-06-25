@@ -57,6 +57,43 @@
         "strategy": "orb-v2.1",
         "mode": "live"
       }
+    ],
+    "openPositions": [
+      {
+        "ticker": "UNCY",
+        "shares": 25,
+        "costBasis": 7.85,
+        "currentPrice": 8.38,
+        "openDate": "2026-06-24"
+      },
+      {
+        "ticker": "ITRG",
+        "shares": 50,
+        "costBasis": 2.4199,
+        "currentPrice": 2.425,
+        "openDate": "2026-06-25"
+      },
+      {
+        "ticker": "GLDM",
+        "shares": 10,
+        "costBasis": 82.91,
+        "currentPrice": 79.34,
+        "openDate": "2026-06-22"
+      },
+      {
+        "ticker": "HIVE (cov call 5c 7/17)",
+        "shares": 100,
+        "costBasis": 4.3,
+        "currentPrice": 3.735,
+        "openDate": "2026-06-24"
+      },
+      {
+        "ticker": "RIVN 14.50/13 put spread",
+        "contracts": 1,
+        "costBasis": 0.4,
+        "openDate": "2026-06-22",
+        "expiry": "2026-07-17"
+      }
     ]
   },
   "robinhood": {
@@ -66,10 +103,10 @@
     "openPositions": [
       {
         "ticker": "UNCY",
-        "shares": 5,
-        "costBasis": 7.46,
-        "currentPrice": 7.9,
-        "openDate": "2026-06-01"
+        "shares": 35,
+        "costBasis": 7.25,
+        "currentPrice": 8.38,
+        "openDate": "2026-06-22"
       }
     ],
     "equityHistory": [
