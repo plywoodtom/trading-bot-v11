@@ -56,6 +56,20 @@
         "reason": "eod",
         "strategy": "orb-v2.1",
         "mode": "live"
+      },
+      {
+        "date": "2026-06-26",
+        "ticker": "IONS",
+        "direction": "long",
+        "shares": 7,
+        "entry": 80.8654,
+        "exit": 81.355,
+        "holdMin": 370,
+        "pnlUsd": 3.43,
+        "pnlPct": 0.61,
+        "reason": "eod",
+        "strategy": "orb-v2.1",
+        "mode": "live"
       }
     ],
     "openPositions": [
@@ -105,7 +119,7 @@
         "ticker": "UNCY",
         "shares": 35,
         "costBasis": 7.25,
-        "currentPrice": 8.22,
+        "currentPrice": 7.12,
         "openDate": "2026-06-22"
       }
     ],
@@ -181,6 +195,10 @@
       {
         "date": "2026-06-25",
         "equity": 73.95
+      },
+      {
+        "date": "2026-06-26",
+        "equity": 35.45
       }
     ]
   },
@@ -332,6 +350,48 @@
         "reason": "eod",
         "strategy": "orb-v2.1",
         "mode": "paper"
+      },
+      {
+        "date": "2026-06-26",
+        "ticker": "MSTR",
+        "direction": "long",
+        "shares": 291,
+        "entry": 84.4222,
+        "exit": 82.35,
+        "holdMin": 300,
+        "pnlUsd": -603.01,
+        "pnlPct": -2.45,
+        "reason": "stop",
+        "strategy": "orb-v2.1",
+        "mode": "paper"
+      },
+      {
+        "date": "2026-06-26",
+        "ticker": "IONS",
+        "direction": "long",
+        "shares": 304,
+        "entry": 80.8654,
+        "exit": 81.355,
+        "holdMin": 370,
+        "pnlUsd": 148.83,
+        "pnlPct": 0.61,
+        "reason": "eod",
+        "strategy": "orb-v2.1",
+        "mode": "paper"
+      },
+      {
+        "date": "2026-06-26",
+        "ticker": "PLTR",
+        "direction": "long",
+        "shares": 223,
+        "entry": 111.0855,
+        "exit": 113.05,
+        "holdMin": 343,
+        "pnlUsd": 438.08,
+        "pnlPct": 1.77,
+        "reason": "eod",
+        "strategy": "orb-v2.1",
+        "mode": "paper"
       }
     ],
     "openPositions": [],
@@ -395,6 +455,10 @@
       {
         "date": "2026-06-25",
         "equity": 98655.03
+      },
+      {
+        "date": "2026-06-26",
+        "equity": 98201.59
       }
     ]
   }
