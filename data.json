@@ -70,6 +70,20 @@
         "reason": "eod",
         "strategy": "orb-v2.1",
         "mode": "live"
+      },
+      {
+        "date": "2026-06-30",
+        "ticker": "ON",
+        "direction": "long",
+        "shares": 6,
+        "entry": 92.1911,
+        "exit": 94.87,
+        "holdMin": 351,
+        "pnlUsd": 16.07,
+        "pnlPct": 2.91,
+        "reason": "eod",
+        "strategy": "orb-v2.1",
+        "mode": "live"
       }
     ],
     "openPositions": [
@@ -396,6 +410,20 @@
         "reason": "eod",
         "strategy": "orb-v2.1",
         "mode": "paper"
+      },
+      {
+        "date": "2026-06-30",
+        "ticker": "ON",
+        "direction": "long",
+        "shares": 266,
+        "entry": 92.1911,
+        "exit": 94.87,
+        "holdMin": 351,
+        "pnlUsd": 712.59,
+        "pnlPct": 2.91,
+        "reason": "eod",
+        "strategy": "orb-v2.1",
+        "mode": "paper"
       }
     ],
     "openPositions": [],
@@ -467,10 +495,23 @@
       {
         "date": "2026-06-29",
         "equity": 98202.56
+      },
+      {
+        "date": "2026-06-30",
+        "equity": 98548.36
       }
     ]
   },
   "allTrades": [
+    {
+      "date": "2026-06-30 19:55:19",
+      "system": "ORB v2.1",
+      "symbol": "ON",
+      "side": "sell",
+      "qty": "6",
+      "price": "94.38",
+      "order_id": "f2cc3469"
+    },
     {
       "date": "2026-06-30 18:36:55",
       "system": "Manual",
@@ -1195,6 +1236,18 @@
   "tradesRollup": {
     "closed": [
       {
+        "system": "ORB v2.1",
+        "symbol": "ON",
+        "dir": "long",
+        "entry_date": "2026-06-30",
+        "entry_price": 93.48,
+        "exit_date": "2026-06-30",
+        "exit_price": 94.38,
+        "qty": 6.0,
+        "pnl": 5.4,
+        "pct": 0.96
+      },
+      {
         "system": "Manual",
         "symbol": "ITRG",
         "dir": "long",
@@ -1611,9 +1664,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 0.61,
         "qty": 1.0,
-        "current": 0.14,
-        "unreal": 47.0,
-        "unreal_pct": 77.05
+        "current": 0.105,
+        "unreal": 50.5,
+        "unreal_pct": 82.79
       },
       {
         "system": "Manual",
@@ -1622,9 +1675,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 0.21,
         "qty": 1.0,
-        "current": 0.055,
-        "unreal": -15.5,
-        "unreal_pct": -73.81
+        "current": 0.025,
+        "unreal": -18.5,
+        "unreal_pct": -88.1
       },
       {
         "system": "Manual",
@@ -1633,9 +1686,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 82.9067,
         "qty": 10.0,
-        "current": 79.735,
-        "unreal": -31.72,
-        "unreal_pct": -3.83
+        "current": 79.43,
+        "unreal": -34.77,
+        "unreal_pct": -4.19
       },
       {
         "system": "Manual",
@@ -1644,9 +1697,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 4.3,
         "qty": 100.0,
-        "current": 3.61,
-        "unreal": -69.0,
-        "unreal_pct": -16.05
+        "current": 3.64,
+        "unreal": -66.0,
+        "unreal_pct": -15.35
       },
       {
         "system": "Manual",
@@ -1655,9 +1708,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 0.27,
         "qty": 1.0,
-        "current": 0.145,
-        "unreal": 12.5,
-        "unreal_pct": 46.3
+        "current": 0.125,
+        "unreal": 14.5,
+        "unreal_pct": 53.7
       },
       {
         "system": "Manual",
@@ -1666,9 +1719,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 19.0,
-        "current": 4.84,
-        "unreal": -57.19,
-        "unreal_pct": -38.34
+        "current": 4.69,
+        "unreal": -60.04,
+        "unreal_pct": -40.25
       },
       {
         "system": "Manual",
@@ -1677,20 +1730,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 6.0,
-        "current": 4.84,
-        "unreal": -18.06,
-        "unreal_pct": -38.34
-      },
-      {
-        "system": "ORB v2.1",
-        "symbol": "ON",
-        "dir": "long",
-        "entry_date": "2026-06-30",
-        "entry_price": 93.48,
-        "qty": 6.0,
-        "current": 94.475,
-        "unreal": 5.97,
-        "unreal_pct": 1.06
+        "current": 4.69,
+        "unreal": -18.96,
+        "unreal_pct": -40.25
       },
       {
         "system": "Manual",
@@ -1699,9 +1741,9 @@
         "entry_date": "2026-06-30",
         "entry_price": 13.9078,
         "qty": 100.0,
-        "current": 13.905,
-        "unreal": -0.28,
-        "unreal_pct": -0.02
+        "current": 13.9,
+        "unreal": -0.78,
+        "unreal_pct": -0.06
       },
       {
         "system": "Manual",
@@ -1710,25 +1752,25 @@
         "entry_date": "2026-06-30",
         "entry_price": 0.47,
         "qty": 1.0,
-        "current": 0.5,
-        "unreal": -3.0,
-        "unreal_pct": -6.38
+        "current": 0.455,
+        "unreal": 1.5,
+        "unreal_pct": 3.19
       }
     ],
     "totals": {
-      "closed_count": 34,
-      "wins": 10,
+      "closed_count": 35,
+      "wins": 11,
       "losses": 24,
-      "win_rate": 29.4,
-      "realized_pnl": -949.37,
-      "avg_pct": -7.57,
-      "open_count": 10,
-      "unrealized_pnl": -129.28,
-      "net_pnl": -1078.65,
+      "win_rate": 31.4,
+      "realized_pnl": -943.97,
+      "avg_pct": -7.33,
+      "open_count": 9,
+      "unrealized_pnl": -132.55,
+      "net_pnl": -1076.52,
       "excluded_pnl": -2429.0,
       "excluded_count": 3,
       "excluded_note": "CRM April 0DTE calls \u2014 the retired/abandoned 0DTE strategy",
-      "net_incl_excluded": -3507.65
+      "net_incl_excluded": -3505.52
     },
     "excluded": [
       {
