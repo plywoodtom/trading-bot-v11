@@ -94,11 +94,18 @@ function render(){
       `<td class="r ${u==null?'':cls(u)}">${u==null?'-':money(u)}</td>`+
       `<td class="r ${u==null?'':cls(u)}">${o.unreal_pct==null?'-':(o.unreal_pct>=0?'+':'')+o.unreal_pct+'%'}</td></tr>`;
   }
-  document.getElementById('foot').innerHTML =
-    `Realized over ${R.totals.closed_count} closed trades: <b class="${cls(R.totals.realized_pnl)}">${money(R.totals.realized_pnl)}</b> `+
-    `(${R.totals.wins}W / ${R.totals.losses}L, ${R.totals.win_rate}% win). `+
-    `Open unrealized: <b class="${cls(R.totals.unrealized_pnl)}">${money(R.totals.unrealized_pnl)}</b>. `+
-    `Net: <b class="${cls(R.totals.net_pnl)}">${money(R.totals.net_pnl)}</b>. Updated daily after close.`;
+  const T=R.totals;
+  let foot = `Realized over ${T.closed_count} closed trades: <b class="${cls(T.realized_pnl)}">${money(T.realized_pnl)}</b> `+
+    `(${T.wins}W / ${T.losses}L, ${T.win_rate}% win). `+
+    `Open unrealized: <b class="${cls(T.unrealized_pnl)}">${money(T.unrealized_pnl)}</b>. `+
+    `Net: <b class="${cls(T.net_pnl)}">${money(T.net_pnl)}</b>.`;
+  if(T.excluded_count){
+    foot += `<br><br><span style="color:var(--silver)">Footnote — excluded from the totals above: the retired ${T.excluded_note}, `+
+      `<b class="${cls(T.excluded_pnl)}">${money(T.excluded_pnl)}</b> over ${T.excluded_count} lots (a one-off, abandoned strategy). `+
+      `Net including that trade: <b class="${cls(T.net_incl_excluded)}">${money(T.net_incl_excluded)}</b>.</span>`;
+  }
+  foot += ` <span style="color:var(--silver)">Updated daily after close.</span>`;
+  document.getElementById('foot').innerHTML = foot;
 }
 function cards(){
   const T=DATA.tradesRollup.totals;
