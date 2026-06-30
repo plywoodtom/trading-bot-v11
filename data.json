@@ -472,6 +472,24 @@
   },
   "allTrades": [
     {
+      "date": "2026-06-30 18:36:55",
+      "system": "Manual",
+      "symbol": "F260731C00014500",
+      "side": "sell",
+      "qty": "1",
+      "price": "0.47",
+      "order_id": "572c7eef"
+    },
+    {
+      "date": "2026-06-30 18:36:03",
+      "system": "Manual",
+      "symbol": "F",
+      "side": "buy",
+      "qty": "100",
+      "price": "13.9078",
+      "order_id": "82116169"
+    },
+    {
       "date": "2026-06-30 14:05:19",
       "system": "ORB v2.1",
       "symbol": "ON",
@@ -1593,9 +1611,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 0.61,
         "qty": 1.0,
-        "current": 0.135,
-        "unreal": 47.5,
-        "unreal_pct": 77.87
+        "current": 0.14,
+        "unreal": 47.0,
+        "unreal_pct": 77.05
       },
       {
         "system": "Manual",
@@ -1604,9 +1622,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 0.21,
         "qty": 1.0,
-        "current": 0.06,
-        "unreal": -15.0,
-        "unreal_pct": -71.43
+        "current": 0.055,
+        "unreal": -15.5,
+        "unreal_pct": -73.81
       },
       {
         "system": "Manual",
@@ -1615,9 +1633,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 82.9067,
         "qty": 10.0,
-        "current": 79.675,
-        "unreal": -32.32,
-        "unreal_pct": -3.9
+        "current": 79.735,
+        "unreal": -31.72,
+        "unreal_pct": -3.83
       },
       {
         "system": "Manual",
@@ -1626,9 +1644,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 4.3,
         "qty": 100.0,
-        "current": 3.655,
-        "unreal": -64.5,
-        "unreal_pct": -15.0
+        "current": 3.61,
+        "unreal": -69.0,
+        "unreal_pct": -16.05
       },
       {
         "system": "Manual",
@@ -1637,9 +1655,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 0.27,
         "qty": 1.0,
-        "current": 0.125,
-        "unreal": 14.5,
-        "unreal_pct": 53.7
+        "current": 0.145,
+        "unreal": 12.5,
+        "unreal_pct": 46.3
       },
       {
         "system": "Manual",
@@ -1648,9 +1666,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 19.0,
-        "current": 4.795,
-        "unreal": -58.04,
-        "unreal_pct": -38.92
+        "current": 4.84,
+        "unreal": -57.19,
+        "unreal_pct": -38.34
       },
       {
         "system": "Manual",
@@ -1659,9 +1677,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 6.0,
-        "current": 4.795,
-        "unreal": -18.33,
-        "unreal_pct": -38.92
+        "current": 4.84,
+        "unreal": -18.06,
+        "unreal_pct": -38.34
       },
       {
         "system": "ORB v2.1",
@@ -1670,9 +1688,31 @@
         "entry_date": "2026-06-30",
         "entry_price": 93.48,
         "qty": 6.0,
-        "current": 93.91,
-        "unreal": 2.58,
-        "unreal_pct": 0.46
+        "current": 94.475,
+        "unreal": 5.97,
+        "unreal_pct": 1.06
+      },
+      {
+        "system": "Manual",
+        "symbol": "F",
+        "dir": "long",
+        "entry_date": "2026-06-30",
+        "entry_price": 13.9078,
+        "qty": 100.0,
+        "current": 13.905,
+        "unreal": -0.28,
+        "unreal_pct": -0.02
+      },
+      {
+        "system": "Manual",
+        "symbol": "F260731C00014500",
+        "dir": "short",
+        "entry_date": "2026-06-30",
+        "entry_price": 0.47,
+        "qty": 1.0,
+        "current": 0.5,
+        "unreal": -3.0,
+        "unreal_pct": -6.38
       }
     ],
     "totals": {
@@ -1682,13 +1722,13 @@
       "win_rate": 29.4,
       "realized_pnl": -949.37,
       "avg_pct": -7.57,
-      "open_count": 8,
-      "unrealized_pnl": -123.61,
-      "net_pnl": -1072.98,
+      "open_count": 10,
+      "unrealized_pnl": -129.28,
+      "net_pnl": -1078.65,
       "excluded_pnl": -2429.0,
       "excluded_count": 3,
       "excluded_note": "CRM April 0DTE calls \u2014 the retired/abandoned 0DTE strategy",
-      "net_incl_excluded": -3501.98
+      "net_incl_excluded": -3507.65
     },
     "excluded": [
       {
