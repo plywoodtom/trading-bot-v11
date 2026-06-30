@@ -3,89 +3,121 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Trade Ledger — which system traded what</title>
+<title>Trade Ledger — round-trip P&L by system</title>
 <style>
-  :root{ --red:#d32f2f; --silver:#8e9196; --bg:#0e0e10; --card:#17171a; --line:#2a2a2f; }
+  :root{ --red:#d32f2f; --silver:#8e9196; --bg:#0e0e10; --card:#17171a; --line:#2a2a2f; --green:#4caf50; --loss:#ff5252; }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:#e8e8ea;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
-  header{padding:18px 16px 10px;border-bottom:1px solid var(--line)}
-  h1{margin:0;font-size:1.25rem;letter-spacing:.3px}
-  h1 .accent{color:var(--red)}
-  .sub{color:var(--silver);font-size:.82rem;margin-top:4px}
-  .wrap{max-width:920px;margin:0 auto;padding:0 12px 60px}
-  .summary{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
-  .chip{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:.85rem}
-  .chip b{font-size:1.05rem}
-  .filters{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 12px}
+  header{padding:16px 16px 8px;border-bottom:1px solid var(--line)}
+  h1{margin:0;font-size:1.2rem}h1 .accent{color:var(--red)}
+  .sub{color:var(--silver);font-size:.8rem;margin-top:3px}
+  .wrap{max-width:940px;margin:0 auto;padding:0 12px 60px}
+  .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0}
+  @media(max-width:560px){.cards{grid-template-columns:repeat(2,1fr)}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}
+  .card .lbl{color:var(--silver);font-size:.7rem;text-transform:uppercase;letter-spacing:.4px}
+  .card .val{font-size:1.5rem;font-weight:700;margin-top:4px}
+  .card .val.big{font-size:1.7rem}
+  h2{font-size:.95rem;margin:22px 0 8px;color:#e8e8ea}
+  .filters{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 10px}
   .filters button{background:var(--card);color:#e8e8ea;border:1px solid var(--line);border-radius:20px;padding:6px 14px;font-size:.8rem;cursor:pointer}
   .filters button.on{background:var(--red);border-color:var(--red);color:#fff}
-  table{width:100%;border-collapse:collapse;font-size:.82rem}
-  th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
-  th{color:var(--silver);font-weight:600;font-size:.72rem;text-transform:uppercase;letter-spacing:.4px}
+  table{width:100%;border-collapse:collapse;font-size:.8rem}
+  th,td{text-align:left;padding:7px 5px;border-bottom:1px solid var(--line);white-space:nowrap}
+  th{color:var(--silver);font-weight:600;font-size:.68rem;text-transform:uppercase;letter-spacing:.3px}
   td.sym{font-weight:600}
-  .buy{color:#4caf50}.sell{color:#ff7043}
-  .tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:.7rem;font-weight:600}
+  td.r,th.r{text-align:right}
+  .gain{color:var(--green);font-weight:600}.lose{color:var(--loss);font-weight:600}
+  .tag{display:inline-block;padding:1px 7px;border-radius:5px;font-size:.66rem;font-weight:600}
   .tag.orb{background:rgba(211,47,47,.18);color:#ff6b6b;border:1px solid rgba(211,47,47,.4)}
   .tag.spread{background:rgba(142,145,150,.18);color:#cfd2d6;border:1px solid rgba(142,145,150,.4)}
   .tag.manual{background:rgba(255,255,255,.06);color:var(--silver);border:1px solid var(--line)}
-  .basis{color:var(--silver);font-size:.74rem;white-space:normal}
-  .foot{color:var(--silver);font-size:.72rem;margin-top:18px;line-height:1.5}
+  .dir{font-size:.66rem;color:var(--silver)}
+  .foot{color:var(--silver);font-size:.72rem;margin-top:20px;line-height:1.5}
   a{color:var(--red)}
-  @media(max-width:560px){ td.basis,th.basis{display:none} }
 </style>
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <h1>Trade <span class="accent">Ledger</span></h1>
-    <div class="sub">Every Alpaca fill, tagged with the system that triggered it. Robinhood is tracked separately.</div>
-  </div>
-</header>
+<header><div class="wrap">
+  <h1>Trade <span class="accent">Ledger</span></h1>
+  <div class="sub">Round-trip trades by system, with P&amp;L. Alpaca account only (Robinhood tracked separately).</div>
+</div></header>
 <div class="wrap">
-  <div class="summary" id="summary"></div>
+  <div class="cards" id="cards"></div>
   <div class="filters" id="filters"></div>
-  <table>
-    <thead><tr><th>Date</th><th>System</th><th>Symbol</th><th>Side</th><th>Qty</th><th>Price</th><th class="basis">Basis</th></tr></thead>
-    <tbody id="rows"></tbody>
-  </table>
+
+  <h2>Closed trades</h2>
+  <table><thead><tr>
+    <th>Exit</th><th>System</th><th>Symbol</th><th>In&rarr;Out</th><th class="r">Qty</th><th class="r">P&amp;L $</th><th class="r">P&amp;L %</th>
+  </tr></thead><tbody id="closed"></tbody></table>
+
+  <h2>Open positions <span class="dir">(marked to market)</span></h2>
+  <table><thead><tr>
+    <th>Since</th><th>System</th><th>Symbol</th><th class="r">Qty</th><th class="r">Entry</th><th class="r">Now</th><th class="r">Unreal $</th><th class="r">%</th>
+  </tr></thead><tbody id="open"></tbody></table>
+
   <div class="foot" id="foot"></div>
 </div>
 <script>
-const TAGCLASS = t => t==='ORB v2.1' ? 'orb' : (t==='10-Spread bot' ? 'spread' : 'manual');
-let TRADES=[], filter='All';
-function render(){
-  const rows=document.getElementById('rows'); rows.innerHTML='';
-  const shown = filter==='All'?TRADES:TRADES.filter(t=>t.system===filter);
-  for(const t of shown){
-    const tr=document.createElement('tr');
-    tr.innerHTML = `<td>${t.date.slice(0,16)}</td>`+
-      `<td><span class="tag ${TAGCLASS(t.system)}">${t.system}</span></td>`+
-      `<td class="sym">${t.symbol}</td>`+
-      `<td class="${t.side}">${t.side.toUpperCase()}</td>`+
-      `<td>${t.qty}</td><td>$${t.price}</td>`+
-      `<td class="basis">${t.basis||''}</td>`;
-    rows.appendChild(tr);
-  }
-  document.getElementById('foot').textContent =
-    `Showing ${shown.length} of ${TRADES.length} fills. Updated daily after market close.`;
+const TC = t => t==='ORB v2.1'?'orb':(t==='10-Spread bot'?'spread':'manual');
+const money = v => (v>=0?'+$':'-$')+Math.abs(v).toFixed(2);
+const cls = v => v>=0?'gain':'lose';
+// prettify OCC option symbols: NVDA260515C00222500 -> NVDA $222.5C 5/15
+function fmtSym(s){
+  const m = s.match(/^([A-Z]+)(\d{2})(\d{2})(\d{2})([CP])(\d{8})$/);
+  if(!m) return s;
+  const strike = parseInt(m[6])/1000;
+  return `${m[1]} $${strike}${m[5]} ${parseInt(m[3])}/${parseInt(m[4])}`;
 }
-function build(){
-  const counts={}; TRADES.forEach(t=>counts[t.system]=(counts[t.system]||0)+1);
-  const sum=document.getElementById('summary'); sum.innerHTML='';
-  sum.innerHTML += `<div class="chip">Total fills<br><b>${TRADES.length}</b></div>`;
-  for(const s of Object.keys(counts)) sum.innerHTML += `<div class="chip">${s}<br><b>${counts[s]}</b></div>`;
+let DATA=null, filter='All';
+function pass(sys){ return filter==='All' || sys===filter; }
+function render(){
+  const R=DATA.tradesRollup;
+  const cb=document.getElementById('closed'); cb.innerHTML='';
+  for(const t of R.closed){ if(!pass(t.system))continue;
+    cb.innerHTML += `<tr><td>${t.exit_date}</td>`+
+      `<td><span class="tag ${TC(t.system)}">${t.system}</span></td>`+
+      `<td class="sym">${fmtSym(t.symbol)} <span class="dir">${t.dir}</span></td>`+
+      `<td>${t.entry_price}&rarr;${t.exit_price}</td>`+
+      `<td class="r">${t.qty}</td>`+
+      `<td class="r ${cls(t.pnl)}">${money(t.pnl)}</td>`+
+      `<td class="r ${cls(t.pnl)}">${t.pct>=0?'+':''}${t.pct}%</td></tr>`;
+  }
+  const ob=document.getElementById('open'); ob.innerHTML='';
+  for(const o of R.open){ if(!pass(o.system))continue;
+    const u=o.unreal;
+    ob.innerHTML += `<tr><td>${o.entry_date}</td>`+
+      `<td><span class="tag ${TC(o.system)}">${o.system}</span></td>`+
+      `<td class="sym">${fmtSym(o.symbol)} <span class="dir">${o.dir}</span></td>`+
+      `<td class="r">${o.qty}</td><td class="r">${o.entry_price}</td>`+
+      `<td class="r">${o.current??'-'}</td>`+
+      `<td class="r ${u==null?'':cls(u)}">${u==null?'-':money(u)}</td>`+
+      `<td class="r ${u==null?'':cls(u)}">${o.unreal_pct==null?'-':(o.unreal_pct>=0?'+':'')+o.unreal_pct+'%'}</td></tr>`;
+  }
+  document.getElementById('foot').innerHTML =
+    `Realized over ${R.totals.closed_count} closed trades: <b class="${cls(R.totals.realized_pnl)}">${money(R.totals.realized_pnl)}</b> `+
+    `(${R.totals.wins}W / ${R.totals.losses}L, ${R.totals.win_rate}% win). `+
+    `Open unrealized: <b class="${cls(R.totals.unrealized_pnl)}">${money(R.totals.unrealized_pnl)}</b>. `+
+    `Net: <b class="${cls(R.totals.net_pnl)}">${money(R.totals.net_pnl)}</b>. Updated daily after close.`;
+}
+function cards(){
+  const T=DATA.tradesRollup.totals;
+  document.getElementById('cards').innerHTML =
+    `<div class="card"><div class="lbl">Net P&L</div><div class="val big ${cls(T.net_pnl)}">${money(T.net_pnl)}</div></div>`+
+    `<div class="card"><div class="lbl">Realized</div><div class="val ${cls(T.realized_pnl)}">${money(T.realized_pnl)}</div></div>`+
+    `<div class="card"><div class="lbl">Open (unreal.)</div><div class="val ${cls(T.unrealized_pnl)}">${money(T.unrealized_pnl)}</div></div>`+
+    `<div class="card"><div class="lbl">Win rate</div><div class="val">${T.win_rate}%<span style="font-size:.8rem;color:var(--silver)"> ${T.wins}/${T.closed_count}</span></div></div>`;
+}
+function buildFilters(){
+  const sys = new Set(); DATA.tradesRollup.closed.forEach(t=>sys.add(t.system)); DATA.tradesRollup.open.forEach(t=>sys.add(t.system));
   const f=document.getElementById('filters'); f.innerHTML='';
-  ['All', ...Object.keys(counts)].forEach(name=>{
-    const b=document.createElement('button'); b.textContent=name;
-    if(name===filter) b.className='on';
-    b.onclick=()=>{filter=name; build(); render();};
-    f.appendChild(b);
-  });
+  ['All',...sys].forEach(n=>{ const b=document.createElement('button'); b.textContent=n; if(n===filter)b.className='on';
+    b.onclick=()=>{filter=n; buildFilters(); render();}; f.appendChild(b); });
 }
 fetch('data.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{
-  TRADES = d.allTrades || [];
-  build(); render();
-}).catch(e=>{ document.getElementById('rows').innerHTML='<tr><td colspan="7">Could not load data.json</td></tr>'; });
+  DATA=d; if(!d.tradesRollup){document.getElementById('foot').textContent='No rollup data yet.';return;}
+  cards(); buildFilters(); render();
+}).catch(e=>{ document.getElementById('foot').textContent='Could not load data.json'; });
 </script>
 </body>
 </html>

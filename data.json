@@ -478,7 +478,6 @@
       "side": "buy",
       "qty": "6",
       "price": "93.48",
-      "basis": "ORB entry (log match)",
       "order_id": "3faeae40"
     },
     {
@@ -488,7 +487,6 @@
       "side": "sell",
       "qty": "50",
       "price": "2.23",
-      "basis": "manual: gold-miner swing",
       "order_id": "919e1589"
     },
     {
@@ -498,7 +496,6 @@
       "side": "sell",
       "qty": "7",
       "price": "81.25",
-      "basis": "ORB entry (log match)",
       "order_id": "71eda25a"
     },
     {
@@ -508,7 +505,6 @@
       "side": "buy",
       "qty": "7",
       "price": "81.2515",
-      "basis": "ORB entry (log match)",
       "order_id": "4ce94576"
     },
     {
@@ -518,7 +514,6 @@
       "side": "buy",
       "qty": "50",
       "price": "2.4199",
-      "basis": "manual: gold-miner swing",
       "order_id": "95f54644"
     },
     {
@@ -528,7 +523,6 @@
       "side": "buy",
       "qty": "19",
       "price": "7.85",
-      "basis": "manual: UNCY biotech/FDA bet",
       "order_id": "cdb5e326"
     },
     {
@@ -538,7 +532,6 @@
       "side": "buy",
       "qty": "6",
       "price": "7.85",
-      "basis": "manual: UNCY biotech/FDA bet",
       "order_id": "cdb5e326"
     },
     {
@@ -548,7 +541,6 @@
       "side": "sell",
       "qty": "1",
       "price": "0.27",
-      "basis": "manual: HIVE covered-call play",
       "order_id": "bbe356e7"
     },
     {
@@ -558,7 +550,6 @@
       "side": "buy",
       "qty": "100",
       "price": "4.3",
-      "basis": "manual: HIVE covered-call play",
       "order_id": "2bcd6a55"
     },
     {
@@ -568,7 +559,6 @@
       "side": "sell",
       "qty": "134",
       "price": "4.58",
-      "basis": "ORB entry (log match)",
       "order_id": "ac22b5f0"
     },
     {
@@ -578,7 +568,6 @@
       "side": "buy",
       "qty": "134",
       "price": "4.745",
-      "basis": "ORB entry (log match)",
       "order_id": "fd4a6a0a"
     },
     {
@@ -588,7 +577,6 @@
       "side": "buy",
       "qty": "10",
       "price": "82.9067",
-      "basis": "manual: gold buy-and-hold",
       "order_id": "5bc1b04b"
     },
     {
@@ -598,7 +586,6 @@
       "side": "sell",
       "qty": "1",
       "price": "0.61",
-      "basis": "manual: RIVN put credit spread",
       "order_id": "ca61fbc4"
     },
     {
@@ -608,7 +595,6 @@
       "side": "buy",
       "qty": "1",
       "price": "0.21",
-      "basis": "manual: RIVN put credit spread",
       "order_id": "fa54ec27"
     },
     {
@@ -618,7 +604,6 @@
       "side": "sell",
       "qty": "200",
       "price": "1.2503",
-      "basis": "manual/discretionary",
       "order_id": "f826d23c"
     },
     {
@@ -628,7 +613,6 @@
       "side": "buy",
       "qty": "200",
       "price": "1.2863",
-      "basis": "manual/discretionary",
       "order_id": "d51aa9b5"
     },
     {
@@ -638,7 +622,6 @@
       "side": "sell",
       "qty": "1",
       "price": "231.574",
-      "basis": "ORB entry (log match)",
       "order_id": "29f8c29d"
     },
     {
@@ -648,7 +631,6 @@
       "side": "buy",
       "qty": "1",
       "price": "232.128",
-      "basis": "ORB entry (log match)",
       "order_id": "bd8a4aaa"
     },
     {
@@ -658,7 +640,6 @@
       "side": "sell",
       "qty": "2",
       "price": "1.66",
-      "basis": "manual option (NVDA)",
       "order_id": "925fc869"
     },
     {
@@ -668,7 +649,6 @@
       "side": "buy",
       "qty": "2",
       "price": "2.88",
-      "basis": "manual option (NVDA)",
       "order_id": "625fcf03"
     },
     {
@@ -678,7 +658,6 @@
       "side": "sell",
       "qty": "1",
       "price": "6.02",
-      "basis": "manual option (LLY)",
       "order_id": "76ac4631"
     },
     {
@@ -688,7 +667,6 @@
       "side": "buy",
       "qty": "1",
       "price": "6.3",
-      "basis": "manual option (LLY)",
       "order_id": "b36d66aa"
     },
     {
@@ -698,7 +676,6 @@
       "side": "sell",
       "qty": "4",
       "price": "1.08",
-      "basis": "manual option (FCX)",
       "order_id": "44658af0"
     },
     {
@@ -708,7 +685,6 @@
       "side": "buy",
       "qty": "4",
       "price": "1.69",
-      "basis": "manual option (FCX)",
       "order_id": "a915ea9f"
     },
     {
@@ -718,7 +694,6 @@
       "side": "sell",
       "qty": "2",
       "price": "1.54",
-      "basis": "manual option (FCX)",
       "order_id": "7956bc31"
     },
     {
@@ -728,7 +703,6 @@
       "side": "buy",
       "qty": "2",
       "price": "2.11",
-      "basis": "manual option (FCX)",
       "order_id": "850cbb7a"
     },
     {
@@ -738,7 +712,6 @@
       "side": "sell",
       "qty": "1",
       "price": "1.32",
-      "basis": "manual option (FCX)",
       "order_id": "41272afd"
     },
     {
@@ -748,7 +721,6 @@
       "side": "buy",
       "qty": "1",
       "price": "1.86",
-      "basis": "manual option (FCX)",
       "order_id": "a42fbb97"
     },
     {
@@ -758,7 +730,6 @@
       "side": "sell",
       "qty": "3",
       "price": "0.7",
-      "basis": "manual option (FCX)",
       "order_id": "7e2811fb"
     },
     {
@@ -768,7 +739,6 @@
       "side": "buy",
       "qty": "1",
       "price": "1.02",
-      "basis": "manual option (FCX)",
       "order_id": "19aa773b"
     },
     {
@@ -778,7 +748,6 @@
       "side": "buy",
       "qty": "2",
       "price": "1.02",
-      "basis": "manual option (FCX)",
       "order_id": "19aa773b"
     },
     {
@@ -788,7 +757,6 @@
       "side": "sell",
       "qty": "1",
       "price": "4.28",
-      "basis": "manual option (NVDA)",
       "order_id": "6fd6adbf"
     },
     {
@@ -798,7 +766,6 @@
       "side": "buy",
       "qty": "1",
       "price": "5.33",
-      "basis": "manual option (NVDA)",
       "order_id": "5a0bd911"
     },
     {
@@ -808,7 +775,6 @@
       "side": "sell",
       "qty": "1",
       "price": "1.65",
-      "basis": "manual option (NVDA)",
       "order_id": "2b5d3a50"
     },
     {
@@ -818,7 +784,6 @@
       "side": "buy",
       "qty": "1",
       "price": "3.59",
-      "basis": "manual option (NVDA)",
       "order_id": "ede2e9cc"
     },
     {
@@ -828,7 +793,6 @@
       "side": "sell",
       "qty": "1",
       "price": "6.1",
-      "basis": "manual option (NVDA)",
       "order_id": "94dbf60f"
     },
     {
@@ -838,7 +802,6 @@
       "side": "buy",
       "qty": "1",
       "price": "7.82",
-      "basis": "manual option (NVDA)",
       "order_id": "d2e5d570"
     },
     {
@@ -848,7 +811,6 @@
       "side": "sell",
       "qty": "1",
       "price": "8.4",
-      "basis": "manual option (NVDA)",
       "order_id": "1d4c1a0f"
     },
     {
@@ -858,7 +820,6 @@
       "side": "buy",
       "qty": "1",
       "price": "5.05",
-      "basis": "manual option (NVDA)",
       "order_id": "f1da4804"
     },
     {
@@ -868,7 +829,6 @@
       "side": "sell",
       "qty": "2",
       "price": "1.15",
-      "basis": "manual option (NVDA)",
       "order_id": "b92d6c7a"
     },
     {
@@ -878,7 +838,6 @@
       "side": "buy",
       "qty": "2",
       "price": "1.11",
-      "basis": "manual option (NVDA)",
       "order_id": "950ba748"
     },
     {
@@ -888,7 +847,6 @@
       "side": "sell",
       "qty": "1",
       "price": "1.04",
-      "basis": "manual option (NVDA)",
       "order_id": "2a06a4e3"
     },
     {
@@ -898,7 +856,6 @@
       "side": "sell",
       "qty": "1",
       "price": "1.04",
-      "basis": "manual option (NVDA)",
       "order_id": "2a06a4e3"
     },
     {
@@ -908,7 +865,6 @@
       "side": "buy",
       "qty": "1",
       "price": "1.27",
-      "basis": "manual option (NVDA)",
       "order_id": "76d5e450"
     },
     {
@@ -918,7 +874,6 @@
       "side": "buy",
       "qty": "1",
       "price": "1.27",
-      "basis": "manual option (NVDA)",
       "order_id": "76d5e450"
     },
     {
@@ -928,7 +883,6 @@
       "side": "sell",
       "qty": "1",
       "price": "1.12",
-      "basis": "manual option (NVDA)",
       "order_id": "d46dc1fa"
     },
     {
@@ -938,7 +892,6 @@
       "side": "buy",
       "qty": "1",
       "price": "1.51",
-      "basis": "manual option (NVDA)",
       "order_id": "842a0793"
     },
     {
@@ -948,7 +901,6 @@
       "side": "sell",
       "qty": "1",
       "price": "1.11",
-      "basis": "manual option (QQQ)",
       "order_id": "6cf96f86"
     },
     {
@@ -958,7 +910,6 @@
       "side": "buy",
       "qty": "1",
       "price": "1.59",
-      "basis": "manual option (QQQ)",
       "order_id": "daed3c23"
     },
     {
@@ -968,7 +919,6 @@
       "side": "sell",
       "qty": "1",
       "price": "1.63",
-      "basis": "manual option (QQQ)",
       "order_id": "fc1be895"
     },
     {
@@ -978,7 +928,6 @@
       "side": "buy",
       "qty": "1",
       "price": "1.82",
-      "basis": "manual option (QQQ)",
       "order_id": "82ac8a62"
     },
     {
@@ -988,7 +937,6 @@
       "side": "sell",
       "qty": "1",
       "price": "2.4",
-      "basis": "manual option (NVDA)",
       "order_id": "2d1b4dac"
     },
     {
@@ -998,7 +946,6 @@
       "side": "buy",
       "qty": "1",
       "price": "2.26",
-      "basis": "manual option (NVDA)",
       "order_id": "55c79544"
     },
     {
@@ -1008,7 +955,6 @@
       "side": "sell",
       "qty": "1",
       "price": "1.9",
-      "basis": "manual option (QQQ)",
       "order_id": "f7ebe3b4"
     },
     {
@@ -1018,7 +964,6 @@
       "side": "buy",
       "qty": "1",
       "price": "1.79",
-      "basis": "manual option (QQQ)",
       "order_id": "373246ef"
     },
     {
@@ -1028,7 +973,6 @@
       "side": "sell",
       "qty": "1",
       "price": "2.49",
-      "basis": "manual option (QQQ)",
       "order_id": "591fd6d2"
     },
     {
@@ -1038,7 +982,6 @@
       "side": "buy",
       "qty": "1",
       "price": "2.06",
-      "basis": "manual option (QQQ)",
       "order_id": "f707a833"
     },
     {
@@ -1048,7 +991,6 @@
       "side": "sell",
       "qty": "1",
       "price": "2.51",
-      "basis": "manual option (AMZN)",
       "order_id": "bc5e80be"
     },
     {
@@ -1058,7 +1000,6 @@
       "side": "sell",
       "qty": "1",
       "price": "2.5",
-      "basis": "manual option (AMZN)",
       "order_id": "bc5e80be"
     },
     {
@@ -1068,7 +1009,6 @@
       "side": "buy",
       "qty": "1",
       "price": "1.98",
-      "basis": "manual option (AMZN)",
       "order_id": "e7415bbb"
     },
     {
@@ -1078,7 +1018,6 @@
       "side": "buy",
       "qty": "1",
       "price": "1.98",
-      "basis": "manual option (AMZN)",
       "order_id": "e7415bbb"
     },
     {
@@ -1088,7 +1027,6 @@
       "side": "sell",
       "qty": "1",
       "price": "1.57",
-      "basis": "manual option (QQQ)",
       "order_id": "7d5f70eb"
     },
     {
@@ -1098,7 +1036,6 @@
       "side": "buy",
       "qty": "1",
       "price": "1.46",
-      "basis": "manual option (QQQ)",
       "order_id": "c2bf293b"
     },
     {
@@ -1108,7 +1045,6 @@
       "side": "sell",
       "qty": "1",
       "price": "1.56",
-      "basis": "manual option (QQQ)",
       "order_id": "cb0aae3b"
     },
     {
@@ -1118,7 +1054,6 @@
       "side": "buy",
       "qty": "1",
       "price": "1.52",
-      "basis": "manual option (QQQ)",
       "order_id": "847d644e"
     },
     {
@@ -1128,7 +1063,6 @@
       "side": "sell",
       "qty": "4",
       "price": "1.18",
-      "basis": "manual option (QQQ)",
       "order_id": "dbb183a2"
     },
     {
@@ -1138,7 +1072,6 @@
       "side": "buy",
       "qty": "4",
       "price": "1.4",
-      "basis": "manual option (QQQ)",
       "order_id": "96f01ec3"
     },
     {
@@ -1148,7 +1081,6 @@
       "side": "sell",
       "qty": "4",
       "price": "0.11",
-      "basis": "manual option (CRM)",
       "order_id": "f2adb81d"
     },
     {
@@ -1158,7 +1090,6 @@
       "side": "sell",
       "qty": "4",
       "price": "0.11",
-      "basis": "manual option (CRM)",
       "order_id": "f2adb81d"
     },
     {
@@ -1168,7 +1099,6 @@
       "side": "buy",
       "qty": "5",
       "price": "3.15",
-      "basis": "manual option (CRM)",
       "order_id": "a5e1ebf8"
     },
     {
@@ -1178,7 +1108,6 @@
       "side": "buy",
       "qty": "3",
       "price": "3.14",
-      "basis": "manual option (CRM)",
       "order_id": "a5e1ebf8"
     },
     {
@@ -1188,7 +1117,6 @@
       "side": "sell",
       "qty": "1",
       "price": "6.55",
-      "basis": "manual option (META)",
       "order_id": "efc454f2"
     },
     {
@@ -1198,7 +1126,6 @@
       "side": "buy",
       "qty": "1",
       "price": "6.6",
-      "basis": "manual option (META)",
       "order_id": "dfb5514c"
     },
     {
@@ -1208,7 +1135,6 @@
       "side": "sell",
       "qty": "1",
       "price": "7.11",
-      "basis": "manual option (META)",
       "order_id": "4cb1bcdf"
     },
     {
@@ -1218,7 +1144,6 @@
       "side": "buy",
       "qty": "1",
       "price": "6.05",
-      "basis": "manual option (META)",
       "order_id": "ca403172"
     },
     {
@@ -1228,7 +1153,6 @@
       "side": "sell",
       "qty": "3",
       "price": "3.1",
-      "basis": "manual option (META)",
       "order_id": "ffbd9a7e"
     },
     {
@@ -1238,7 +1162,6 @@
       "side": "buy",
       "qty": "1",
       "price": "3.27",
-      "basis": "manual option (META)",
       "order_id": "7232917c"
     },
     {
@@ -1248,8 +1171,556 @@
       "side": "buy",
       "qty": "2",
       "price": "3.27",
-      "basis": "manual option (META)",
       "order_id": "7232917c"
     }
-  ]
+  ],
+  "tradesRollup": {
+    "closed": [
+      {
+        "system": "Manual",
+        "symbol": "ITRG",
+        "dir": "long",
+        "entry_date": "2026-06-25",
+        "entry_price": 2.4199,
+        "exit_date": "2026-06-29",
+        "exit_price": 2.23,
+        "qty": 50.0,
+        "pnl": -9.5,
+        "pct": -7.85
+      },
+      {
+        "system": "ORB v2.1",
+        "symbol": "IONS",
+        "dir": "long",
+        "entry_date": "2026-06-26",
+        "entry_price": 81.2515,
+        "exit_date": "2026-06-26",
+        "exit_price": 81.25,
+        "qty": 7.0,
+        "pnl": -0.01,
+        "pct": -0.0
+      },
+      {
+        "system": "ORB v2.1",
+        "symbol": "HIVE",
+        "dir": "long",
+        "entry_date": "2026-06-23",
+        "entry_price": 4.745,
+        "exit_date": "2026-06-23",
+        "exit_price": 4.58,
+        "qty": 134.0,
+        "pnl": -22.11,
+        "pct": -3.48
+      },
+      {
+        "system": "Manual",
+        "symbol": "OBAI",
+        "dir": "long",
+        "entry_date": "2026-06-17",
+        "entry_price": 1.2863,
+        "exit_date": "2026-06-17",
+        "exit_price": 1.2503,
+        "qty": 200.0,
+        "pnl": -7.2,
+        "pct": -2.8
+      },
+      {
+        "system": "ORB v2.1",
+        "symbol": "DDOG",
+        "dir": "long",
+        "entry_date": "2026-06-16",
+        "entry_price": 232.128,
+        "exit_date": "2026-06-16",
+        "exit_price": 231.574,
+        "qty": 1.0,
+        "pnl": -0.55,
+        "pct": -0.24
+      },
+      {
+        "system": "Manual",
+        "symbol": "NVDA260612C00202500",
+        "dir": "long",
+        "entry_date": "2026-06-11",
+        "entry_price": 2.88,
+        "exit_date": "2026-06-11",
+        "exit_price": 1.66,
+        "qty": 2.0,
+        "pnl": -244.0,
+        "pct": -42.36
+      },
+      {
+        "system": "Manual",
+        "symbol": "LLY260605C01160000",
+        "dir": "long",
+        "entry_date": "2026-06-05",
+        "entry_price": 6.3,
+        "exit_date": "2026-06-05",
+        "exit_price": 6.02,
+        "qty": 1.0,
+        "pnl": -28.0,
+        "pct": -4.44
+      },
+      {
+        "system": "Manual",
+        "symbol": "FCX260605P00071000",
+        "dir": "long",
+        "entry_date": "2026-06-04",
+        "entry_price": 1.69,
+        "exit_date": "2026-06-04",
+        "exit_price": 1.08,
+        "qty": 4.0,
+        "pnl": -244.0,
+        "pct": -36.09
+      },
+      {
+        "system": "Manual",
+        "symbol": "FCX260605P00070000",
+        "dir": "long",
+        "entry_date": "2026-06-02",
+        "entry_price": 2.11,
+        "exit_date": "2026-06-02",
+        "exit_price": 1.54,
+        "qty": 2.0,
+        "pnl": -114.0,
+        "pct": -27.01
+      },
+      {
+        "system": "Manual",
+        "symbol": "FCX260605P00065000",
+        "dir": "long",
+        "entry_date": "2026-06-01",
+        "entry_price": 1.86,
+        "exit_date": "2026-06-01",
+        "exit_price": 1.32,
+        "qty": 1.0,
+        "pnl": -54.0,
+        "pct": -29.03
+      },
+      {
+        "system": "Manual",
+        "symbol": "FCX260529P00063000",
+        "dir": "long",
+        "entry_date": "2026-05-28",
+        "entry_price": 1.02,
+        "exit_date": "2026-05-28",
+        "exit_price": 0.7,
+        "qty": 1.0,
+        "pnl": -32.0,
+        "pct": -31.37
+      },
+      {
+        "system": "Manual",
+        "symbol": "FCX260529P00063000",
+        "dir": "long",
+        "entry_date": "2026-05-28",
+        "entry_price": 1.02,
+        "exit_date": "2026-05-28",
+        "exit_price": 0.7,
+        "qty": 2.0,
+        "pnl": -64.0,
+        "pct": -31.37
+      },
+      {
+        "system": "Manual",
+        "symbol": "NVDA260717C00245000",
+        "dir": "long",
+        "entry_date": "2026-05-21",
+        "entry_price": 5.33,
+        "exit_date": "2026-05-26",
+        "exit_price": 4.28,
+        "qty": 1.0,
+        "pnl": -105.0,
+        "pct": -19.7
+      },
+      {
+        "system": "Manual",
+        "symbol": "NVDA260522C00240000",
+        "dir": "long",
+        "entry_date": "2026-05-18",
+        "entry_price": 3.59,
+        "exit_date": "2026-05-20",
+        "exit_price": 1.65,
+        "qty": 1.0,
+        "pnl": -194.0,
+        "pct": -54.04
+      },
+      {
+        "system": "Manual",
+        "symbol": "NVDA260522C00235000",
+        "dir": "long",
+        "entry_date": "2026-05-14",
+        "entry_price": 7.82,
+        "exit_date": "2026-05-15",
+        "exit_price": 6.1,
+        "qty": 1.0,
+        "pnl": -172.0,
+        "pct": -21.99
+      },
+      {
+        "system": "Manual",
+        "symbol": "NVDA260515C00222500",
+        "dir": "long",
+        "entry_date": "2026-05-13",
+        "entry_price": 5.05,
+        "exit_date": "2026-05-14",
+        "exit_price": 8.4,
+        "qty": 1.0,
+        "pnl": 335.0,
+        "pct": 66.34
+      },
+      {
+        "system": "Manual",
+        "symbol": "NVDA260513P00222500",
+        "dir": "long",
+        "entry_date": "2026-05-13",
+        "entry_price": 1.51,
+        "exit_date": "2026-05-13",
+        "exit_price": 1.12,
+        "qty": 1.0,
+        "pnl": -39.0,
+        "pct": -25.83
+      },
+      {
+        "system": "Manual",
+        "symbol": "NVDA260513P00222500",
+        "dir": "long",
+        "entry_date": "2026-05-13",
+        "entry_price": 1.27,
+        "exit_date": "2026-05-13",
+        "exit_price": 1.04,
+        "qty": 1.0,
+        "pnl": -23.0,
+        "pct": -18.11
+      },
+      {
+        "system": "Manual",
+        "symbol": "NVDA260513P00222500",
+        "dir": "long",
+        "entry_date": "2026-05-13",
+        "entry_price": 1.27,
+        "exit_date": "2026-05-13",
+        "exit_price": 1.04,
+        "qty": 1.0,
+        "pnl": -23.0,
+        "pct": -18.11
+      },
+      {
+        "system": "Manual",
+        "symbol": "NVDA260513C00225000",
+        "dir": "long",
+        "entry_date": "2026-05-13",
+        "entry_price": 1.11,
+        "exit_date": "2026-05-13",
+        "exit_price": 1.15,
+        "qty": 2.0,
+        "pnl": 8.0,
+        "pct": 3.6
+      },
+      {
+        "system": "Manual",
+        "symbol": "QQQ260505P00681000",
+        "dir": "long",
+        "entry_date": "2026-05-05",
+        "entry_price": 1.82,
+        "exit_date": "2026-05-05",
+        "exit_price": 1.63,
+        "qty": 1.0,
+        "pnl": -19.0,
+        "pct": -10.44
+      },
+      {
+        "system": "Manual",
+        "symbol": "QQQ260505P00679000",
+        "dir": "long",
+        "entry_date": "2026-05-05",
+        "entry_price": 1.59,
+        "exit_date": "2026-05-05",
+        "exit_price": 1.11,
+        "qty": 1.0,
+        "pnl": -48.0,
+        "pct": -30.19
+      },
+      {
+        "system": "Manual",
+        "symbol": "NVDA260429C00210000",
+        "dir": "long",
+        "entry_date": "2026-04-29",
+        "entry_price": 2.26,
+        "exit_date": "2026-04-29",
+        "exit_price": 2.4,
+        "qty": 1.0,
+        "pnl": 14.0,
+        "pct": 6.19
+      },
+      {
+        "system": "Manual",
+        "symbol": "QQQ260428C00657000",
+        "dir": "long",
+        "entry_date": "2026-04-28",
+        "entry_price": 2.06,
+        "exit_date": "2026-04-28",
+        "exit_price": 2.49,
+        "qty": 1.0,
+        "pnl": 43.0,
+        "pct": 20.87
+      },
+      {
+        "system": "Manual",
+        "symbol": "QQQ260428P00659000",
+        "dir": "long",
+        "entry_date": "2026-04-28",
+        "entry_price": 1.79,
+        "exit_date": "2026-04-28",
+        "exit_price": 1.9,
+        "qty": 1.0,
+        "pnl": 11.0,
+        "pct": 6.15
+      },
+      {
+        "system": "Manual",
+        "symbol": "AMZN260422P00252500",
+        "dir": "long",
+        "entry_date": "2026-04-21",
+        "entry_price": 1.98,
+        "exit_date": "2026-04-21",
+        "exit_price": 2.51,
+        "qty": 1.0,
+        "pnl": 53.0,
+        "pct": 26.77
+      },
+      {
+        "system": "Manual",
+        "symbol": "AMZN260422P00252500",
+        "dir": "long",
+        "entry_date": "2026-04-21",
+        "entry_price": 1.98,
+        "exit_date": "2026-04-21",
+        "exit_price": 2.5,
+        "qty": 1.0,
+        "pnl": 52.0,
+        "pct": 26.26
+      },
+      {
+        "system": "Manual",
+        "symbol": "QQQ260420C00647000",
+        "dir": "long",
+        "entry_date": "2026-04-20",
+        "entry_price": 1.52,
+        "exit_date": "2026-04-20",
+        "exit_price": 1.56,
+        "qty": 1.0,
+        "pnl": 4.0,
+        "pct": 2.63
+      },
+      {
+        "system": "Manual",
+        "symbol": "QQQ260420C00647000",
+        "dir": "long",
+        "entry_date": "2026-04-20",
+        "entry_price": 1.46,
+        "exit_date": "2026-04-20",
+        "exit_price": 1.57,
+        "qty": 1.0,
+        "pnl": 11.0,
+        "pct": 7.53
+      },
+      {
+        "system": "Manual",
+        "symbol": "QQQ260414P00622000",
+        "dir": "long",
+        "entry_date": "2026-04-14",
+        "entry_price": 1.4,
+        "exit_date": "2026-04-14",
+        "exit_price": 1.18,
+        "qty": 4.0,
+        "pnl": -88.0,
+        "pct": -15.71
+      },
+      {
+        "system": "Manual",
+        "symbol": "CRM260410C00182500",
+        "dir": "long",
+        "entry_date": "2026-04-08",
+        "entry_price": 3.15,
+        "exit_date": "2026-04-09",
+        "exit_price": 0.11,
+        "qty": 4.0,
+        "pnl": -1216.0,
+        "pct": -96.51
+      },
+      {
+        "system": "Manual",
+        "symbol": "CRM260410C00182500",
+        "dir": "long",
+        "entry_date": "2026-04-08",
+        "entry_price": 3.15,
+        "exit_date": "2026-04-09",
+        "exit_price": 0.11,
+        "qty": 1.0,
+        "pnl": -304.0,
+        "pct": -96.51
+      },
+      {
+        "system": "Manual",
+        "symbol": "CRM260410C00182500",
+        "dir": "long",
+        "entry_date": "2026-04-08",
+        "entry_price": 3.14,
+        "exit_date": "2026-04-09",
+        "exit_price": 0.11,
+        "qty": 3.0,
+        "pnl": -909.0,
+        "pct": -96.5
+      },
+      {
+        "system": "Manual",
+        "symbol": "META260408P00570000",
+        "dir": "long",
+        "entry_date": "2026-04-07",
+        "entry_price": 6.05,
+        "exit_date": "2026-04-07",
+        "exit_price": 7.11,
+        "qty": 1.0,
+        "pnl": 106.0,
+        "pct": 17.52
+      },
+      {
+        "system": "Manual",
+        "symbol": "META260408P00570000",
+        "dir": "long",
+        "entry_date": "2026-04-07",
+        "entry_price": 6.6,
+        "exit_date": "2026-04-07",
+        "exit_price": 6.55,
+        "qty": 1.0,
+        "pnl": -5.0,
+        "pct": -0.76
+      },
+      {
+        "system": "Manual",
+        "symbol": "META260406P00577500",
+        "dir": "long",
+        "entry_date": "2026-04-06",
+        "entry_price": 3.27,
+        "exit_date": "2026-04-06",
+        "exit_price": 3.1,
+        "qty": 1.0,
+        "pnl": -17.0,
+        "pct": -5.2
+      },
+      {
+        "system": "Manual",
+        "symbol": "META260406P00577500",
+        "dir": "long",
+        "entry_date": "2026-04-06",
+        "entry_price": 3.27,
+        "exit_date": "2026-04-06",
+        "exit_price": 3.1,
+        "qty": 2.0,
+        "pnl": -34.0,
+        "pct": -5.2
+      }
+    ],
+    "open": [
+      {
+        "system": "Manual",
+        "symbol": "RIVN260717P00014500",
+        "dir": "short",
+        "entry_date": "2026-06-22",
+        "entry_price": 0.61,
+        "qty": 1.0,
+        "current": 0.16,
+        "unreal": 45.0,
+        "unreal_pct": 73.77
+      },
+      {
+        "system": "Manual",
+        "symbol": "RIVN260717P00013000",
+        "dir": "long",
+        "entry_date": "2026-06-22",
+        "entry_price": 0.21,
+        "qty": 1.0,
+        "current": 0.065,
+        "unreal": -14.5,
+        "unreal_pct": -69.05
+      },
+      {
+        "system": "Manual",
+        "symbol": "GLDM",
+        "dir": "long",
+        "entry_date": "2026-06-22",
+        "entry_price": 82.9067,
+        "qty": 10.0,
+        "current": 79.595,
+        "unreal": -33.12,
+        "unreal_pct": -3.99
+      },
+      {
+        "system": "Manual",
+        "symbol": "HIVE",
+        "dir": "long",
+        "entry_date": "2026-06-24",
+        "entry_price": 4.3,
+        "qty": 100.0,
+        "current": 3.66,
+        "unreal": -64.0,
+        "unreal_pct": -14.88
+      },
+      {
+        "system": "Manual",
+        "symbol": "HIVE260717C00005000",
+        "dir": "short",
+        "entry_date": "2026-06-24",
+        "entry_price": 0.27,
+        "qty": 1.0,
+        "current": 0.125,
+        "unreal": 14.5,
+        "unreal_pct": 53.7
+      },
+      {
+        "system": "Manual",
+        "symbol": "UNCY",
+        "dir": "long",
+        "entry_date": "2026-06-24",
+        "entry_price": 7.85,
+        "qty": 19.0,
+        "current": 4.705,
+        "unreal": -59.75,
+        "unreal_pct": -40.06
+      },
+      {
+        "system": "Manual",
+        "symbol": "UNCY",
+        "dir": "long",
+        "entry_date": "2026-06-24",
+        "entry_price": 7.85,
+        "qty": 6.0,
+        "current": 4.705,
+        "unreal": -18.87,
+        "unreal_pct": -40.06
+      },
+      {
+        "system": "ORB v2.1",
+        "symbol": "ON",
+        "dir": "long",
+        "entry_date": "2026-06-30",
+        "entry_price": 93.48,
+        "qty": 6.0,
+        "current": 93.7,
+        "unreal": 1.32,
+        "unreal_pct": 0.24
+      }
+    ],
+    "totals": {
+      "closed_count": 37,
+      "wins": 10,
+      "losses": 27,
+      "win_rate": 27.0,
+      "realized_pnl": -3378.37,
+      "avg_pct": -14.78,
+      "open_count": 8,
+      "unrealized_pnl": -129.42,
+      "net_pnl": -3507.79
+    }
+  }
 }
