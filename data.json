@@ -133,7 +133,7 @@
         "ticker": "UNCY",
         "shares": 35,
         "costBasis": 7.25,
-        "currentPrice": 7.7,
+        "currentPrice": 4.73,
         "openDate": "2026-06-22"
       }
     ],
@@ -217,6 +217,10 @@
       {
         "date": "2026-06-29",
         "equity": 55.75
+      },
+      {
+        "date": "2026-06-30",
+        "equity": -48.2
       }
     ]
   },
@@ -1664,9 +1668,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 0.61,
         "qty": 1.0,
-        "current": 0.105,
-        "unreal": 50.5,
-        "unreal_pct": 82.79
+        "current": 0.145,
+        "unreal": 46.5,
+        "unreal_pct": 76.23
       },
       {
         "system": "Manual",
@@ -1675,9 +1679,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 0.21,
         "qty": 1.0,
-        "current": 0.025,
-        "unreal": -18.5,
-        "unreal_pct": -88.1
+        "current": 0.065,
+        "unreal": -14.5,
+        "unreal_pct": -69.05
       },
       {
         "system": "Manual",
@@ -1697,9 +1701,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 4.3,
         "qty": 100.0,
-        "current": 3.64,
-        "unreal": -66.0,
-        "unreal_pct": -15.35
+        "current": 3.63,
+        "unreal": -67.0,
+        "unreal_pct": -15.58
       },
       {
         "system": "Manual",
@@ -1752,9 +1756,9 @@
         "entry_date": "2026-06-30",
         "entry_price": 0.47,
         "qty": 1.0,
-        "current": 0.455,
-        "unreal": 1.5,
-        "unreal_pct": 3.19
+        "current": 0.475,
+        "unreal": -0.5,
+        "unreal_pct": -1.06
       }
     ],
     "totals": {
@@ -1765,12 +1769,12 @@
       "realized_pnl": -943.97,
       "avg_pct": -7.33,
       "open_count": 9,
-      "unrealized_pnl": -132.55,
-      "net_pnl": -1076.52,
+      "unrealized_pnl": -135.55,
+      "net_pnl": -1079.52,
       "excluded_pnl": -2429.0,
       "excluded_count": 3,
       "excluded_note": "CRM April 0DTE calls \u2014 the retired/abandoned 0DTE strategy",
-      "net_incl_excluded": -3505.52
+      "net_incl_excluded": -3508.52
     },
     "excluded": [
       {
