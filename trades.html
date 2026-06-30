@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Trade Ledger — which system traded what</title>
+<style>
+  :root{ --red:#d32f2f; --silver:#8e9196; --bg:#0e0e10; --card:#17171a; --line:#2a2a2f; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:#e8e8ea;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  header{padding:18px 16px 10px;border-bottom:1px solid var(--line)}
+  h1{margin:0;font-size:1.25rem;letter-spacing:.3px}
+  h1 .accent{color:var(--red)}
+  .sub{color:var(--silver);font-size:.82rem;margin-top:4px}
+  .wrap{max-width:920px;margin:0 auto;padding:0 12px 60px}
+  .summary{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+  .chip{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:.85rem}
+  .chip b{font-size:1.05rem}
+  .filters{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 12px}
+  .filters button{background:var(--card);color:#e8e8ea;border:1px solid var(--line);border-radius:20px;padding:6px 14px;font-size:.8rem;cursor:pointer}
+  .filters button.on{background:var(--red);border-color:var(--red);color:#fff}
+  table{width:100%;border-collapse:collapse;font-size:.82rem}
+  th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+  th{color:var(--silver);font-weight:600;font-size:.72rem;text-transform:uppercase;letter-spacing:.4px}
+  td.sym{font-weight:600}
+  .buy{color:#4caf50}.sell{color:#ff7043}
+  .tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:.7rem;font-weight:600}
+  .tag.orb{background:rgba(211,47,47,.18);color:#ff6b6b;border:1px solid rgba(211,47,47,.4)}
+  .tag.spread{background:rgba(142,145,150,.18);color:#cfd2d6;border:1px solid rgba(142,145,150,.4)}
+  .tag.manual{background:rgba(255,255,255,.06);color:var(--silver);border:1px solid var(--line)}
+  .basis{color:var(--silver);font-size:.74rem;white-space:normal}
+  .foot{color:var(--silver);font-size:.72rem;margin-top:18px;line-height:1.5}
+  a{color:var(--red)}
+  @media(max-width:560px){ td.basis,th.basis{display:none} }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Trade <span class="accent">Ledger</span></h1>
+    <div class="sub">Every Alpaca fill, tagged with the system that triggered it. Robinhood is tracked separately.</div>
+  </div>
+</header>
+<div class="wrap">
+  <div class="summary" id="summary"></div>
+  <div class="filters" id="filters"></div>
+  <table>
+    <thead><tr><th>Date</th><th>System</th><th>Symbol</th><th>Side</th><th>Qty</th><th>Price</th><th class="basis">Basis</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <div class="foot" id="foot"></div>
+</div>
+<script>
+const TAGCLASS = t => t==='ORB v2.1' ? 'orb' : (t==='10-Spread bot' ? 'spread' : 'manual');
+let TRADES=[], filter='All';
+function render(){
+  const rows=document.getElementById('rows'); rows.innerHTML='';
+  const shown = filter==='All'?TRADES:TRADES.filter(t=>t.system===filter);
+  for(const t of shown){
+    const tr=document.createElement('tr');
+    tr.innerHTML = `<td>${t.date.slice(0,16)}</td>`+
+      `<td><span class="tag ${TAGCLASS(t.system)}">${t.system}</span></td>`+
+      `<td class="sym">${t.symbol}</td>`+
+      `<td class="${t.side}">${t.side.toUpperCase()}</td>`+
+      `<td>${t.qty}</td><td>$${t.price}</td>`+
+      `<td class="basis">${t.basis||''}</td>`;
+    rows.appendChild(tr);
+  }
+  document.getElementById('foot').textContent =
+    `Showing ${shown.length} of ${TRADES.length} fills. Updated daily after market close.`;
+}
+function build(){
+  const counts={}; TRADES.forEach(t=>counts[t.system]=(counts[t.system]||0)+1);
+  const sum=document.getElementById('summary'); sum.innerHTML='';
+  sum.innerHTML += `<div class="chip">Total fills<br><b>${TRADES.length}</b></div>`;
+  for(const s of Object.keys(counts)) sum.innerHTML += `<div class="chip">${s}<br><b>${counts[s]}</b></div>`;
+  const f=document.getElementById('filters'); f.innerHTML='';
+  ['All', ...Object.keys(counts)].forEach(name=>{
+    const b=document.createElement('button'); b.textContent=name;
+    if(name===filter) b.className='on';
+    b.onclick=()=>{filter=name; build(); render();};
+    f.appendChild(b);
+  });
+}
+fetch('data.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{
+  TRADES = d.allTrades || [];
+  build(); render();
+}).catch(e=>{ document.getElementById('rows').innerHTML='<tr><td colspan="7">Could not load data.json</td></tr>'; });
+</script>
+</body>
+</html>
