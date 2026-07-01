@@ -56,6 +56,11 @@
     <th>Since</th><th>System</th><th>Symbol</th><th class="r">Qty</th><th class="r">Entry</th><th class="r">Now</th><th class="r">Unreal $</th><th class="r">%</th>
   </tr></thead><tbody id="open"></tbody></table>
 
+  <h2>Robinhood <span class="dir">(separate account, tracked manually)</span></h2>
+  <table><thead><tr>
+    <th>Symbol</th><th class="r">Qty</th><th class="r">Cost</th><th class="r">Now</th><th class="r">Unreal $</th><th class="r">%</th>
+  </tr></thead><tbody id="robinhood"></tbody></table>
+
   <div class="foot" id="foot"></div>
 </div>
 <script>
@@ -93,6 +98,15 @@ function render(){
       `<td class="r">${o.current??'-'}</td>`+
       `<td class="r ${u==null?'':cls(u)}">${u==null?'-':money(u)}</td>`+
       `<td class="r ${u==null?'':cls(u)}">${o.unreal_pct==null?'-':(o.unreal_pct>=0?'+':'')+o.unreal_pct+'%'}</td></tr>`;
+  }
+  const rb=document.getElementById('robinhood'); rb.innerHTML='';
+  for(const h of (DATA.robinhoodHoldings||[])){
+    const u=h.unreal;
+    rb.innerHTML += `<tr><td class="sym">${h.symbol}</td>`+
+      `<td class="r">${h.qty}</td><td class="r">${h.cost}</td>`+
+      `<td class="r">${h.current==null?'-':h.current}</td>`+
+      `<td class="r ${u==null?'':cls(u)}">${u==null?'-':money(u)}</td>`+
+      `<td class="r ${u==null?'':cls(u)}">${h.unreal_pct==null?'-':(h.unreal_pct>=0?'+':'')+h.unreal_pct+'%'}</td></tr>`;
   }
   const T=R.totals;
   let foot = `Realized over ${T.closed_count} closed trades: <b class="${cls(T.realized_pnl)}">${money(T.realized_pnl)}</b> `+
