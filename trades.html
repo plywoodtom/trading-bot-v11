@@ -55,6 +55,7 @@
   <table><thead><tr>
     <th>Since</th><th>System</th><th>Symbol</th><th class="r">Qty</th><th class="r">Entry</th><th class="r">Now</th><th class="r">Unreal $</th><th class="r">%</th>
   </tr></thead><tbody id="open"></tbody></table>
+  <div class="dir" style="margin-top:6px;line-height:1.5">Option spreads (e.g. RIVN) are shown as one net line — both legs combined. The "Unreal $" is the whole spread's profit/loss if closed now, so a green number means the spread is in the money overall. Entry = net credit taken in per spread; Now = net cost to close.</div>
 
   <h2>Robinhood <span class="dir">(separate account, tracked manually)</span></h2>
   <table><thead><tr>
@@ -89,16 +90,47 @@ function render(){
       `<td class="r ${cls(t.pnl)}">${t.pct>=0?'+':''}${t.pct}%</td></tr>`;
   }
   const ob=document.getElementById('open'); ob.innerHTML='';
+  // Group option legs by underlying so a multi-leg spread (e.g. RIVN) shows as ONE net line
+  // instead of two confusing separate legs (one of which can look like a loss on its own).
+  const occUnder = s => { const m=s.match(/^([A-Z]+)\d{6}[CP]\d{8}$/); return m?m[1]:null; };
+  const byUnder={}, singles=[];
   for(const o of R.open){ if(!pass(o.system))continue;
-    const u=o.unreal;
-    ob.innerHTML += `<tr><td>${o.entry_date}</td>`+
+    const u=occUnder(o.symbol);
+    if(u){ (byUnder[u]=byUnder[u]||[]).push(o); } else singles.push(o);
+  }
+  const rowSingle = o => { const u=o.unreal;
+    return `<tr><td>${o.entry_date}</td>`+
       `<td><span class="tag ${TC(o.system)}">${o.system}</span></td>`+
       `<td class="sym">${fmtSym(o.symbol)} <span class="dir">${o.dir}</span></td>`+
       `<td class="r">${o.qty}</td><td class="r">${o.entry_price}</td>`+
       `<td class="r">${o.current??'-'}</td>`+
       `<td class="r ${u==null?'':cls(u)}">${u==null?'-':money(u)}</td>`+
       `<td class="r ${u==null?'':cls(u)}">${o.unreal_pct==null?'-':(o.unreal_pct>=0?'+':'')+o.unreal_pct+'%'}</td></tr>`;
+  };
+  for(const [und,legs] of Object.entries(byUnder)){
+    if(legs.length<2){ ob.innerHTML += rowSingle(legs[0]); continue; }
+    // Combine legs into one spread summary row: net credit in, net value now, net unrealized.
+    let netCredit=0, netUnreal=0, haveCur=true, since=legs[0].entry_date;
+    for(const l of legs){
+      netCredit += (l.dir==='short'?1:-1) * l.entry_price * l.qty * 100;  // short=received, long=paid
+      if(l.unreal==null) haveCur=false; else netUnreal += l.unreal;
+      if(l.entry_date < since) since = l.entry_date;
+    }
+    const nSpreads = Math.min(...legs.map(l=>l.qty));
+    const type = legs.some(l=>/P\d{8}$/.test(l.symbol)) ? 'put' : 'call';
+    const entryPx = netCredit/100/nSpreads;                 // net credit per spread (e.g. 0.40)
+    const nowPx = haveCur ? entryPx - netUnreal/100/nSpreads : null;  // net cost to close now
+    const pct = netCredit ? netUnreal/Math.abs(netCredit)*100 : null;
+    const u=haveCur?netUnreal:null;
+    ob.innerHTML += `<tr><td>${since}</td>`+
+      `<td><span class="tag ${TC(legs[0].system)}">${legs[0].system}</span></td>`+
+      `<td class="sym">${und} ${type} spread <span class="dir">${legs.length} legs, net</span></td>`+
+      `<td class="r">${nSpreads}</td><td class="r">${entryPx.toFixed(2)}</td>`+
+      `<td class="r">${nowPx==null?'-':nowPx.toFixed(2)}</td>`+
+      `<td class="r ${u==null?'':cls(u)}">${u==null?'-':money(u)}</td>`+
+      `<td class="r ${u==null?'':cls(u)}">${pct==null?'-':(pct>=0?'+':'')+pct.toFixed(1)+'%'}</td></tr>`;
   }
+  for(const o of singles) ob.innerHTML += rowSingle(o);
   const rb=document.getElementById('robinhood'); rb.innerHTML='';
   for(const h of (DATA.robinhoodHoldings||[])){
     const u=h.unreal;
