@@ -36,6 +36,18 @@
   .dir{font-size:.66rem;color:var(--silver)}
   .foot{color:var(--silver);font-size:.72rem;margin-top:20px;line-height:1.5}
   a{color:var(--red)}
+  .vsgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:6px 0}
+  .vsbox{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center}
+  .vsbox.you{border-color:rgba(142,145,150,.55)}
+  .vsbox.bots{border-color:rgba(211,47,47,.55)}
+  .vsbox .who{font-size:.72rem;text-transform:uppercase;letter-spacing:.4px;color:var(--silver)}
+  .vsbox .net{font-size:1.6rem;font-weight:800;margin:4px 0}
+  .vsbox .det{font-size:.72rem;color:var(--silver);line-height:1.55}
+  .verdict{text-align:center;font-size:.95rem;font-weight:700;margin:10px 0 2px}
+  .vsmini{width:100%;border-collapse:collapse;font-size:.75rem;margin-top:10px}
+  .vsmini th,.vsmini td{text-align:right;padding:5px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+  .vsmini th:first-child,.vsmini td:first-child{text-align:left}
+  .vsmini th{color:var(--silver);font-weight:600;font-size:.66rem;text-transform:uppercase}
 </style>
 </head>
 <body>
@@ -45,6 +57,10 @@
 </div></header>
 <div class="wrap">
   <div class="cards" id="cards"></div>
+
+  <h2 style="margin-top:20px">You vs the Bots</h2>
+  <div id="vspanel"></div>
+
   <div class="filters" id="filters"></div>
 
   <h2>Closed trades</h2>
@@ -190,6 +206,53 @@ function render(){
   foot += ` <span style="color:var(--silver)">Updated daily after close.</span>`;
   document.getElementById('foot').innerHTML = foot;
 }
+// "You vs the Bots" scoreboard. Manual = Tom's own trades; Bots = every automated system combined.
+// Always computed from the FULL ledger (ignores the active filter) so it's a stable head-to-head.
+function statFor(pred){
+  const R=DATA.tradesRollup;
+  const cl=R.closed.filter(t=>pred(t.system));
+  const op=R.open.filter(o=>pred(o.system));
+  const wins=cl.filter(t=>t.pnl>0).length;
+  const realized=cl.reduce((s,t)=>s+t.pnl,0);
+  const unreal=op.reduce((s,o)=>s+(o.unreal||0),0);
+  return {n:cl.length, wins, losses:cl.length-wins,
+    win_rate: cl.length?Math.round(wins/cl.length*1000)/10:0,
+    realized, unreal, net:realized+unreal};
+}
+function renderVs(){
+  const amt=v=>'$'+Math.abs(v).toFixed(2);
+  const you=statFor(s=>s==='Manual'), bots=statFor(s=>s!=='Manual');
+  const box=(c,label,st)=>`<div class="vsbox ${c}"><div class="who">${label}</div>`+
+    `<div class="net ${cls(st.net)}">${money(st.net)}</div>`+
+    `<div class="det">realized ${money(st.realized)}${st.unreal?` &middot; open ${money(st.unreal)}`:''}<br>`+
+    `${st.n} trades &middot; ${st.wins}W-${st.losses}L &middot; ${st.win_rate}% win</div></div>`;
+  const diff=bots.net-you.net;
+  let verdict;
+  if(Math.abs(diff)<0.005){ verdict='Dead even.'; }
+  else {
+    const lead = diff>0 ? {who:'Bots are', margin:diff, net:bots.net} : {who:'You are', margin:-diff, net:you.net};
+    const tail = lead.net>=0 ? ', and in the green.' : ' (both still in the red - it means losing less).';
+    verdict = `${lead.who} ahead by ${amt(lead.margin)}${tail}`;
+  }
+  // per-system breakdown, sorted by net descending
+  const R=DATA.tradesRollup;
+  const systems=[...new Set([...R.closed.map(t=>t.system),...R.open.map(o=>o.system)])];
+  const rows=systems.map(sys=>{const st=statFor(s=>s===sys);return {sys,st};})
+    .sort((a,b)=>b.st.net-a.st.net);
+  let mini='<table class="vsmini"><thead><tr><th>System</th><th>Trades</th><th>Win%</th><th>Realized</th><th>Open</th><th>Net</th></tr></thead><tbody>';
+  for(const {sys,st} of rows){
+    mini+=`<tr><td><span class="tag ${TC(sys)}">${sys}</span></td>`+
+      `<td>${st.n}</td><td>${st.win_rate}%</td>`+
+      `<td class="${cls(st.realized)}">${money(st.realized)}</td>`+
+      `<td class="${st.unreal?cls(st.unreal):''}">${st.unreal?money(st.unreal):'-'}</td>`+
+      `<td class="${cls(st.net)}">${money(st.net)}</td></tr>`;
+  }
+  mini+='</tbody></table>';
+  document.getElementById('vspanel').innerHTML =
+    `<div class="vsgrid">${box('you','You (manual)',you)}${box('bots','Bots (automated)',bots)}</div>`+
+    `<div class="verdict">${verdict}</div>`+mini+
+    `<div class="foot" style="margin-top:8px">Net includes open positions marked to market. Your manual side carries the open covered calls, spread, and shares; the bots' trades are all closed. CRM April 0DTE stays footnoted out.</div>`;
+}
 function cards(){
   const T=DATA.tradesRollup.totals;
   document.getElementById('cards').innerHTML =
@@ -206,7 +269,7 @@ function buildFilters(){
 }
 fetch('data.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{
   DATA=d; if(!d.tradesRollup){document.getElementById('foot').textContent='No rollup data yet.';return;}
-  cards(); buildFilters(); render();
+  cards(); renderVs(); buildFilters(); render();
 }).catch(e=>{ document.getElementById('foot').textContent='Could not load data.json'; });
 </script>
 </body>
