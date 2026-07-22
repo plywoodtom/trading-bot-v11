@@ -387,7 +387,7 @@
         "avgEntry": 7.25,
         "costBasis": 7.25,
         "current": 5.57,
-        "currentPrice": 5.57,
+        "currentPrice": 5.58,
         "marketValue": 194.95,
         "overallPnl": -58.8,
         "overallPct": -23.17,
@@ -400,7 +400,13 @@
     "todayPnl": -4.2,
     "todayPct": -2.11,
     "totalOpenPnl": -58.8,
-    "asOf": "2026-07-22"
+    "asOf": "2026-07-22",
+    "equityHistory": [
+      {
+        "date": "2026-07-22",
+        "equity": 195.3
+      }
+    ]
   },
   "paperB125": {
     "startDate": "2026-05-08",
