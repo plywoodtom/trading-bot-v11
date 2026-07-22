@@ -760,6 +760,42 @@
   },
   "allTrades": [
     {
+      "date": "2026-07-22 17:02:26",
+      "system": "Manual",
+      "symbol": "HIVE260918C00004000",
+      "side": "sell",
+      "qty": "1",
+      "price": "0.3",
+      "order_id": "5ba50c26"
+    },
+    {
+      "date": "2026-07-20 23:59:59",
+      "system": "Manual",
+      "symbol": "HIVE260717C00005000",
+      "side": "buy",
+      "qty": 1.0,
+      "price": 0.0,
+      "order_id": "EXPIRY"
+    },
+    {
+      "date": "2026-07-20 23:59:59",
+      "system": "Manual",
+      "symbol": "RIVN260717P00014500",
+      "side": "buy",
+      "qty": 1.0,
+      "price": 0.0,
+      "order_id": "EXPIRY"
+    },
+    {
+      "date": "2026-07-20 23:59:59",
+      "system": "Manual",
+      "symbol": "RIVN260717P00013000",
+      "side": "sell",
+      "qty": 1.0,
+      "price": 0.0,
+      "order_id": "EXPIRY"
+    },
+    {
       "date": "2026-07-02 19:45:02",
       "system": "Manual",
       "symbol": "NVDA260702C00195000",
@@ -1511,6 +1547,42 @@
     "closed": [
       {
         "system": "Manual",
+        "symbol": "HIVE260717C00005000",
+        "dir": "short",
+        "entry_date": "2026-06-24",
+        "entry_price": 0.27,
+        "exit_date": "2026-07-20",
+        "exit_price": 0.0,
+        "qty": 1.0,
+        "pnl": 27.0,
+        "pct": 100.0
+      },
+      {
+        "system": "Manual",
+        "symbol": "RIVN260717P00014500",
+        "dir": "short",
+        "entry_date": "2026-06-22",
+        "entry_price": 0.61,
+        "exit_date": "2026-07-20",
+        "exit_price": 0.0,
+        "qty": 1.0,
+        "pnl": 61.0,
+        "pct": 100.0
+      },
+      {
+        "system": "Manual",
+        "symbol": "RIVN260717P00013000",
+        "dir": "long",
+        "entry_date": "2026-06-22",
+        "entry_price": 0.21,
+        "exit_date": "2026-07-20",
+        "exit_price": 0.0,
+        "qty": 1.0,
+        "pnl": -21.0,
+        "pct": -100.0
+      },
+      {
+        "system": "Manual",
         "symbol": "NVDA260702C00195000",
         "dir": "long",
         "entry_date": "2026-07-02",
@@ -1945,36 +2017,14 @@
     "open": [
       {
         "system": "Manual",
-        "symbol": "RIVN260717P00014500",
-        "dir": "short",
-        "entry_date": "2026-06-22",
-        "entry_price": 0.61,
-        "qty": 1.0,
-        "current": null,
-        "unreal": null,
-        "unreal_pct": null
-      },
-      {
-        "system": "Manual",
-        "symbol": "RIVN260717P00013000",
-        "dir": "long",
-        "entry_date": "2026-06-22",
-        "entry_price": 0.21,
-        "qty": 1.0,
-        "current": null,
-        "unreal": null,
-        "unreal_pct": null
-      },
-      {
-        "system": "Manual",
         "symbol": "GLDM",
         "dir": "long",
         "entry_date": "2026-06-22",
         "entry_price": 82.9067,
         "qty": 10.0,
-        "current": 80.825,
-        "unreal": -20.82,
-        "unreal_pct": -2.51
+        "current": 81.8,
+        "unreal": -11.07,
+        "unreal_pct": -1.33
       },
       {
         "system": "Manual",
@@ -1983,20 +2033,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 4.3,
         "qty": 100.0,
-        "current": 3.245,
-        "unreal": -105.5,
-        "unreal_pct": -24.53
-      },
-      {
-        "system": "Manual",
-        "symbol": "HIVE260717C00005000",
-        "dir": "short",
-        "entry_date": "2026-06-24",
-        "entry_price": 0.27,
-        "qty": 1.0,
-        "current": null,
-        "unreal": null,
-        "unreal_pct": null
+        "current": 3.2,
+        "unreal": -110.0,
+        "unreal_pct": -25.58
       },
       {
         "system": "Manual",
@@ -2005,9 +2044,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 19.0,
-        "current": 5.69,
-        "unreal": -41.04,
-        "unreal_pct": -27.52
+        "current": 5.63,
+        "unreal": -42.18,
+        "unreal_pct": -28.28
       },
       {
         "system": "Manual",
@@ -2016,9 +2055,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 6.0,
-        "current": 5.69,
-        "unreal": -12.96,
-        "unreal_pct": -27.52
+        "current": 5.63,
+        "unreal": -13.32,
+        "unreal_pct": -28.28
       },
       {
         "system": "Manual",
@@ -2027,9 +2066,9 @@
         "entry_date": "2026-06-30",
         "entry_price": 13.9078,
         "qty": 100.0,
-        "current": 14.25,
-        "unreal": 34.22,
-        "unreal_pct": 2.46
+        "current": 14.375,
+        "unreal": 46.72,
+        "unreal_pct": 3.36
       },
       {
         "system": "Manual",
@@ -2038,25 +2077,36 @@
         "entry_date": "2026-06-30",
         "entry_price": 0.47,
         "qty": 1.0,
-        "current": 0.425,
-        "unreal": 4.5,
-        "unreal_pct": 9.57
+        "current": 0.485,
+        "unreal": -1.5,
+        "unreal_pct": -3.19
+      },
+      {
+        "system": "Manual",
+        "symbol": "HIVE260918C00004000",
+        "dir": "short",
+        "entry_date": "2026-07-22",
+        "entry_price": 0.3,
+        "qty": 1.0,
+        "current": 0.325,
+        "unreal": -2.5,
+        "unreal_pct": -8.33
       }
     ],
     "totals": {
-      "closed_count": 36,
-      "wins": 11,
-      "losses": 25,
-      "win_rate": 30.6,
-      "realized_pnl": -1050.97,
-      "avg_pct": -9.88,
-      "open_count": 9,
-      "unrealized_pnl": -141.6,
-      "net_pnl": -1192.57,
+      "closed_count": 39,
+      "wins": 13,
+      "losses": 26,
+      "win_rate": 33.3,
+      "realized_pnl": -983.97,
+      "avg_pct": -6.55,
+      "open_count": 7,
+      "unrealized_pnl": -133.85,
+      "net_pnl": -1117.82,
       "excluded_pnl": -2429.0,
       "excluded_count": 3,
       "excluded_note": "CRM April 0DTE calls \u2014 the retired/abandoned 0DTE strategy",
-      "net_incl_excluded": -3621.57
+      "net_incl_excluded": -3546.82
     },
     "excluded": [
       {
@@ -2102,9 +2152,9 @@
       "symbol": "UNCY",
       "qty": 35,
       "cost": 7.25,
-      "current": 5.69,
-      "unreal": -54.6,
-      "unreal_pct": -21.52,
+      "current": 5.63,
+      "unreal": -56.7,
+      "unreal_pct": -22.34,
       "note": "FDA/biotech bet - holding for approval re-rate"
     },
     {
