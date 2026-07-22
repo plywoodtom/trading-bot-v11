@@ -359,160 +359,32 @@
     ]
   },
   "robinhood": {
-    "startDate": "2026-06-01",
-    "startBalance": 40.0,
+    "startDate": "2026-06-22",
+    "startBalance": 253.75,
     "trades": [],
     "openPositions": [
       {
         "ticker": "UNCY",
         "shares": 35,
+        "qty": 35,
+        "assetClass": "us_equity",
+        "avgEntry": 7.25,
         "costBasis": 7.25,
-        "currentPrice": 5.69,
+        "current": 5.57,
+        "currentPrice": 5.57,
+        "marketValue": 194.95,
+        "overallPnl": -58.8,
+        "overallPct": -23.17,
+        "todayPnl": -4.2,
+        "todayPct": -2.11,
         "openDate": "2026-06-22"
       }
     ],
-    "equityHistory": [
-      {
-        "date": "2026-06-01",
-        "equity": 40.0
-      },
-      {
-        "date": "2026-06-02",
-        "equity": 39.8
-      },
-      {
-        "date": "2026-06-03",
-        "equity": 39.9
-      },
-      {
-        "date": "2026-06-04",
-        "equity": 40.3
-      },
-      {
-        "date": "2026-06-05",
-        "equity": 37.3
-      },
-      {
-        "date": "2026-06-08",
-        "equity": 36.0
-      },
-      {
-        "date": "2026-06-09",
-        "equity": 39.0
-      },
-      {
-        "date": "2026-06-10",
-        "equity": 41.25
-      },
-      {
-        "date": "2026-06-11",
-        "equity": 41.1
-      },
-      {
-        "date": "2026-06-12",
-        "equity": 38.9
-      },
-      {
-        "date": "2026-06-15",
-        "equity": 38.25
-      },
-      {
-        "date": "2026-06-16",
-        "equity": 38.45
-      },
-      {
-        "date": "2026-06-17",
-        "equity": 37.9
-      },
-      {
-        "date": "2026-06-18",
-        "equity": 37.0
-      },
-      {
-        "date": "2026-06-22",
-        "equity": 42.0
-      },
-      {
-        "date": "2026-06-23",
-        "equity": 42.85
-      },
-      {
-        "date": "2026-06-24",
-        "equity": 42.2
-      },
-      {
-        "date": "2026-06-25",
-        "equity": 73.95
-      },
-      {
-        "date": "2026-06-26",
-        "equity": 35.45
-      },
-      {
-        "date": "2026-06-29",
-        "equity": 55.75
-      },
-      {
-        "date": "2026-06-30",
-        "equity": -48.2
-      },
-      {
-        "date": "2026-07-01",
-        "equity": -29.3
-      },
-      {
-        "date": "2026-07-02",
-        "equity": -12.85
-      },
-      {
-        "date": "2026-07-06",
-        "equity": -25.45
-      },
-      {
-        "date": "2026-07-07",
-        "equity": -23.7
-      },
-      {
-        "date": "2026-07-08",
-        "equity": -23.35
-      },
-      {
-        "date": "2026-07-09",
-        "equity": -28.95
-      },
-      {
-        "date": "2026-07-10",
-        "equity": -31.05
-      },
-      {
-        "date": "2026-07-13",
-        "equity": -35.6
-      },
-      {
-        "date": "2026-07-14",
-        "equity": -31.4
-      },
-      {
-        "date": "2026-07-15",
-        "equity": -38.4
-      },
-      {
-        "date": "2026-07-16",
-        "equity": -36.65
-      },
-      {
-        "date": "2026-07-17",
-        "equity": -25.45
-      },
-      {
-        "date": "2026-07-20",
-        "equity": -23.0
-      },
-      {
-        "date": "2026-07-21",
-        "equity": -14.6
-      }
-    ]
+    "equity": 194.95,
+    "todayPnl": -4.2,
+    "todayPct": -2.11,
+    "totalOpenPnl": -58.8,
+    "asOf": "2026-07-22"
   },
   "paperB125": {
     "startDate": "2026-05-08",
@@ -619,7 +491,7 @@
   },
   "orbV21Paper": {
     "startDate": "2026-06-05",
-    "startBalance": 10000.0,
+    "startBalance": 100000.0,
     "trades": [
       {
         "date": "2026-06-16",
