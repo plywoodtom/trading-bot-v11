@@ -88,39 +88,273 @@
     ],
     "openPositions": [
       {
-        "ticker": "UNCY",
-        "shares": 25,
-        "costBasis": 7.85,
-        "currentPrice": 8.38,
-        "openDate": "2026-06-24"
+        "symbol": "F",
+        "assetClass": "us_equity",
+        "qty": 100.0,
+        "side": "long",
+        "avgEntry": 13.9078,
+        "current": 14.435,
+        "costBasis": 1390.78,
+        "marketValue": 1443.5,
+        "overallPnl": 52.72,
+        "overallPct": 3.79,
+        "todayPnl": 16.5,
+        "todayPct": 1.16
       },
       {
-        "ticker": "ITRG",
-        "shares": 50,
-        "costBasis": 2.4199,
-        "currentPrice": 2.425,
-        "openDate": "2026-06-25"
+        "symbol": "GLDM",
+        "assetClass": "us_equity",
+        "qty": 10.0,
+        "side": "long",
+        "avgEntry": 82.9067,
+        "current": 81.8701,
+        "costBasis": 829.07,
+        "marketValue": 818.7,
+        "overallPnl": -10.37,
+        "overallPct": -1.25,
+        "todayPnl": 10.5,
+        "todayPct": 1.3
       },
       {
-        "ticker": "GLDM",
-        "shares": 10,
-        "costBasis": 82.91,
-        "currentPrice": 79.34,
-        "openDate": "2026-06-22"
+        "symbol": "HIVE",
+        "assetClass": "us_equity",
+        "qty": 100.0,
+        "side": "long",
+        "avgEntry": 4.3,
+        "current": 3.205,
+        "costBasis": 430.0,
+        "marketValue": 320.5,
+        "overallPnl": -109.5,
+        "overallPct": -25.46,
+        "todayPnl": -2.5,
+        "todayPct": -0.77
       },
       {
-        "ticker": "HIVE (cov call 5c 7/17)",
-        "shares": 100,
-        "costBasis": 4.3,
-        "currentPrice": 3.735,
-        "openDate": "2026-06-24"
+        "symbol": "UNCY",
+        "assetClass": "us_equity",
+        "qty": 25.0,
+        "side": "long",
+        "avgEntry": 7.85,
+        "current": 5.57,
+        "costBasis": 196.25,
+        "marketValue": 139.25,
+        "overallPnl": -57.0,
+        "overallPct": -29.04,
+        "todayPnl": -3.0,
+        "todayPct": -2.11
       },
       {
-        "ticker": "RIVN 14.50/13 put spread",
-        "contracts": 1,
-        "costBasis": 0.4,
-        "openDate": "2026-06-22",
-        "expiry": "2026-07-17"
+        "symbol": "F260731C00014500",
+        "assetClass": "us_option",
+        "qty": -1.0,
+        "side": "short",
+        "avgEntry": 0.47,
+        "current": 0.52,
+        "costBasis": -47.0,
+        "marketValue": -52.0,
+        "overallPnl": -5.0,
+        "overallPct": -10.64,
+        "todayPnl": -10.0,
+        "todayPct": -23.81
+      },
+      {
+        "symbol": "HIVE260918C00004000",
+        "assetClass": "us_option",
+        "qty": -1.0,
+        "side": "short",
+        "avgEntry": 0.3,
+        "current": 0.35,
+        "costBasis": -30.0,
+        "marketValue": -35.0,
+        "overallPnl": -5.0,
+        "overallPct": -16.67,
+        "todayPnl": -5.0,
+        "todayPct": -16.67
+      }
+    ],
+    "equity": 3346.52,
+    "lastEquity": 3340.09,
+    "cash": 711.57,
+    "todayPnl": 6.5,
+    "todayPct": 0.19,
+    "totalOpenPnl": -134.15,
+    "totalDeposited": 3900.0,
+    "equityHistory": [
+      {
+        "date": "2026-06-02",
+        "equity": 2286.48
+      },
+      {
+        "date": "2026-06-03",
+        "equity": 2172.25
+      },
+      {
+        "date": "2026-06-04",
+        "equity": 2172.25
+      },
+      {
+        "date": "2026-06-05",
+        "equity": 1927.82
+      },
+      {
+        "date": "2026-06-06",
+        "equity": 1899.67
+      },
+      {
+        "date": "2026-06-09",
+        "equity": 1899.67
+      },
+      {
+        "date": "2026-06-10",
+        "equity": 1899.67
+      },
+      {
+        "date": "2026-06-11",
+        "equity": 1899.67
+      },
+      {
+        "date": "2026-06-12",
+        "equity": 1655.44
+      },
+      {
+        "date": "2026-06-13",
+        "equity": 1655.44
+      },
+      {
+        "date": "2026-06-16",
+        "equity": 1655.44
+      },
+      {
+        "date": "2026-06-17",
+        "equity": 1654.85
+      },
+      {
+        "date": "2026-06-18",
+        "equity": 1647.59
+      },
+      {
+        "date": "2026-06-19",
+        "equity": 2647.59
+      },
+      {
+        "date": "2026-06-23",
+        "equity": 2642.58
+      },
+      {
+        "date": "2026-06-24",
+        "equity": 2598.61
+      },
+      {
+        "date": "2026-06-25",
+        "equity": 2550.02
+      },
+      {
+        "date": "2026-06-26",
+        "equity": 2552.71
+      },
+      {
+        "date": "2026-06-27",
+        "equity": 2553.66
+      },
+      {
+        "date": "2026-06-30",
+        "equity": 2557.28
+      },
+      {
+        "date": "2026-07-01",
+        "equity": 3393.23
+      },
+      {
+        "date": "2026-07-02",
+        "equity": 3373.98
+      },
+      {
+        "date": "2026-07-03",
+        "equity": 3264.29
+      },
+      {
+        "date": "2026-07-07",
+        "equity": 3313.54
+      },
+      {
+        "date": "2026-07-08",
+        "equity": 3263.49
+      },
+      {
+        "date": "2026-07-09",
+        "equity": 3261.39
+      },
+      {
+        "date": "2026-07-10",
+        "equity": 3290.54
+      },
+      {
+        "date": "2026-07-11",
+        "equity": 3317.79
+      },
+      {
+        "date": "2026-07-14",
+        "equity": 3269.59
+      },
+      {
+        "date": "2026-07-15",
+        "equity": 3288.64
+      },
+      {
+        "date": "2026-07-16",
+        "equity": 3301.54
+      },
+      {
+        "date": "2026-07-17",
+        "equity": 3258.09
+      },
+      {
+        "date": "2026-07-18",
+        "equity": 3271.64
+      },
+      {
+        "date": "2026-07-21",
+        "equity": 3284.09
+      },
+      {
+        "date": "2026-07-22",
+        "equity": 3340.09
+      }
+    ],
+    "deposits": [
+      {
+        "date": "2026-06-01",
+        "amount": 2000.0
+      },
+      {
+        "date": "2026-06-18",
+        "amount": 1000.0
+      },
+      {
+        "date": "2026-06-30",
+        "amount": 900.0
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2026-06",
+        "label": "Jun 2026",
+        "startEquity": 340.62,
+        "endEquity": 2557.28,
+        "deposits": 3900.0,
+        "tradingUsd": -1683.34,
+        "tradingPct": -39.7,
+        "mtd": false
+      },
+      {
+        "month": "2026-07",
+        "label": "Jul 2026",
+        "startEquity": 2557.28,
+        "endEquity": 3340.09,
+        "deposits": 0.0,
+        "tradingUsd": 782.81,
+        "tradingPct": 30.61,
+        "mtd": true
       }
     ]
   },
@@ -1994,5 +2228,6 @@
       "unreal_pct": -10.27,
       "note": "MarineMax partnership flyer (bubble-gum money)"
     }
-  ]
+  ],
+  "generatedAt": "2026-07-22"
 }
