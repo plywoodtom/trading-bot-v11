@@ -1559,27 +1559,16 @@
       },
       {
         "system": "Manual",
-        "symbol": "RIVN260717P00014500",
-        "dir": "short",
+        "symbol": "RIVN 7/17 put spread",
+        "dir": "spread",
         "entry_date": "2026-06-22",
-        "entry_price": 0.61,
+        "entry_price": 0.4,
         "exit_date": "2026-07-20",
         "exit_price": 0.0,
         "qty": 1.0,
-        "pnl": 61.0,
-        "pct": 100.0
-      },
-      {
-        "system": "Manual",
-        "symbol": "RIVN260717P00013000",
-        "dir": "long",
-        "entry_date": "2026-06-22",
-        "entry_price": 0.21,
-        "exit_date": "2026-07-20",
-        "exit_price": 0.0,
-        "qty": 1.0,
-        "pnl": -21.0,
-        "pct": -100.0
+        "pnl": 40.0,
+        "pct": 36.36,
+        "is_spread": true
       },
       {
         "system": "Manual",
@@ -2022,9 +2011,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 82.9067,
         "qty": 10.0,
-        "current": 81.8,
-        "unreal": -11.07,
-        "unreal_pct": -1.33
+        "current": 81.79,
+        "unreal": -11.17,
+        "unreal_pct": -1.35
       },
       {
         "system": "Manual",
@@ -2033,9 +2022,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 4.3,
         "qty": 100.0,
-        "current": 3.2,
-        "unreal": -110.0,
-        "unreal_pct": -25.58
+        "current": 3.19,
+        "unreal": -111.0,
+        "unreal_pct": -25.81
       },
       {
         "system": "Manual",
@@ -2066,9 +2055,9 @@
         "entry_date": "2026-06-30",
         "entry_price": 13.9078,
         "qty": 100.0,
-        "current": 14.375,
-        "unreal": 46.72,
-        "unreal_pct": 3.36
+        "current": 14.34,
+        "unreal": 43.22,
+        "unreal_pct": 3.11
       },
       {
         "system": "Manual",
@@ -2077,9 +2066,9 @@
         "entry_date": "2026-06-30",
         "entry_price": 0.47,
         "qty": 1.0,
-        "current": 0.485,
-        "unreal": -1.5,
-        "unreal_pct": -3.19
+        "current": 0.47,
+        "unreal": 0.0,
+        "unreal_pct": 0.0
       },
       {
         "system": "Manual",
@@ -2088,25 +2077,25 @@
         "entry_date": "2026-07-22",
         "entry_price": 0.3,
         "qty": 1.0,
-        "current": 0.325,
-        "unreal": -2.5,
-        "unreal_pct": -8.33
+        "current": 0.35,
+        "unreal": -5.0,
+        "unreal_pct": -16.67
       }
     ],
     "totals": {
-      "closed_count": 39,
+      "closed_count": 38,
       "wins": 13,
-      "losses": 26,
-      "win_rate": 33.3,
+      "losses": 25,
+      "win_rate": 34.2,
       "realized_pnl": -983.97,
-      "avg_pct": -6.55,
+      "avg_pct": -5.77,
       "open_count": 7,
-      "unrealized_pnl": -133.85,
-      "net_pnl": -1117.82,
+      "unrealized_pnl": -139.45,
+      "net_pnl": -1123.42,
       "excluded_pnl": -2429.0,
       "excluded_count": 3,
       "excluded_note": "CRM April 0DTE calls \u2014 the retired/abandoned 0DTE strategy",
-      "net_incl_excluded": -3546.82
+      "net_incl_excluded": -3552.42
     },
     "excluded": [
       {
