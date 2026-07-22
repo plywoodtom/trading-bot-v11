@@ -1559,7 +1559,8 @@
         "exit_price": 0.0,
         "qty": 1.0,
         "pnl": 27.0,
-        "pct": 100.0
+        "pct": 100.0,
+        "trigger": "Covered call for income on the HIVE trend hold (kept premium)"
       },
       {
         "system": "Manual",
@@ -1572,7 +1573,8 @@
         "qty": 1.0,
         "pnl": 40.0,
         "pct": 36.36,
-        "is_spread": true
+        "is_spread": true,
+        "trigger": "Bull put credit spread - defined-risk income, RIVN holding above support"
       },
       {
         "system": "Manual",
@@ -1584,7 +1586,8 @@
         "exit_price": 0.01,
         "qty": 1.0,
         "pnl": -107.0,
-        "pct": -99.07
+        "pct": -99.07,
+        "trigger": "Discretionary call betting NVDA recovers same day - it kept sliding"
       },
       {
         "system": "ORB v2.1",
@@ -1596,7 +1599,8 @@
         "exit_price": 94.38,
         "qty": 6.0,
         "pnl": 5.4,
-        "pct": 0.96
+        "pct": 0.96,
+        "trigger": "ORB breakout - OR 88.77-92.14 (3.80 pct). Stop $88.77 / Target $97.25."
       },
       {
         "system": "Manual",
@@ -1608,7 +1612,8 @@
         "exit_price": 2.23,
         "qty": 50.0,
         "pnl": -9.5,
-        "pct": -7.85
+        "pct": -7.85,
+        "trigger": "Gold-miner swing (Integra Resources), target ~2.70-2.90"
       },
       {
         "system": "ORB v2.1",
@@ -1620,7 +1625,8 @@
         "exit_price": 81.25,
         "qty": 7.0,
         "pnl": -0.01,
-        "pct": -0.0
+        "pct": -0.0,
+        "trigger": "ORB breakout - OR 79.06-80.83 (2.24 pct). Stop $79.06 / Target $83.52."
       },
       {
         "system": "ORB v2.1",
@@ -1632,7 +1638,8 @@
         "exit_price": 4.58,
         "qty": 134.0,
         "pnl": -22.11,
-        "pct": -3.48
+        "pct": -3.48,
+        "trigger": "ORB breakout - OR 4.46-4.87 (9.11 pct). Stop $4.46 / Target $5.49."
       },
       {
         "system": "Manual",
@@ -1644,7 +1651,8 @@
         "exit_price": 1.2503,
         "qty": 200.0,
         "pnl": -7.2,
-        "pct": -2.8
+        "pct": -2.8,
+        "trigger": "Small-cap trade - Mac rec or 15-min opening-range breakout (ruleset unconfirmed)"
       },
       {
         "system": "ORB v2.1",
@@ -1656,7 +1664,8 @@
         "exit_price": 231.574,
         "qty": 1.0,
         "pnl": -0.55,
-        "pct": -0.24
+        "pct": -0.24,
+        "trigger": "ORB breakout - OR 225.55-231.40 (2.53 pct). Stop $225.55 / Target $240.29."
       },
       {
         "system": "Manual",
@@ -1668,7 +1677,8 @@
         "exit_price": 1.66,
         "qty": 2.0,
         "pnl": -244.0,
-        "pct": -42.36
+        "pct": -42.36,
+        "trigger": "CPI-day discretionary 1DTE call (rebound bet)"
       },
       {
         "system": "V-reversal bot",
@@ -1680,7 +1690,8 @@
         "exit_price": 6.02,
         "qty": 1.0,
         "pnl": -28.0,
-        "pct": -4.44
+        "pct": -4.44,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (LLY)"
       },
       {
         "system": "V-reversal bot",
@@ -1692,7 +1703,8 @@
         "exit_price": 1.08,
         "qty": 4.0,
         "pnl": -244.0,
-        "pct": -36.09
+        "pct": -36.09,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (FCX)"
       },
       {
         "system": "V-reversal bot",
@@ -1704,7 +1716,8 @@
         "exit_price": 1.54,
         "qty": 2.0,
         "pnl": -114.0,
-        "pct": -27.01
+        "pct": -27.01,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (FCX)"
       },
       {
         "system": "V-reversal bot",
@@ -1716,7 +1729,8 @@
         "exit_price": 1.32,
         "qty": 1.0,
         "pnl": -54.0,
-        "pct": -29.03
+        "pct": -29.03,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (FCX)"
       },
       {
         "system": "V-reversal bot",
@@ -1728,7 +1742,8 @@
         "exit_price": 0.7,
         "qty": 1.0,
         "pnl": -32.0,
-        "pct": -31.37
+        "pct": -31.37,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (FCX)"
       },
       {
         "system": "V-reversal bot",
@@ -1740,7 +1755,8 @@
         "exit_price": 0.7,
         "qty": 2.0,
         "pnl": -64.0,
-        "pct": -31.37
+        "pct": -31.37,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (FCX)"
       },
       {
         "system": "NVDA swing watcher",
@@ -1752,7 +1768,8 @@
         "exit_price": 4.28,
         "qty": 1.0,
         "pnl": -105.0,
-        "pct": -19.7
+        "pct": -19.7,
+        "trigger": "NVDA multi-day swing call (dedicated watcher)"
       },
       {
         "system": "NVDA swing watcher",
@@ -1764,7 +1781,8 @@
         "exit_price": 1.65,
         "qty": 1.0,
         "pnl": -194.0,
-        "pct": -54.04
+        "pct": -54.04,
+        "trigger": "NVDA multi-day swing call (dedicated watcher)"
       },
       {
         "system": "NVDA swing watcher",
@@ -1776,7 +1794,8 @@
         "exit_price": 6.1,
         "qty": 1.0,
         "pnl": -172.0,
-        "pct": -21.99
+        "pct": -21.99,
+        "trigger": "NVDA multi-day swing call (dedicated watcher)"
       },
       {
         "system": "V-reversal bot",
@@ -1788,7 +1807,8 @@
         "exit_price": 8.4,
         "qty": 1.0,
         "pnl": 335.0,
-        "pct": 66.34
+        "pct": 66.34,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (NVDA)"
       },
       {
         "system": "V-reversal bot",
@@ -1800,7 +1820,8 @@
         "exit_price": 1.12,
         "qty": 1.0,
         "pnl": -39.0,
-        "pct": -25.83
+        "pct": -25.83,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (NVDA)"
       },
       {
         "system": "V-reversal bot",
@@ -1812,7 +1833,8 @@
         "exit_price": 1.04,
         "qty": 1.0,
         "pnl": -23.0,
-        "pct": -18.11
+        "pct": -18.11,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (NVDA)"
       },
       {
         "system": "V-reversal bot",
@@ -1824,7 +1846,8 @@
         "exit_price": 1.04,
         "qty": 1.0,
         "pnl": -23.0,
-        "pct": -18.11
+        "pct": -18.11,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (NVDA)"
       },
       {
         "system": "V-reversal bot",
@@ -1836,7 +1859,8 @@
         "exit_price": 1.15,
         "qty": 2.0,
         "pnl": 8.0,
-        "pct": 3.6
+        "pct": 3.6,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (NVDA)"
       },
       {
         "system": "V-reversal bot",
@@ -1848,7 +1872,8 @@
         "exit_price": 1.63,
         "qty": 1.0,
         "pnl": -19.0,
-        "pct": -10.44
+        "pct": -10.44,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (QQQ)"
       },
       {
         "system": "V-reversal bot",
@@ -1860,7 +1885,8 @@
         "exit_price": 1.11,
         "qty": 1.0,
         "pnl": -48.0,
-        "pct": -30.19
+        "pct": -30.19,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (QQQ)"
       },
       {
         "system": "V-reversal bot",
@@ -1872,7 +1898,8 @@
         "exit_price": 2.4,
         "qty": 1.0,
         "pnl": 14.0,
-        "pct": 6.19
+        "pct": 6.19,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (NVDA)"
       },
       {
         "system": "V-reversal bot",
@@ -1884,7 +1911,8 @@
         "exit_price": 2.49,
         "qty": 1.0,
         "pnl": 43.0,
-        "pct": 20.87
+        "pct": 20.87,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (QQQ)"
       },
       {
         "system": "V-reversal bot",
@@ -1896,7 +1924,8 @@
         "exit_price": 1.9,
         "qty": 1.0,
         "pnl": 11.0,
-        "pct": 6.15
+        "pct": 6.15,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (QQQ)"
       },
       {
         "system": "V-reversal bot",
@@ -1908,7 +1937,8 @@
         "exit_price": 2.51,
         "qty": 1.0,
         "pnl": 53.0,
-        "pct": 26.77
+        "pct": 26.77,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (AMZN)"
       },
       {
         "system": "V-reversal bot",
@@ -1920,7 +1950,8 @@
         "exit_price": 2.5,
         "qty": 1.0,
         "pnl": 52.0,
-        "pct": 26.26
+        "pct": 26.26,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (AMZN)"
       },
       {
         "system": "V-reversal bot",
@@ -1932,7 +1963,8 @@
         "exit_price": 1.56,
         "qty": 1.0,
         "pnl": 4.0,
-        "pct": 2.63
+        "pct": 2.63,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (QQQ)"
       },
       {
         "system": "V-reversal bot",
@@ -1944,7 +1976,8 @@
         "exit_price": 1.57,
         "qty": 1.0,
         "pnl": 11.0,
-        "pct": 7.53
+        "pct": 7.53,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (QQQ)"
       },
       {
         "system": "V-reversal bot",
@@ -1956,7 +1989,8 @@
         "exit_price": 1.18,
         "qty": 4.0,
         "pnl": -88.0,
-        "pct": -15.71
+        "pct": -15.71,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (QQQ)"
       },
       {
         "system": "V-reversal bot",
@@ -1968,7 +2002,8 @@
         "exit_price": 7.11,
         "qty": 1.0,
         "pnl": 106.0,
-        "pct": 17.52
+        "pct": 17.52,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (META)"
       },
       {
         "system": "V-reversal bot",
@@ -1980,7 +2015,8 @@
         "exit_price": 6.55,
         "qty": 1.0,
         "pnl": -5.0,
-        "pct": -0.76
+        "pct": -0.76,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (META)"
       },
       {
         "system": "V-reversal bot",
@@ -1992,7 +2028,8 @@
         "exit_price": 3.1,
         "qty": 1.0,
         "pnl": -17.0,
-        "pct": -5.2
+        "pct": -5.2,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (META)"
       },
       {
         "system": "V-reversal bot",
@@ -2004,7 +2041,8 @@
         "exit_price": 3.1,
         "qty": 2.0,
         "pnl": -34.0,
-        "pct": -5.2
+        "pct": -5.2,
+        "trigger": "V-reversal VWAP gap-fill reversal signal (META)"
       }
     ],
     "open": [
@@ -2015,9 +2053,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 82.9067,
         "qty": 10.0,
-        "current": 81.79,
-        "unreal": -11.17,
-        "unreal_pct": -1.35
+        "current": 81.73,
+        "unreal": -11.77,
+        "unreal_pct": -1.42
       },
       {
         "system": "Manual",
@@ -2026,9 +2064,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 4.3,
         "qty": 100.0,
-        "current": 3.19,
-        "unreal": -111.0,
-        "unreal_pct": -25.81
+        "current": 3.18,
+        "unreal": -112.0,
+        "unreal_pct": -26.05
       },
       {
         "system": "Manual",
@@ -2037,9 +2075,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 19.0,
-        "current": 5.63,
-        "unreal": -42.18,
-        "unreal_pct": -28.28
+        "current": 5.585,
+        "unreal": -43.03,
+        "unreal_pct": -28.85
       },
       {
         "system": "Manual",
@@ -2048,9 +2086,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 6.0,
-        "current": 5.63,
-        "unreal": -13.32,
-        "unreal_pct": -28.28
+        "current": 5.585,
+        "unreal": -13.59,
+        "unreal_pct": -28.85
       },
       {
         "system": "Manual",
@@ -2059,9 +2097,9 @@
         "entry_date": "2026-06-30",
         "entry_price": 13.9078,
         "qty": 100.0,
-        "current": 14.34,
-        "unreal": 43.22,
-        "unreal_pct": 3.11
+        "current": 14.4,
+        "unreal": 49.22,
+        "unreal_pct": 3.54
       },
       {
         "system": "Manual",
@@ -2070,9 +2108,9 @@
         "entry_date": "2026-06-30",
         "entry_price": 0.47,
         "qty": 1.0,
-        "current": 0.47,
-        "unreal": 0.0,
-        "unreal_pct": 0.0
+        "current": 0.505,
+        "unreal": -3.5,
+        "unreal_pct": -7.45
       },
       {
         "system": "Manual",
@@ -2081,9 +2119,9 @@
         "entry_date": "2026-07-22",
         "entry_price": 0.3,
         "qty": 1.0,
-        "current": 0.35,
-        "unreal": -5.0,
-        "unreal_pct": -16.67
+        "current": 0.33,
+        "unreal": -3.0,
+        "unreal_pct": -10.0
       }
     ],
     "totals": {
@@ -2094,12 +2132,12 @@
       "realized_pnl": -983.97,
       "avg_pct": -5.77,
       "open_count": 7,
-      "unrealized_pnl": -139.45,
-      "net_pnl": -1123.42,
+      "unrealized_pnl": -137.67,
+      "net_pnl": -1121.64,
       "excluded_pnl": -2429.0,
       "excluded_count": 3,
       "excluded_note": "CRM April 0DTE calls \u2014 the retired/abandoned 0DTE strategy",
-      "net_incl_excluded": -3552.42
+      "net_incl_excluded": -3550.64
     },
     "excluded": [
       {
@@ -2112,7 +2150,8 @@
         "exit_price": 0.11,
         "qty": 4.0,
         "pnl": -1216.0,
-        "pct": -96.51
+        "pct": -96.51,
+        "trigger": ""
       },
       {
         "system": "Manual",
@@ -2124,7 +2163,8 @@
         "exit_price": 0.11,
         "qty": 1.0,
         "pnl": -304.0,
-        "pct": -96.51
+        "pct": -96.51,
+        "trigger": ""
       },
       {
         "system": "Manual",
@@ -2136,7 +2176,8 @@
         "exit_price": 0.11,
         "qty": 3.0,
         "pnl": -909.0,
-        "pct": -96.5
+        "pct": -96.5,
+        "trigger": ""
       }
     ]
   },
@@ -2145,9 +2186,9 @@
       "symbol": "UNCY",
       "qty": 35,
       "cost": 7.25,
-      "current": 5.63,
-      "unreal": -56.7,
-      "unreal_pct": -22.34,
+      "current": 5.585,
+      "unreal": -58.27,
+      "unreal_pct": -22.97,
       "note": "FDA/biotech bet - holding for approval re-rate"
     },
     {
