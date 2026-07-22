@@ -356,6 +356,22 @@
         "tradingPct": 30.61,
         "mtd": true
       }
+    ],
+    "managedTrades": [
+      {
+        "date": "2026-07-17",
+        "ticker": "RIVN",
+        "description": "14.50/13 bull put credit spread (full win)",
+        "pnlUsd": 40.0,
+        "pnlPct": 36.0
+      },
+      {
+        "date": "2026-07-17",
+        "ticker": "HIVE",
+        "description": "$5 covered call, expired worthless (kept premium)",
+        "pnlUsd": 27.0,
+        "pnlPct": 100.0
+      }
     ]
   },
   "robinhood": {
