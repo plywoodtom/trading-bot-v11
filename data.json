@@ -93,13 +93,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 14.12,
+        "current": 14.35,
         "costBasis": 1390.78,
-        "marketValue": 1412.0,
-        "overallPnl": 21.22,
-        "overallPct": 1.53,
-        "todayPnl": -30.0,
-        "todayPct": -2.08
+        "marketValue": 1435.0,
+        "overallPnl": 44.22,
+        "overallPct": 3.18,
+        "todayPnl": 20.0,
+        "todayPct": 1.41
       },
       {
         "symbol": "GLDM",
@@ -107,13 +107,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 80.12,
+        "current": 80.23,
         "costBasis": 829.07,
-        "marketValue": 801.2,
-        "overallPnl": -27.87,
-        "overallPct": -3.36,
-        "todayPnl": -16.2,
-        "todayPct": -1.98
+        "marketValue": 802.3,
+        "overallPnl": -26.77,
+        "overallPct": -3.23,
+        "todayPnl": 1.2,
+        "todayPct": 0.15
       },
       {
         "symbol": "HIVE",
@@ -121,13 +121,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 4.3,
-        "current": 3.16,
+        "current": 2.9598,
         "costBasis": 430.0,
-        "marketValue": 316.0,
-        "overallPnl": -114.0,
-        "overallPct": -26.51,
-        "todayPnl": -3.0,
-        "todayPct": -0.94
+        "marketValue": 295.98,
+        "overallPnl": -134.02,
+        "overallPct": -31.17,
+        "todayPnl": -22.02,
+        "todayPct": -6.93
       },
       {
         "symbol": "UNCY",
@@ -135,13 +135,13 @@
         "qty": 25.0,
         "side": "long",
         "avgEntry": 7.85,
-        "current": 5.46,
+        "current": 5.32,
         "costBasis": 196.25,
-        "marketValue": 136.5,
-        "overallPnl": -59.75,
-        "overallPct": -30.45,
-        "todayPnl": -2.75,
-        "todayPct": -1.98
+        "marketValue": 133.0,
+        "overallPnl": -63.25,
+        "overallPct": -32.23,
+        "todayPnl": -3.5,
+        "todayPct": -2.56
       },
       {
         "symbol": "F260731C00014500",
@@ -149,13 +149,13 @@
         "qty": -1.0,
         "side": "short",
         "avgEntry": 0.47,
-        "current": 0.35,
+        "current": 0.41,
         "costBasis": -47.0,
-        "marketValue": -35.0,
-        "overallPnl": 12.0,
-        "overallPct": 25.53,
-        "todayPnl": 13.0,
-        "todayPct": 27.08
+        "marketValue": -41.0,
+        "overallPnl": 6.0,
+        "overallPct": 12.77,
+        "todayPnl": -5.0,
+        "todayPct": -13.89
       },
       {
         "symbol": "HIVE260918C00004000",
@@ -163,21 +163,21 @@
         "qty": -1.0,
         "side": "short",
         "avgEntry": 0.3,
-        "current": 0.3,
+        "current": 0.25,
         "costBasis": -30.0,
-        "marketValue": -30.0,
-        "overallPnl": 0.0,
-        "overallPct": 0.0,
-        "todayPnl": 3.0,
-        "todayPct": 9.09
+        "marketValue": -25.0,
+        "overallPnl": 5.0,
+        "overallPct": 16.67,
+        "todayPnl": 4.0,
+        "todayPct": 13.79
       }
     ],
-    "equity": 3312.26,
-    "lastEquity": 3348.21,
+    "equity": 3311.84,
+    "lastEquity": 3317.16,
     "cash": 711.56,
-    "todayPnl": -35.95,
-    "todayPct": -1.07,
-    "totalOpenPnl": -168.4,
+    "todayPnl": -5.32,
+    "todayPct": -0.16,
+    "totalOpenPnl": -168.82,
     "totalDeposited": 3900.0,
     "equityHistory": [
       {
@@ -323,6 +323,10 @@
       {
         "date": "2026-07-23",
         "equity": 3348.21
+      },
+      {
+        "date": "2026-07-24",
+        "equity": 3317.16
       }
     ],
     "deposits": [
@@ -354,10 +358,10 @@
         "month": "2026-07",
         "label": "Jul 2026",
         "startEquity": 2557.28,
-        "endEquity": 3348.21,
+        "endEquity": 3317.16,
         "deposits": 0.0,
-        "tradingUsd": 790.93,
-        "tradingPct": 30.93,
+        "tradingUsd": 759.88,
+        "tradingPct": 29.71,
         "mtd": true
       }
     ],
@@ -2227,5 +2231,5 @@
       "note": "MarineMax partnership flyer (bubble-gum money)"
     }
   ],
-  "generatedAt": "2026-07-23"
+  "generatedAt": "2026-07-24"
 }
