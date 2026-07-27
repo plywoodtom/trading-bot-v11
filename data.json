@@ -93,13 +93,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 14.35,
+        "current": 14.6799,
         "costBasis": 1390.78,
-        "marketValue": 1435.0,
-        "overallPnl": 44.22,
-        "overallPct": 3.18,
-        "todayPnl": 20.0,
-        "todayPct": 1.41
+        "marketValue": 1467.99,
+        "overallPnl": 77.21,
+        "overallPct": 5.55,
+        "todayPnl": 30.99,
+        "todayPct": 2.16
       },
       {
         "symbol": "GLDM",
@@ -107,13 +107,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 80.23,
+        "current": 80.67,
         "costBasis": 829.07,
-        "marketValue": 802.3,
-        "overallPnl": -26.77,
-        "overallPct": -3.23,
-        "todayPnl": 1.2,
-        "todayPct": 0.15
+        "marketValue": 806.7,
+        "overallPnl": -22.37,
+        "overallPct": -2.7,
+        "todayPnl": 4.8,
+        "todayPct": 0.6
       },
       {
         "symbol": "HIVE",
@@ -121,13 +121,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 4.3,
-        "current": 2.9598,
+        "current": 2.96,
         "costBasis": 430.0,
-        "marketValue": 295.98,
-        "overallPnl": -134.02,
-        "overallPct": -31.17,
-        "todayPnl": -22.02,
-        "todayPct": -6.93
+        "marketValue": 296.0,
+        "overallPnl": -134.0,
+        "overallPct": -31.16,
+        "todayPnl": 0.0,
+        "todayPct": 0.0
       },
       {
         "symbol": "UNCY",
@@ -135,13 +135,13 @@
         "qty": 25.0,
         "side": "long",
         "avgEntry": 7.85,
-        "current": 5.32,
+        "current": 5.13,
         "costBasis": 196.25,
-        "marketValue": 133.0,
-        "overallPnl": -63.25,
-        "overallPct": -32.23,
-        "todayPnl": -3.5,
-        "todayPct": -2.56
+        "marketValue": 128.25,
+        "overallPnl": -68.0,
+        "overallPct": -34.65,
+        "todayPnl": -6.75,
+        "todayPct": -5.0
       },
       {
         "symbol": "F260731C00014500",
@@ -149,13 +149,13 @@
         "qty": -1.0,
         "side": "short",
         "avgEntry": 0.47,
-        "current": 0.41,
+        "current": 0.6,
         "costBasis": -47.0,
-        "marketValue": -41.0,
-        "overallPnl": 6.0,
-        "overallPct": 12.77,
-        "todayPnl": -5.0,
-        "todayPct": -13.89
+        "marketValue": -60.0,
+        "overallPnl": -13.0,
+        "overallPct": -27.66,
+        "todayPnl": -17.0,
+        "todayPct": -39.53
       },
       {
         "symbol": "HIVE260918C00004000",
@@ -168,16 +168,16 @@
         "marketValue": -25.0,
         "overallPnl": 5.0,
         "overallPct": 16.67,
-        "todayPnl": 4.0,
-        "todayPct": 13.79
+        "todayPnl": -3.0,
+        "todayPct": -13.64
       }
     ],
-    "equity": 3311.84,
-    "lastEquity": 3317.16,
+    "equity": 3325.5,
+    "lastEquity": 3316.46,
     "cash": 711.56,
-    "todayPnl": -5.32,
-    "todayPct": -0.16,
-    "totalOpenPnl": -168.82,
+    "todayPnl": 9.04,
+    "todayPct": 0.27,
+    "totalOpenPnl": -155.16,
     "totalDeposited": 3900.0,
     "equityHistory": [
       {
@@ -327,6 +327,10 @@
       {
         "date": "2026-07-24",
         "equity": 3317.16
+      },
+      {
+        "date": "2026-07-25",
+        "equity": 3316.46
       }
     ],
     "deposits": [
@@ -358,10 +362,10 @@
         "month": "2026-07",
         "label": "Jul 2026",
         "startEquity": 2557.28,
-        "endEquity": 3317.16,
+        "endEquity": 3316.46,
         "deposits": 0.0,
-        "tradingUsd": 759.88,
-        "tradingPct": 29.71,
+        "tradingUsd": 759.18,
+        "tradingPct": 29.69,
         "mtd": true
       }
     ],
@@ -2239,5 +2243,5 @@
       "note": "MarineMax partnership flyer (bubble-gum money)"
     }
   ],
-  "generatedAt": "2026-07-24"
+  "generatedAt": "2026-07-25"
 }
