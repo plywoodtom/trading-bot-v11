@@ -121,12 +121,12 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 14.8869,
+        "current": 14.8871,
         "costBasis": 1390.78,
-        "marketValue": 1488.69,
-        "overallPnl": 97.91,
+        "marketValue": 1488.71,
+        "overallPnl": 97.93,
         "overallPct": 7.04,
-        "todayPnl": -39.31,
+        "todayPnl": -39.29,
         "todayPct": -2.57
       },
       {
@@ -200,12 +200,12 @@
         "todayPct": -108.33
       }
     ],
-    "equity": 3330.64,
+    "equity": 3330.66,
     "lastEquity": 3090.5,
     "cash": 1036.4,
-    "todayPnl": 240.04,
+    "todayPnl": 240.06,
     "todayPct": 7.77,
-    "totalOpenPnl": -149.86,
+    "totalOpenPnl": -149.84,
     "totalDeposited": 3900.0,
     "equityHistory": [
       {
