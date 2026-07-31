@@ -121,13 +121,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 14.67,
+        "current": 14.6792,
         "costBasis": 1390.78,
-        "marketValue": 1467.0,
-        "overallPnl": 76.22,
-        "overallPct": 5.48,
-        "todayPnl": -19.0,
-        "todayPct": -1.28
+        "marketValue": 1467.92,
+        "overallPnl": 77.14,
+        "overallPct": 5.55,
+        "todayPnl": -18.08,
+        "todayPct": -1.22
       },
       {
         "symbol": "GLDM",
@@ -135,13 +135,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 80.06,
+        "current": 80.14,
         "costBasis": 829.07,
-        "marketValue": 800.6,
-        "overallPnl": -28.47,
-        "overallPct": -3.43,
-        "todayPnl": -12.7,
-        "todayPct": -1.56
+        "marketValue": 801.4,
+        "overallPnl": -27.67,
+        "overallPct": -3.34,
+        "todayPnl": -11.9,
+        "todayPct": -1.46
       },
       {
         "symbol": "HIVE",
@@ -149,13 +149,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 4.3,
-        "current": 2.84,
+        "current": 2.86,
         "costBasis": 430.0,
-        "marketValue": 284.0,
-        "overallPnl": -146.0,
-        "overallPct": -33.95,
-        "todayPnl": -16.0,
-        "todayPct": -5.33
+        "marketValue": 286.0,
+        "overallPnl": -144.0,
+        "overallPct": -33.49,
+        "todayPnl": -14.0,
+        "todayPct": -4.67
       },
       {
         "symbol": "UNCY",
@@ -200,12 +200,12 @@
         "todayPct": -36.36
       }
     ],
-    "equity": 3330.14,
+    "equity": 3333.86,
     "lastEquity": 3367.2,
     "cash": 1080.29,
-    "todayPnl": -67.95,
-    "todayPct": -2.02,
-    "totalOpenPnl": -184.25,
+    "todayPnl": -64.23,
+    "todayPct": -1.91,
+    "totalOpenPnl": -180.53,
     "totalDeposited": 3900.0,
     "equityHistory": [
       {
