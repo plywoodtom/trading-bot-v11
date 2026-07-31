@@ -93,13 +93,13 @@
         "qty": -1.0,
         "side": "short",
         "avgEntry": 22.08,
-        "current": 20.9,
+        "current": 18.8,
         "costBasis": -2208.0,
-        "marketValue": -2090.0,
-        "overallPnl": 118.0,
-        "overallPct": 5.34,
-        "todayPnl": 144.0,
-        "todayPct": 6.45
+        "marketValue": -1880.0,
+        "overallPnl": 328.0,
+        "overallPct": 14.85,
+        "todayPnl": 155.0,
+        "todayPct": 7.62
       },
       {
         "symbol": "SPCX261218C00130000",
@@ -107,13 +107,13 @@
         "qty": 1.0,
         "side": "long",
         "avgEntry": 18.83,
-        "current": 17.2,
+        "current": 15.4,
         "costBasis": 1883.0,
-        "marketValue": 1720.0,
-        "overallPnl": -163.0,
-        "overallPct": -8.66,
-        "todayPnl": 40.0,
-        "todayPct": 2.38
+        "marketValue": 1540.0,
+        "overallPnl": -343.0,
+        "overallPct": -18.22,
+        "todayPnl": -160.0,
+        "todayPct": -9.41
       },
       {
         "symbol": "F",
@@ -121,13 +121,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 14.8871,
+        "current": 14.67,
         "costBasis": 1390.78,
-        "marketValue": 1488.71,
-        "overallPnl": 97.93,
-        "overallPct": 7.04,
-        "todayPnl": -39.29,
-        "todayPct": -2.57
+        "marketValue": 1467.0,
+        "overallPnl": 76.22,
+        "overallPct": 5.48,
+        "todayPnl": -19.0,
+        "todayPct": -1.28
       },
       {
         "symbol": "GLDM",
@@ -135,13 +135,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 81.23,
+        "current": 80.06,
         "costBasis": 829.07,
-        "marketValue": 812.3,
-        "overallPnl": -16.77,
-        "overallPct": -2.02,
-        "todayPnl": 12.1,
-        "todayPct": 1.51
+        "marketValue": 800.6,
+        "overallPnl": -28.47,
+        "overallPct": -3.43,
+        "todayPnl": -12.7,
+        "todayPct": -1.56
       },
       {
         "symbol": "HIVE",
@@ -149,13 +149,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 4.3,
-        "current": 3.02,
+        "current": 2.84,
         "costBasis": 430.0,
-        "marketValue": 302.0,
-        "overallPnl": -128.0,
-        "overallPct": -29.77,
-        "todayPnl": 48.5,
-        "todayPct": 19.13
+        "marketValue": 284.0,
+        "overallPnl": -146.0,
+        "overallPct": -33.95,
+        "todayPnl": -16.0,
+        "todayPct": -5.33
       },
       {
         "symbol": "UNCY",
@@ -163,27 +163,27 @@
         "qty": 25.0,
         "side": "long",
         "avgEntry": 7.85,
-        "current": 5.25,
+        "current": 5.01,
         "costBasis": 196.25,
-        "marketValue": 131.25,
-        "overallPnl": -65.0,
-        "overallPct": -33.12,
-        "todayPnl": 12.75,
-        "todayPct": 10.76
+        "marketValue": 125.25,
+        "overallPnl": -71.0,
+        "overallPct": -36.18,
+        "todayPnl": -7.25,
+        "todayPct": -5.47
       },
       {
-        "symbol": "F260731C00014500",
+        "symbol": "F260918C00015000",
         "assetClass": "us_option",
         "qty": -1.0,
         "side": "short",
-        "avgEntry": 0.47,
-        "current": 0.45,
-        "costBasis": -47.0,
-        "marketValue": -45.0,
-        "overallPnl": 2.0,
-        "overallPct": 4.25,
-        "todayPnl": 35.0,
-        "todayPct": 43.75
+        "avgEntry": 0.57,
+        "current": 0.57,
+        "costBasis": -57.0,
+        "marketValue": -57.0,
+        "overallPnl": 0.0,
+        "overallPct": 0.0,
+        "todayPnl": 0.0,
+        "todayPct": 0.0
       },
       {
         "symbol": "HIVE260918C00004000",
@@ -191,21 +191,21 @@
         "qty": -1.0,
         "side": "short",
         "avgEntry": 0.3,
-        "current": 0.25,
+        "current": 0.3,
         "costBasis": -30.0,
-        "marketValue": -25.0,
-        "overallPnl": 5.0,
-        "overallPct": 16.67,
-        "todayPnl": -13.0,
-        "todayPct": -108.33
+        "marketValue": -30.0,
+        "overallPnl": 0.0,
+        "overallPct": 0.0,
+        "todayPnl": -8.0,
+        "todayPct": -36.36
       }
     ],
-    "equity": 3330.66,
-    "lastEquity": 3090.5,
-    "cash": 1036.4,
-    "todayPnl": 240.06,
-    "todayPct": 7.77,
-    "totalOpenPnl": -149.84,
+    "equity": 3330.14,
+    "lastEquity": 3367.2,
+    "cash": 1080.29,
+    "todayPnl": -67.95,
+    "todayPct": -2.02,
+    "totalOpenPnl": -184.25,
     "totalDeposited": 3900.0,
     "equityHistory": [
       {
@@ -371,6 +371,10 @@
       {
         "date": "2026-07-30",
         "equity": 3090.5
+      },
+      {
+        "date": "2026-07-31",
+        "equity": 3367.2
       }
     ],
     "deposits": [
@@ -402,10 +406,10 @@
         "month": "2026-07",
         "label": "Jul 2026",
         "startEquity": 2557.28,
-        "endEquity": 3090.5,
+        "endEquity": 3367.2,
         "deposits": 0.0,
-        "tradingUsd": 533.22,
-        "tradingPct": 20.85,
+        "tradingUsd": 809.92,
+        "tradingPct": 31.67,
         "mtd": true
       }
     ],
@@ -439,7 +443,7 @@
         "avgEntry": 7.25,
         "costBasis": 7.25,
         "current": 5.57,
-        "currentPrice": 5.3,
+        "currentPrice": 5.01,
         "marketValue": 194.95,
         "overallPnl": -58.8,
         "overallPct": -23.17,
@@ -481,6 +485,10 @@
       {
         "date": "2026-07-30",
         "equity": 185.5
+      },
+      {
+        "date": "2026-07-31",
+        "equity": 175.35
       }
     ]
   },
@@ -865,10 +873,32 @@
       {
         "date": "2026-07-30",
         "equity": 97426.12
+      },
+      {
+        "date": "2026-07-31",
+        "equity": 97426.12
       }
     ]
   },
   "allTrades": [
+    {
+      "date": "2026-07-31 17:50:02",
+      "system": "Manual",
+      "symbol": "F260918C00015000",
+      "side": "sell",
+      "qty": "1",
+      "price": "0.57",
+      "order_id": "b0e3f610"
+    },
+    {
+      "date": "2026-07-31 15:02:57",
+      "system": "Manual",
+      "symbol": "F260731C00014500",
+      "side": "buy",
+      "qty": "1",
+      "price": "0.13",
+      "order_id": "50493830"
+    },
     {
       "date": "2026-07-29 14:21:11",
       "system": "Manual",
@@ -1675,6 +1705,19 @@
     "closed": [
       {
         "system": "Manual",
+        "symbol": "F260731C00014500",
+        "dir": "short",
+        "entry_date": "2026-06-30",
+        "entry_price": 0.47,
+        "exit_date": "2026-07-31",
+        "exit_price": 0.13,
+        "qty": 1.0,
+        "pnl": 34.0,
+        "pct": 72.34,
+        "trigger": "Covered call for income on 100 Ford shares"
+      },
+      {
+        "system": "Manual",
         "symbol": "HIVE260717C00005000",
         "dir": "short",
         "entry_date": "2026-06-24",
@@ -2177,9 +2220,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 82.9067,
         "qty": 10.0,
-        "current": 81.33,
-        "unreal": -15.77,
-        "unreal_pct": -1.9
+        "current": 80.14,
+        "unreal": -27.67,
+        "unreal_pct": -3.34
       },
       {
         "system": "Manual",
@@ -2188,9 +2231,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 4.3,
         "qty": 100.0,
-        "current": 2.99,
-        "unreal": -131.0,
-        "unreal_pct": -30.47
+        "current": 2.825,
+        "unreal": -147.5,
+        "unreal_pct": -34.3
       },
       {
         "system": "Manual",
@@ -2199,9 +2242,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 19.0,
-        "current": 5.3,
-        "unreal": -48.45,
-        "unreal_pct": -32.48
+        "current": 5.015,
+        "unreal": -53.87,
+        "unreal_pct": -36.11
       },
       {
         "system": "Manual",
@@ -2210,9 +2253,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 6.0,
-        "current": 5.3,
-        "unreal": -15.3,
-        "unreal_pct": -32.48
+        "current": 5.015,
+        "unreal": -17.01,
+        "unreal_pct": -36.11
       },
       {
         "system": "Manual",
@@ -2221,20 +2264,9 @@
         "entry_date": "2026-06-30",
         "entry_price": 13.9078,
         "qty": 100.0,
-        "current": 14.875,
-        "unreal": 96.72,
-        "unreal_pct": 6.95
-      },
-      {
-        "system": "Manual",
-        "symbol": "F260731C00014500",
-        "dir": "short",
-        "entry_date": "2026-06-30",
-        "entry_price": 0.47,
-        "qty": 1.0,
-        "current": 0.4,
-        "unreal": 7.0,
-        "unreal_pct": 14.89
+        "current": 14.67,
+        "unreal": 76.22,
+        "unreal_pct": 5.48
       },
       {
         "system": "Manual",
@@ -2254,9 +2286,9 @@
         "entry_date": "2026-07-29",
         "entry_price": 22.08,
         "qty": 1.0,
-        "current": 20.795,
-        "unreal": 128.5,
-        "unreal_pct": 5.82
+        "current": 18.91,
+        "unreal": 317.0,
+        "unreal_pct": 14.36
       },
       {
         "system": "Manual",
@@ -2265,25 +2297,36 @@
         "entry_date": "2026-07-29",
         "entry_price": 18.83,
         "qty": 1.0,
-        "current": 17.22,
-        "unreal": -161.0,
-        "unreal_pct": -8.55
+        "current": 15.745,
+        "unreal": -308.5,
+        "unreal_pct": -16.38
+      },
+      {
+        "system": "Manual",
+        "symbol": "F260918C00015000",
+        "dir": "short",
+        "entry_date": "2026-07-31",
+        "entry_price": 0.57,
+        "qty": 1.0,
+        "current": 0.58,
+        "unreal": -1.0,
+        "unreal_pct": -1.75
       }
     ],
     "totals": {
-      "closed_count": 38,
-      "wins": 13,
+      "closed_count": 39,
+      "wins": 14,
       "losses": 25,
-      "win_rate": 34.2,
-      "realized_pnl": -983.97,
-      "avg_pct": -5.77,
+      "win_rate": 35.9,
+      "realized_pnl": -949.97,
+      "avg_pct": -3.77,
       "open_count": 9,
-      "unrealized_pnl": -131.8,
-      "net_pnl": -1115.77,
+      "unrealized_pnl": -154.83,
+      "net_pnl": -1104.8,
       "excluded_pnl": -2429.0,
       "excluded_count": 3,
       "excluded_note": "CRM April 0DTE calls \u2014 the retired/abandoned 0DTE strategy",
-      "net_incl_excluded": -3544.77
+      "net_incl_excluded": -3533.8
     },
     "excluded": [
       {
@@ -2332,20 +2375,20 @@
       "symbol": "UNCY",
       "qty": 35,
       "cost": 7.25,
-      "current": 5.3,
-      "unreal": -68.25,
-      "unreal_pct": -26.9,
+      "current": 5.015,
+      "unreal": -78.23,
+      "unreal_pct": -30.83,
       "note": "FDA/biotech bet - holding for approval re-rate"
     },
     {
       "symbol": "NXB",
       "qty": 3,
       "cost": 2.24,
-      "current": 1.95,
-      "unreal": -0.87,
-      "unreal_pct": -12.95,
+      "current": 2.05,
+      "unreal": -0.57,
+      "unreal_pct": -8.48,
       "note": "MarineMax partnership flyer (bubble-gum money)"
     }
   ],
-  "generatedAt": "2026-07-30"
+  "generatedAt": "2026-07-31"
 }
