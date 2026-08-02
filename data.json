@@ -98,8 +98,8 @@
         "marketValue": -1880.0,
         "overallPnl": 328.0,
         "overallPct": 14.85,
-        "todayPnl": 155.0,
-        "todayPct": 7.62
+        "todayPnl": -30.0,
+        "todayPct": -1.62
       },
       {
         "symbol": "SPCX261218C00130000",
@@ -112,8 +112,8 @@
         "marketValue": 1540.0,
         "overallPnl": -343.0,
         "overallPct": -18.22,
-        "todayPnl": -160.0,
-        "todayPct": -9.41
+        "todayPnl": -5.0,
+        "todayPct": -0.32
       },
       {
         "symbol": "F",
@@ -121,13 +121,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 14.6792,
+        "current": 14.68,
         "costBasis": 1390.78,
-        "marketValue": 1467.92,
-        "overallPnl": 77.14,
+        "marketValue": 1468.0,
+        "overallPnl": 77.22,
         "overallPct": 5.55,
-        "todayPnl": -18.08,
-        "todayPct": -1.22
+        "todayPnl": 0.0,
+        "todayPct": 0.0
       },
       {
         "symbol": "GLDM",
@@ -140,8 +140,8 @@
         "marketValue": 801.4,
         "overallPnl": -27.67,
         "overallPct": -3.34,
-        "todayPnl": -11.9,
-        "todayPct": -1.46
+        "todayPnl": 0.0,
+        "todayPct": 0.0
       },
       {
         "symbol": "HIVE",
@@ -149,13 +149,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 4.3,
-        "current": 2.86,
+        "current": 2.83,
         "costBasis": 430.0,
-        "marketValue": 286.0,
-        "overallPnl": -144.0,
-        "overallPct": -33.49,
-        "todayPnl": -14.0,
-        "todayPct": -4.67
+        "marketValue": 283.0,
+        "overallPnl": -147.0,
+        "overallPct": -34.19,
+        "todayPnl": 0.0,
+        "todayPct": 0.0
       },
       {
         "symbol": "UNCY",
@@ -168,8 +168,8 @@
         "marketValue": 125.25,
         "overallPnl": -71.0,
         "overallPct": -36.18,
-        "todayPnl": -7.25,
-        "todayPct": -5.47
+        "todayPnl": 0.0,
+        "todayPct": 0.0
       },
       {
         "symbol": "F260918C00015000",
@@ -196,16 +196,16 @@
         "marketValue": -30.0,
         "overallPnl": 0.0,
         "overallPct": 0.0,
-        "todayPnl": -8.0,
-        "todayPct": -36.36
+        "todayPnl": -10.0,
+        "todayPct": -50.0
       }
     ],
-    "equity": 3333.86,
-    "lastEquity": 3367.2,
-    "cash": 1080.29,
-    "todayPnl": -64.23,
-    "todayPct": -1.91,
-    "totalOpenPnl": -180.53,
+    "equity": 3330.93,
+    "lastEquity": 3375.93,
+    "cash": 1080.28,
+    "todayPnl": -45.0,
+    "todayPct": -1.33,
+    "totalOpenPnl": -183.45,
     "totalDeposited": 3900.0,
     "equityHistory": [
       {
@@ -375,6 +375,10 @@
       {
         "date": "2026-07-31",
         "equity": 3367.2
+      },
+      {
+        "date": "2026-08-01",
+        "equity": 3375.93
       }
     ],
     "deposits": [
@@ -410,6 +414,16 @@
         "deposits": 0.0,
         "tradingUsd": 809.92,
         "tradingPct": 31.67,
+        "mtd": false
+      },
+      {
+        "month": "2026-08",
+        "label": "Aug 2026",
+        "startEquity": 3367.2,
+        "endEquity": 3375.93,
+        "deposits": 0.0,
+        "tradingUsd": 8.73,
+        "tradingPct": 0.26,
         "mtd": true
       }
     ],
@@ -2390,5 +2404,5 @@
       "note": "MarineMax partnership flyer (bubble-gum money)"
     }
   ],
-  "generatedAt": "2026-07-31"
+  "generatedAt": "2026-08-01"
 }
