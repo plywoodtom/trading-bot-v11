@@ -93,13 +93,13 @@
         "qty": -1.0,
         "side": "short",
         "avgEntry": 22.08,
-        "current": 32.0,
+        "current": 34.25,
         "costBasis": -2208.0,
-        "marketValue": -3200.0,
-        "overallPnl": -992.0,
-        "overallPct": -44.93,
-        "todayPnl": -90.0,
-        "todayPct": -2.89
+        "marketValue": -3425.0,
+        "overallPnl": -1217.0,
+        "overallPct": -55.12,
+        "todayPnl": -315.0,
+        "todayPct": -10.13
       },
       {
         "symbol": "SPCX261218C00130000",
@@ -107,13 +107,13 @@
         "qty": 1.0,
         "side": "long",
         "avgEntry": 18.83,
-        "current": 26.1,
+        "current": 27.95,
         "costBasis": 1883.0,
-        "marketValue": 2610.0,
-        "overallPnl": 727.0,
-        "overallPct": 38.61,
-        "todayPnl": -53.0,
-        "todayPct": -1.99
+        "marketValue": 2795.0,
+        "overallPnl": 912.0,
+        "overallPct": 48.43,
+        "todayPnl": 132.0,
+        "todayPct": 4.96
       },
       {
         "symbol": "F",
@@ -121,13 +121,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 13.98,
+        "current": 14.0215,
         "costBasis": 1390.78,
-        "marketValue": 1398.0,
-        "overallPnl": 7.22,
-        "overallPct": 0.52,
-        "todayPnl": 0.0,
-        "todayPct": 0.0
+        "marketValue": 1402.15,
+        "overallPnl": 11.37,
+        "overallPct": 0.82,
+        "todayPnl": 4.15,
+        "todayPct": 0.3
       },
       {
         "symbol": "GLDM",
@@ -135,13 +135,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 85.95,
+        "current": 86.831,
         "costBasis": 829.07,
-        "marketValue": 859.5,
-        "overallPnl": 30.43,
-        "overallPct": 3.67,
-        "todayPnl": 0.0,
-        "todayPct": 0.0
+        "marketValue": 868.31,
+        "overallPnl": 39.24,
+        "overallPct": 4.73,
+        "todayPnl": 8.81,
+        "todayPct": 1.03
       },
       {
         "symbol": "HIVE",
@@ -149,13 +149,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 4.3,
-        "current": 2.84,
+        "current": 2.7,
         "costBasis": 430.0,
-        "marketValue": 284.0,
-        "overallPnl": -146.0,
-        "overallPct": -33.95,
-        "todayPnl": 0.0,
-        "todayPct": 0.0
+        "marketValue": 270.0,
+        "overallPnl": -160.0,
+        "overallPct": -37.21,
+        "todayPnl": -14.0,
+        "todayPct": -4.93
       },
       {
         "symbol": "UNCY",
@@ -163,13 +163,13 @@
         "qty": 25.0,
         "side": "long",
         "avgEntry": 7.85,
-        "current": 5.07,
+        "current": 5.01,
         "costBasis": 196.25,
-        "marketValue": 126.75,
-        "overallPnl": -69.5,
-        "overallPct": -35.41,
-        "todayPnl": 0.0,
-        "todayPct": 0.0
+        "marketValue": 125.25,
+        "overallPnl": -71.0,
+        "overallPct": -36.18,
+        "todayPnl": -1.5,
+        "todayPct": -1.18
       },
       {
         "symbol": "F260918C00015000",
@@ -177,13 +177,13 @@
         "qty": -1.0,
         "side": "short",
         "avgEntry": 0.57,
-        "current": 0.25,
+        "current": 0.22,
         "costBasis": -57.0,
-        "marketValue": -25.0,
-        "overallPnl": 32.0,
-        "overallPct": 56.14,
-        "todayPnl": -1.0,
-        "todayPct": -4.17
+        "marketValue": -22.0,
+        "overallPnl": 35.0,
+        "overallPct": 61.4,
+        "todayPnl": 2.0,
+        "todayPct": 8.33
       },
       {
         "symbol": "HIVE260918C00004000",
@@ -191,13 +191,13 @@
         "qty": -1.0,
         "side": "short",
         "avgEntry": 0.3,
-        "current": 0.2,
+        "current": 0.1,
         "costBasis": -30.0,
-        "marketValue": -20.0,
-        "overallPnl": 10.0,
-        "overallPct": 33.33,
-        "todayPnl": -9.0,
-        "todayPct": -81.82
+        "marketValue": -10.0,
+        "overallPnl": 20.0,
+        "overallPct": 66.67,
+        "todayPnl": 1.0,
+        "todayPct": 9.09
       },
       {
         "symbol": "VISN260821C00012000",
@@ -205,21 +205,21 @@
         "qty": 1.0,
         "side": "long",
         "avgEntry": 0.5,
-        "current": 0.0,
+        "current": 0.05,
         "costBasis": 50.0,
-        "marketValue": 0.0,
-        "overallPnl": -50.0,
-        "overallPct": -100.0,
-        "todayPnl": -5.0,
-        "todayPct": -100.0
+        "marketValue": 5.0,
+        "overallPnl": -45.0,
+        "overallPct": -90.0,
+        "todayPnl": 0.0,
+        "todayPct": 0.0
       }
     ],
-    "equity": 3063.47,
+    "equity": 3038.93,
     "lastEquity": 3221.47,
     "cash": 1030.22,
-    "todayPnl": -158.0,
-    "todayPct": -4.9,
-    "totalOpenPnl": -450.85,
+    "todayPnl": -182.54,
+    "todayPct": -5.67,
+    "totalOpenPnl": -475.39,
     "totalDeposited": 3900.0,
     "equityHistory": [
       {
