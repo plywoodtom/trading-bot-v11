@@ -495,7 +495,7 @@
         "avgEntry": 7.25,
         "costBasis": 7.25,
         "current": 5.57,
-        "currentPrice": 5.01,
+        "currentPrice": 5.41,
         "marketValue": 194.95,
         "overallPnl": -58.8,
         "overallPct": -23.17,
@@ -565,6 +565,10 @@
       {
         "date": "2026-08-11",
         "equity": 175.35
+      },
+      {
+        "date": "2026-08-12",
+        "equity": 189.35
       }
     ]
   },
@@ -976,6 +980,10 @@
       },
       {
         "date": "2026-08-11",
+        "equity": 97426.12
+      },
+      {
+        "date": "2026-08-12",
         "equity": 97426.12
       }
     ]
@@ -2329,9 +2337,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 82.9067,
         "qty": 10.0,
-        "current": 86.45,
-        "unreal": 35.43,
-        "unreal_pct": 4.27
+        "current": 87.315,
+        "unreal": 44.08,
+        "unreal_pct": 5.32
       },
       {
         "system": "Manual",
@@ -2340,9 +2348,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 4.3,
         "qty": 100.0,
-        "current": 2.64,
-        "unreal": -166.0,
-        "unreal_pct": -38.6
+        "current": 2.74,
+        "unreal": -156.0,
+        "unreal_pct": -36.28
       },
       {
         "system": "Manual",
@@ -2351,9 +2359,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 19.0,
-        "current": 5.01,
-        "unreal": -53.96,
-        "unreal_pct": -36.18
+        "current": 5.41,
+        "unreal": -46.36,
+        "unreal_pct": -31.08
       },
       {
         "system": "Manual",
@@ -2362,9 +2370,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 6.0,
-        "current": 5.01,
-        "unreal": -17.04,
-        "unreal_pct": -36.18
+        "current": 5.41,
+        "unreal": -14.64,
+        "unreal_pct": -31.08
       },
       {
         "system": "Manual",
@@ -2373,9 +2381,9 @@
         "entry_date": "2026-06-30",
         "entry_price": 13.9078,
         "qty": 100.0,
-        "current": 13.98,
-        "unreal": 7.22,
-        "unreal_pct": 0.52
+        "current": 13.84,
+        "unreal": -6.78,
+        "unreal_pct": -0.49
       },
       {
         "system": "Manual",
@@ -2395,9 +2403,9 @@
         "entry_date": "2026-07-29",
         "entry_price": 22.08,
         "qty": 1.0,
-        "current": 28.945,
-        "unreal": -686.5,
-        "unreal_pct": -31.09
+        "current": 38.405,
+        "unreal": -1632.5,
+        "unreal_pct": -73.94
       },
       {
         "system": "Manual",
@@ -2406,9 +2414,9 @@
         "entry_date": "2026-07-29",
         "entry_price": 18.83,
         "qty": 1.0,
-        "current": 23.88,
-        "unreal": 505.0,
-        "unreal_pct": 26.82
+        "current": 33.285,
+        "unreal": 1445.5,
+        "unreal_pct": 76.77
       },
       {
         "system": "Manual",
@@ -2417,9 +2425,9 @@
         "entry_date": "2026-07-31",
         "entry_price": 0.57,
         "qty": 1.0,
-        "current": 0.225,
-        "unreal": 34.5,
-        "unreal_pct": 60.53
+        "current": 0.175,
+        "unreal": 39.5,
+        "unreal_pct": 69.3
       },
       {
         "system": "Manual",
@@ -2428,9 +2436,9 @@
         "entry_date": "2026-08-03",
         "entry_price": 0.5,
         "qty": 1.0,
-        "current": 0.155,
-        "unreal": -34.5,
-        "unreal_pct": -69.0
+        "current": 0.13,
+        "unreal": -37.0,
+        "unreal_pct": -74.0
       }
     ],
     "totals": {
@@ -2441,12 +2449,12 @@
       "realized_pnl": -949.97,
       "avg_pct": -3.77,
       "open_count": 10,
-      "unrealized_pnl": -351.35,
-      "net_pnl": -1301.32,
+      "unrealized_pnl": -339.7,
+      "net_pnl": -1289.67,
       "excluded_pnl": -2429.0,
       "excluded_count": 3,
       "excluded_note": "CRM April 0DTE calls \u2014 the retired/abandoned 0DTE strategy",
-      "net_incl_excluded": -3730.32
+      "net_incl_excluded": -3718.67
     },
     "excluded": [
       {
@@ -2495,9 +2503,9 @@
       "symbol": "UNCY",
       "qty": 35,
       "cost": 7.25,
-      "current": 5.01,
-      "unreal": -78.4,
-      "unreal_pct": -30.9,
+      "current": 5.41,
+      "unreal": -64.4,
+      "unreal_pct": -25.38,
       "note": "FDA/biotech bet - holding for approval re-rate"
     },
     {
