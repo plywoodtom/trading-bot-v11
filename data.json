@@ -121,13 +121,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 13.745,
+        "current": 13.7401,
         "costBasis": 1390.78,
-        "marketValue": 1374.5,
-        "overallPnl": -16.28,
-        "overallPct": -1.17,
-        "todayPnl": 39.5,
-        "todayPct": 2.96
+        "marketValue": 1374.01,
+        "overallPnl": -16.77,
+        "overallPct": -1.21,
+        "todayPnl": 39.01,
+        "todayPct": 2.92
       },
       {
         "symbol": "GLDM",
@@ -135,13 +135,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 86.24,
+        "current": 86.25,
         "costBasis": 829.07,
-        "marketValue": 862.4,
-        "overallPnl": 33.33,
-        "overallPct": 4.02,
-        "todayPnl": 17.1,
-        "todayPct": 2.02
+        "marketValue": 862.5,
+        "overallPnl": 33.43,
+        "overallPct": 4.03,
+        "todayPnl": 17.2,
+        "todayPct": 2.04
       },
       {
         "symbol": "UNCY",
@@ -200,12 +200,12 @@
         "todayPct": 0.0
       }
     ],
-    "equity": 3355.24,
+    "equity": 3354.85,
     "lastEquity": 3453.01,
     "cash": 1070.21,
-    "todayPnl": -97.78,
-    "todayPct": -2.83,
-    "totalOpenPnl": -624.07,
+    "todayPnl": -98.17,
+    "todayPct": -2.84,
+    "totalOpenPnl": -624.46,
     "totalDeposited": 4400.0,
     "equityHistory": [
       {
@@ -2620,9 +2620,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 82.9067,
         "qty": 10.0,
-        "current": 86.23,
-        "unreal": 33.23,
-        "unreal_pct": 4.01
+        "current": 86.25,
+        "unreal": 33.43,
+        "unreal_pct": 4.03
       },
       {
         "system": "Manual",
@@ -2686,9 +2686,9 @@
         "entry_date": "2026-07-22",
         "entry_price": 0.3,
         "qty": 1.0,
-        "current": 0.03,
-        "unreal": 27.0,
-        "unreal_pct": 90.0
+        "current": 0.07,
+        "unreal": 23.0,
+        "unreal_pct": 76.67
       },
       {
         "system": "Manual",
@@ -2697,9 +2697,9 @@
         "entry_date": "2026-07-29",
         "entry_price": 22.08,
         "qty": 1.0,
-        "current": 38.645,
-        "unreal": -1656.5,
-        "unreal_pct": -75.02
+        "current": 39.865,
+        "unreal": -1778.5,
+        "unreal_pct": -80.55
       },
       {
         "system": "Manual",
@@ -2708,9 +2708,9 @@
         "entry_date": "2026-07-29",
         "entry_price": 18.83,
         "qty": 1.0,
-        "current": 31.97,
-        "unreal": 1314.0,
-        "unreal_pct": 69.78
+        "current": 31.67,
+        "unreal": 1284.0,
+        "unreal_pct": 68.19
       },
       {
         "system": "Manual",
@@ -2732,12 +2732,12 @@
       "realized_pnl": -999.97,
       "avg_pct": -6.17,
       "open_count": 10,
-      "unrealized_pnl": -429.55,
-      "net_pnl": -1429.52,
+      "unrealized_pnl": -585.35,
+      "net_pnl": -1585.32,
       "excluded_pnl": -2429.0,
       "excluded_count": 3,
       "excluded_note": "CRM April 0DTE calls \u2014 the retired/abandoned 0DTE strategy",
-      "net_incl_excluded": -3858.52
+      "net_incl_excluded": -4014.32
     },
     "excluded": [
       {
