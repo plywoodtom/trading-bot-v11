@@ -93,13 +93,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 12.95,
+        "current": 12.63,
         "costBasis": 1390.78,
-        "marketValue": 1295.0,
-        "overallPnl": -95.78,
-        "overallPct": -6.89,
-        "todayPnl": -15.0,
-        "todayPct": -1.15
+        "marketValue": 1263.0,
+        "overallPnl": -127.78,
+        "overallPct": -9.19,
+        "todayPnl": -31.0,
+        "todayPct": -2.4
       },
       {
         "symbol": "GLDM",
@@ -107,13 +107,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 84.8,
+        "current": 84.52,
         "costBasis": 829.07,
-        "marketValue": 848.0,
-        "overallPnl": 18.93,
-        "overallPct": 2.28,
-        "todayPnl": -15.3,
-        "todayPct": -1.77
+        "marketValue": 845.2,
+        "overallPnl": 16.13,
+        "overallPct": 1.95,
+        "todayPnl": -2.3,
+        "todayPct": -0.27
       },
       {
         "symbol": "UNCY",
@@ -126,8 +126,8 @@
         "marketValue": 601.25,
         "overallPnl": -70.0,
         "overallPct": -10.43,
-        "todayPnl": -18.75,
-        "todayPct": -3.02
+        "todayPnl": 0.0,
+        "todayPct": 0.0
       },
       {
         "symbol": "HIVE",
@@ -135,27 +135,23 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 4.3,
-        "current": 3.35,
+        "current": 3.3,
         "costBasis": 430.0,
-        "marketValue": 335.0,
-        "overallPnl": -95.0,
-        "overallPct": -22.09,
-        "todayPnl": -19.0,
-        "todayPct": -5.37
+        "marketValue": 330.0,
+        "overallPnl": -100.0,
+        "overallPct": -23.26,
+        "todayPnl": -7.0,
+        "todayPct": -2.08
       }
     ],
-    "equity": 3392.28,
-    "lastEquity": 3460.33,
+    "equity": 3352.48,
+    "lastEquity": 3392.78,
     "cash": 313.03,
-    "todayPnl": -68.05,
-    "todayPct": -1.97,
-    "totalOpenPnl": -241.85,
+    "todayPnl": -40.3,
+    "todayPct": -1.19,
+    "totalOpenPnl": -281.65,
     "totalDeposited": 4400.0,
     "equityHistory": [
-      {
-        "date": "2026-06-24",
-        "equity": 2598.61
-      },
       {
         "date": "2026-06-25",
         "equity": 2550.02
@@ -407,6 +403,10 @@
       {
         "date": "2026-09-23",
         "equity": 3460.33
+      },
+      {
+        "date": "2026-09-24",
+        "equity": 3392.78
       }
     ],
     "deposits": [
@@ -431,11 +431,11 @@
       {
         "month": "2026-06",
         "label": "Jun 2026",
-        "startEquity": -401.39,
+        "startEquity": -449.98,
         "endEquity": 2557.28,
         "deposits": 3900.0,
-        "tradingUsd": -941.33,
-        "tradingPct": -26.91,
+        "tradingUsd": -892.74,
+        "tradingPct": -25.88,
         "mtd": false
       },
       {
@@ -462,10 +462,10 @@
         "month": "2026-09",
         "label": "Sep 2026",
         "startEquity": 3113.35,
-        "endEquity": 3460.33,
+        "endEquity": 3392.78,
         "deposits": 500.0,
-        "tradingUsd": -153.02,
-        "tradingPct": -4.23,
+        "tradingUsd": -220.57,
+        "tradingPct": -6.1,
         "mtd": true
       }
     ],
@@ -2829,5 +2829,5 @@
       "note": "MarineMax partnership flyer (bubble-gum money)"
     }
   ],
-  "generatedAt": "2026-09-23"
+  "generatedAt": "2026-09-24"
 }
