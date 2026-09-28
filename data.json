@@ -93,13 +93,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 12.63,
+        "current": 12.72,
         "costBasis": 1390.78,
-        "marketValue": 1263.0,
-        "overallPnl": -127.78,
-        "overallPct": -9.19,
-        "todayPnl": -31.0,
-        "todayPct": -2.4
+        "marketValue": 1272.0,
+        "overallPnl": -118.78,
+        "overallPct": -8.54,
+        "todayPnl": 1.0,
+        "todayPct": 0.08
       },
       {
         "symbol": "GLDM",
@@ -107,13 +107,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 84.52,
+        "current": 83.43,
         "costBasis": 829.07,
-        "marketValue": 845.2,
-        "overallPnl": 16.13,
-        "overallPct": 1.95,
-        "todayPnl": -2.3,
-        "todayPct": -0.27
+        "marketValue": 834.3,
+        "overallPnl": 5.23,
+        "overallPct": 0.63,
+        "todayPnl": -14.6,
+        "todayPct": -1.72
       },
       {
         "symbol": "UNCY",
@@ -121,13 +121,13 @@
         "qty": 125.0,
         "side": "long",
         "avgEntry": 5.37,
-        "current": 4.81,
+        "current": 4.75,
         "costBasis": 671.25,
-        "marketValue": 601.25,
-        "overallPnl": -70.0,
-        "overallPct": -10.43,
-        "todayPnl": 0.0,
-        "todayPct": 0.0
+        "marketValue": 593.75,
+        "overallPnl": -77.5,
+        "overallPct": -11.55,
+        "todayPnl": 6.88,
+        "todayPct": 1.17
       },
       {
         "symbol": "HIVE",
@@ -135,27 +135,37 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 4.3,
-        "current": 3.3,
+        "current": 3.15,
         "costBasis": 430.0,
-        "marketValue": 330.0,
-        "overallPnl": -100.0,
-        "overallPct": -23.26,
-        "todayPnl": -7.0,
-        "todayPct": -2.08
+        "marketValue": 315.0,
+        "overallPnl": -115.0,
+        "overallPct": -26.74,
+        "todayPnl": -1.0,
+        "todayPct": -0.32
+      },
+      {
+        "symbol": "UNCY270219C00010000",
+        "assetClass": "us_option",
+        "qty": -1.0,
+        "side": "short",
+        "avgEntry": 0.35,
+        "current": 0.75,
+        "costBasis": -35.0,
+        "marketValue": -75.0,
+        "overallPnl": -40.0,
+        "overallPct": -114.29,
+        "todayPnl": -40.0,
+        "todayPct": -114.29
       }
     ],
-    "equity": 3352.48,
-    "lastEquity": 3392.78,
-    "cash": 313.03,
-    "todayPnl": -40.3,
-    "todayPct": -1.19,
-    "totalOpenPnl": -281.65,
+    "equity": 3288.0,
+    "lastEquity": 3335.72,
+    "cash": 347.95,
+    "todayPnl": -47.72,
+    "todayPct": -1.43,
+    "totalOpenPnl": -346.05,
     "totalDeposited": 4400.0,
     "equityHistory": [
-      {
-        "date": "2026-06-25",
-        "equity": 2550.02
-      },
       {
         "date": "2026-06-26",
         "equity": 2552.71
@@ -407,6 +417,14 @@
       {
         "date": "2026-09-24",
         "equity": 3392.78
+      },
+      {
+        "date": "2026-09-25",
+        "equity": 3349.48
+      },
+      {
+        "date": "2026-09-26",
+        "equity": 3335.73
       }
     ],
     "deposits": [
@@ -431,11 +449,11 @@
       {
         "month": "2026-06",
         "label": "Jun 2026",
-        "startEquity": -449.98,
+        "startEquity": -447.29,
         "endEquity": 2557.28,
         "deposits": 3900.0,
-        "tradingUsd": -892.74,
-        "tradingPct": -25.88,
+        "tradingUsd": -895.43,
+        "tradingPct": -25.93,
         "mtd": false
       },
       {
@@ -462,10 +480,10 @@
         "month": "2026-09",
         "label": "Sep 2026",
         "startEquity": 3113.35,
-        "endEquity": 3392.78,
+        "endEquity": 3335.73,
         "deposits": 500.0,
-        "tradingUsd": -220.57,
-        "tradingPct": -6.1,
+        "tradingUsd": -277.62,
+        "tradingPct": -7.68,
         "mtd": true
       }
     ],
@@ -2857,5 +2875,5 @@
       "note": "MarineMax partnership flyer (bubble-gum money)"
     }
   ],
-  "generatedAt": "2026-09-24"
+  "generatedAt": "2026-09-26"
 }
