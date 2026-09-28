@@ -93,13 +93,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 12.72,
+        "current": 12.384,
         "costBasis": 1390.78,
-        "marketValue": 1272.0,
-        "overallPnl": -118.78,
-        "overallPct": -8.54,
-        "todayPnl": 1.0,
-        "todayPct": 0.08
+        "marketValue": 1238.4,
+        "overallPnl": -152.38,
+        "overallPct": -10.96,
+        "todayPnl": -32.6,
+        "todayPct": -2.56
       },
       {
         "symbol": "GLDM",
@@ -107,13 +107,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 83.43,
+        "current": 81.38,
         "costBasis": 829.07,
-        "marketValue": 834.3,
-        "overallPnl": 5.23,
-        "overallPct": 0.63,
-        "todayPnl": -14.6,
-        "todayPct": -1.72
+        "marketValue": 813.8,
+        "overallPnl": -15.27,
+        "overallPct": -1.84,
+        "todayPnl": -35.1,
+        "todayPct": -4.13
       },
       {
         "symbol": "UNCY",
@@ -121,13 +121,13 @@
         "qty": 125.0,
         "side": "long",
         "avgEntry": 5.37,
-        "current": 4.75,
+        "current": 4.63,
         "costBasis": 671.25,
-        "marketValue": 593.75,
-        "overallPnl": -77.5,
-        "overallPct": -11.55,
-        "todayPnl": 6.88,
-        "todayPct": 1.17
+        "marketValue": 578.75,
+        "overallPnl": -92.5,
+        "overallPct": -13.78,
+        "todayPnl": -8.12,
+        "todayPct": -1.38
       },
       {
         "symbol": "HIVE",
@@ -135,13 +135,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 4.3,
-        "current": 3.15,
+        "current": 3.0569,
         "costBasis": 430.0,
-        "marketValue": 315.0,
-        "overallPnl": -115.0,
-        "overallPct": -26.74,
-        "todayPnl": -1.0,
-        "todayPct": -0.32
+        "marketValue": 305.69,
+        "overallPnl": -124.31,
+        "overallPct": -28.91,
+        "todayPnl": -10.31,
+        "todayPct": -3.26
       },
       {
         "symbol": "UNCY270219C00010000",
@@ -149,31 +149,23 @@
         "qty": -1.0,
         "side": "short",
         "avgEntry": 0.35,
-        "current": 0.75,
+        "current": 0.35,
         "costBasis": -35.0,
-        "marketValue": -75.0,
-        "overallPnl": -40.0,
-        "overallPct": -114.29,
-        "todayPnl": -40.0,
-        "todayPct": -114.29
+        "marketValue": -35.0,
+        "overallPnl": 0.0,
+        "overallPct": 0.0,
+        "todayPnl": 0.0,
+        "todayPct": 0.0
       }
     ],
-    "equity": 3288.0,
+    "equity": 3249.59,
     "lastEquity": 3335.72,
     "cash": 347.95,
-    "todayPnl": -47.72,
-    "todayPct": -1.43,
-    "totalOpenPnl": -346.05,
+    "todayPnl": -86.13,
+    "todayPct": -2.58,
+    "totalOpenPnl": -384.46,
     "totalDeposited": 4400.0,
     "equityHistory": [
-      {
-        "date": "2026-06-26",
-        "equity": 2552.71
-      },
-      {
-        "date": "2026-06-27",
-        "equity": 2553.66
-      },
       {
         "date": "2026-06-30",
         "equity": 2557.28
@@ -449,11 +441,11 @@
       {
         "month": "2026-06",
         "label": "Jun 2026",
-        "startEquity": -447.29,
+        "startEquity": -442.72,
         "endEquity": 2557.28,
         "deposits": 3900.0,
-        "tradingUsd": -895.43,
-        "tradingPct": -25.93,
+        "tradingUsd": -900.0,
+        "tradingPct": -26.03,
         "mtd": false
       },
       {
