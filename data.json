@@ -93,13 +93,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 12.384,
+        "current": 12.302,
         "costBasis": 1390.78,
-        "marketValue": 1238.4,
-        "overallPnl": -152.38,
-        "overallPct": -10.96,
-        "todayPnl": -32.6,
-        "todayPct": -2.56
+        "marketValue": 1230.2,
+        "overallPnl": -160.58,
+        "overallPct": -11.55,
+        "todayPnl": -7.8,
+        "todayPct": -0.63
       },
       {
         "symbol": "GLDM",
@@ -107,13 +107,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 81.38,
+        "current": 82.75,
         "costBasis": 829.07,
-        "marketValue": 813.8,
-        "overallPnl": -15.27,
-        "overallPct": -1.84,
-        "todayPnl": -35.1,
-        "todayPct": -4.13
+        "marketValue": 827.5,
+        "overallPnl": -1.57,
+        "overallPct": -0.19,
+        "todayPnl": 11.9,
+        "todayPct": 1.46
       },
       {
         "symbol": "UNCY",
@@ -121,13 +121,13 @@
         "qty": 125.0,
         "side": "long",
         "avgEntry": 5.37,
-        "current": 4.63,
+        "current": 4.55,
         "costBasis": 671.25,
-        "marketValue": 578.75,
-        "overallPnl": -92.5,
-        "overallPct": -13.78,
-        "todayPnl": -8.12,
-        "todayPct": -1.38
+        "marketValue": 568.75,
+        "overallPnl": -102.5,
+        "overallPct": -15.27,
+        "todayPnl": -11.25,
+        "todayPct": -1.94
       },
       {
         "symbol": "HIVE",
@@ -135,13 +135,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 4.3,
-        "current": 3.0569,
+        "current": 3.0285,
         "costBasis": 430.0,
-        "marketValue": 305.69,
-        "overallPnl": -124.31,
-        "overallPct": -28.91,
-        "todayPnl": -10.31,
-        "todayPct": -3.26
+        "marketValue": 302.85,
+        "overallPnl": -127.15,
+        "overallPct": -29.57,
+        "todayPnl": -1.15,
+        "todayPct": -0.38
       },
       {
         "symbol": "UNCY270219C00010000",
@@ -154,16 +154,16 @@
         "marketValue": -35.0,
         "overallPnl": 0.0,
         "overallPct": 0.0,
-        "todayPnl": 0.0,
-        "todayPct": 0.0
+        "todayPnl": -5.0,
+        "todayPct": -16.67
       }
     ],
-    "equity": 3249.59,
-    "lastEquity": 3335.72,
+    "equity": 3242.25,
+    "lastEquity": 3255.55,
     "cash": 347.95,
-    "todayPnl": -86.13,
-    "todayPct": -2.58,
-    "totalOpenPnl": -384.46,
+    "todayPnl": -13.3,
+    "todayPct": -0.41,
+    "totalOpenPnl": -391.8,
     "totalDeposited": 4400.0,
     "equityHistory": [
       {
@@ -417,6 +417,10 @@
       {
         "date": "2026-09-26",
         "equity": 3335.73
+      },
+      {
+        "date": "2026-09-29",
+        "equity": 3255.55
       }
     ],
     "deposits": [
@@ -472,10 +476,10 @@
         "month": "2026-09",
         "label": "Sep 2026",
         "startEquity": 3113.35,
-        "endEquity": 3335.73,
+        "endEquity": 3255.55,
         "deposits": 500.0,
-        "tradingUsd": -277.62,
-        "tradingPct": -7.68,
+        "tradingUsd": -357.8,
+        "tradingPct": -9.9,
         "mtd": true
       }
     ],
@@ -2735,9 +2739,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 82.9067,
         "qty": 10.0,
-        "current": 82.585,
-        "unreal": -3.22,
-        "unreal_pct": -0.39
+        "current": 82.75,
+        "unreal": -1.57,
+        "unreal_pct": -0.19
       },
       {
         "system": "Manual",
@@ -2814,12 +2818,12 @@
       "realized_pnl": -1344.97,
       "avg_pct": -2.58,
       "open_count": 7,
-      "unrealized_pnl": -387.5,
-      "net_pnl": -1732.47,
+      "unrealized_pnl": -385.85,
+      "net_pnl": -1730.82,
       "excluded_pnl": -2429.0,
       "excluded_count": 3,
       "excluded_note": "CRM April 0DTE calls \u2014 the retired/abandoned 0DTE strategy",
-      "net_incl_excluded": -4161.47
+      "net_incl_excluded": -4159.82
     },
     "excluded": [
       {
@@ -2883,5 +2887,5 @@
       "note": "MarineMax partnership flyer (bubble-gum money)"
     }
   ],
-  "generatedAt": "2026-09-26"
+  "generatedAt": "2026-09-29"
 }
