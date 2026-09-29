@@ -107,13 +107,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 82.75,
+        "current": 82.7669,
         "costBasis": 829.07,
-        "marketValue": 827.5,
-        "overallPnl": -1.57,
-        "overallPct": -0.19,
-        "todayPnl": 11.9,
-        "todayPct": 1.46
+        "marketValue": 827.67,
+        "overallPnl": -1.4,
+        "overallPct": -0.17,
+        "todayPnl": 12.07,
+        "todayPct": 1.48
       },
       {
         "symbol": "UNCY",
@@ -158,12 +158,12 @@
         "todayPct": -16.67
       }
     ],
-    "equity": 3242.25,
+    "equity": 3242.42,
     "lastEquity": 3255.55,
     "cash": 347.95,
-    "todayPnl": -13.3,
-    "todayPct": -0.41,
-    "totalOpenPnl": -391.8,
+    "todayPnl": -13.13,
+    "todayPct": -0.4,
+    "totalOpenPnl": -391.63,
     "totalDeposited": 4400.0,
     "equityHistory": [
       {
