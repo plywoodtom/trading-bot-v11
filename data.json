@@ -107,12 +107,12 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 82.4858,
+        "current": 82.48,
         "costBasis": 829.07,
-        "marketValue": 824.86,
-        "overallPnl": -4.21,
-        "overallPct": -0.51,
-        "todayPnl": -5.04,
+        "marketValue": 824.8,
+        "overallPnl": -4.27,
+        "overallPct": -0.52,
+        "todayPnl": -5.1,
         "todayPct": -0.61
       },
       {
@@ -135,13 +135,13 @@
         "qty": 200.0,
         "side": "long",
         "avgEntry": 3.4188,
-        "current": 2.39,
+        "current": 2.4,
         "costBasis": 683.77,
-        "marketValue": 478.0,
-        "overallPnl": -205.77,
-        "overallPct": -30.09,
-        "todayPnl": -22.0,
-        "todayPct": -4.4
+        "marketValue": 480.0,
+        "overallPnl": -203.77,
+        "overallPct": -29.8,
+        "todayPnl": -20.0,
+        "todayPct": -4.0
       },
       {
         "symbol": "UNCY270219C00010000",
@@ -158,12 +158,12 @@
         "todayPct": -566.67
       }
     ],
-    "equity": 3002.43,
+    "equity": 3004.37,
     "lastEquity": 3222.42,
     "cash": 27.37,
-    "todayPnl": -219.99,
-    "todayPct": -6.83,
-    "totalOpenPnl": -731.6,
+    "todayPnl": -218.05,
+    "todayPct": -6.77,
+    "totalOpenPnl": -729.66,
     "totalDeposited": 4500.0,
     "equityHistory": [
       {
