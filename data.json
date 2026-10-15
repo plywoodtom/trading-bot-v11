@@ -93,13 +93,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 12.33,
+        "current": 12.31,
         "costBasis": 1390.78,
-        "marketValue": 1233.0,
-        "overallPnl": -157.78,
-        "overallPct": -11.34,
-        "todayPnl": 28.0,
-        "todayPct": 2.32
+        "marketValue": 1231.0,
+        "overallPnl": -159.78,
+        "overallPct": -11.49,
+        "todayPnl": 26.0,
+        "todayPct": 2.16
       },
       {
         "symbol": "UNCY",
@@ -107,13 +107,13 @@
         "qty": 265.0,
         "side": "long",
         "avgEntry": 4.553,
-        "current": 3.565,
+        "current": 3.65,
         "costBasis": 1206.54,
-        "marketValue": 944.73,
-        "overallPnl": -261.82,
-        "overallPct": -21.7,
-        "todayPnl": -35.77,
-        "todayPct": -3.65
+        "marketValue": 967.25,
+        "overallPnl": -239.29,
+        "overallPct": -19.83,
+        "todayPnl": -13.25,
+        "todayPct": -1.35
       },
       {
         "symbol": "GLDM",
@@ -121,13 +121,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 82.23,
+        "current": 82.47,
         "costBasis": 829.07,
-        "marketValue": 822.3,
-        "overallPnl": -6.77,
-        "overallPct": -0.82,
-        "todayPnl": 11.0,
-        "todayPct": 1.36
+        "marketValue": 824.7,
+        "overallPnl": -4.37,
+        "overallPct": -0.53,
+        "todayPnl": 13.4,
+        "todayPct": 1.65
       },
       {
         "symbol": "HIVE",
@@ -135,13 +135,13 @@
         "qty": 200.0,
         "side": "long",
         "avgEntry": 3.4188,
-        "current": 2.18,
+        "current": 2.2359,
         "costBasis": 683.77,
-        "marketValue": 436.0,
-        "overallPnl": -247.77,
-        "overallPct": -36.24,
-        "todayPnl": -12.0,
-        "todayPct": -2.68
+        "marketValue": 447.18,
+        "overallPnl": -236.59,
+        "overallPct": -34.6,
+        "todayPnl": -0.82,
+        "todayPct": -0.18
       },
       {
         "symbol": "UNCY270219C00010000",
@@ -158,12 +158,12 @@
         "todayPct": -76.47
       }
     ],
-    "equity": 3414.86,
+    "equity": 3448.99,
     "lastEquity": 3436.66,
     "cash": 8.86,
-    "todayPnl": -21.77,
-    "todayPct": -0.63,
-    "totalOpenPnl": -669.14,
+    "todayPnl": 12.33,
+    "todayPct": 0.36,
+    "totalOpenPnl": -635.03,
     "totalDeposited": 4850.0,
     "equityHistory": [
       {
