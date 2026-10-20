@@ -729,7 +729,7 @@
         "avgEntry": 7.25,
         "costBasis": 7.25,
         "current": 5.57,
-        "currentPrice": 3.51,
+        "currentPrice": 3.79,
         "marketValue": 194.95,
         "overallPnl": -58.8,
         "overallPct": -23.17,
@@ -991,6 +991,10 @@
       {
         "date": "2026-10-19",
         "equity": 122.85
+      },
+      {
+        "date": "2026-10-20",
+        "equity": 132.65
       }
     ]
   },
@@ -1598,6 +1602,10 @@
       },
       {
         "date": "2026-10-19",
+        "equity": 97426.12
+      },
+      {
+        "date": "2026-10-20",
         "equity": 97426.12
       }
     ]
@@ -3103,9 +3111,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 82.9067,
         "qty": 10.0,
-        "current": 81.89,
-        "unreal": -10.17,
-        "unreal_pct": -1.23
+        "current": 81.49,
+        "unreal": -14.17,
+        "unreal_pct": -1.71
       },
       {
         "system": "Manual",
@@ -3114,9 +3122,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 4.3,
         "qty": 100.0,
-        "current": 1.99,
-        "unreal": -231.0,
-        "unreal_pct": -53.72
+        "current": 1.97,
+        "unreal": -233.0,
+        "unreal_pct": -54.19
       },
       {
         "system": "Manual",
@@ -3125,9 +3133,9 @@
         "entry_date": "2026-10-08",
         "entry_price": 2.5377,
         "qty": 100.0,
-        "current": 1.99,
-        "unreal": -54.77,
-        "unreal_pct": -21.58
+        "current": 1.97,
+        "unreal": -56.77,
+        "unreal_pct": -22.37
       },
       {
         "system": "Manual",
@@ -3136,9 +3144,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 19.0,
-        "current": 3.51,
-        "unreal": -82.46,
-        "unreal_pct": -55.29
+        "current": 3.79,
+        "unreal": -77.14,
+        "unreal_pct": -51.72
       },
       {
         "system": "Manual",
@@ -3147,9 +3155,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 6.0,
-        "current": 3.51,
-        "unreal": -26.04,
-        "unreal_pct": -55.29
+        "current": 3.79,
+        "unreal": -24.36,
+        "unreal_pct": -51.72
       },
       {
         "system": "Manual",
@@ -3158,9 +3166,9 @@
         "entry_date": "2026-09-16",
         "entry_price": 4.75,
         "qty": 100.0,
-        "current": 3.51,
-        "unreal": -124.0,
-        "unreal_pct": -26.11
+        "current": 3.79,
+        "unreal": -96.0,
+        "unreal_pct": -20.21
       },
       {
         "system": "Manual",
@@ -3169,9 +3177,9 @@
         "entry_date": "2026-10-02",
         "entry_price": 4.1698,
         "qty": 40.0,
-        "current": 3.51,
-        "unreal": -26.39,
-        "unreal_pct": -15.82
+        "current": 3.79,
+        "unreal": -15.19,
+        "unreal_pct": -9.11
       },
       {
         "system": "Manual",
@@ -3180,9 +3188,9 @@
         "entry_date": "2026-10-13",
         "entry_price": 3.685,
         "qty": 100.0,
-        "current": 3.51,
-        "unreal": -17.5,
-        "unreal_pct": -4.75
+        "current": 3.79,
+        "unreal": 10.5,
+        "unreal_pct": 2.85
       },
       {
         "system": "Manual",
@@ -3191,9 +3199,9 @@
         "entry_date": "2026-06-30",
         "entry_price": 13.9078,
         "qty": 100.0,
-        "current": 12.18,
-        "unreal": -172.78,
-        "unreal_pct": -12.42
+        "current": 12.15,
+        "unreal": -175.78,
+        "unreal_pct": -12.64
       },
       {
         "system": "Manual",
@@ -3202,9 +3210,9 @@
         "entry_date": "2026-09-25",
         "entry_price": 0.35,
         "qty": 1.0,
-        "current": 2.23,
-        "unreal": -188.0,
-        "unreal_pct": -537.14
+        "current": 1.62,
+        "unreal": -127.0,
+        "unreal_pct": -362.86
       },
       {
         "system": "Manual",
@@ -3213,9 +3221,9 @@
         "entry_date": "2026-10-16",
         "entry_price": 0.21,
         "qty": 1.0,
-        "current": 0.115,
-        "unreal": 9.5,
-        "unreal_pct": 45.24
+        "current": 0.095,
+        "unreal": 11.5,
+        "unreal_pct": 54.76
       }
     ],
     "totals": {
@@ -3226,12 +3234,12 @@
       "realized_pnl": -1344.97,
       "avg_pct": -2.58,
       "open_count": 11,
-      "unrealized_pnl": -923.61,
-      "net_pnl": -2268.58,
+      "unrealized_pnl": -797.41,
+      "net_pnl": -2142.38,
       "excluded_pnl": -2429.0,
       "excluded_count": 3,
       "excluded_note": "CRM April 0DTE calls \u2014 the retired/abandoned 0DTE strategy",
-      "net_incl_excluded": -4697.58
+      "net_incl_excluded": -4571.38
     },
     "excluded": [
       {
@@ -3280,18 +3288,18 @@
       "symbol": "UNCY",
       "qty": 35,
       "cost": 7.25,
-      "current": 3.51,
-      "unreal": -130.9,
-      "unreal_pct": -51.59,
+      "current": 3.79,
+      "unreal": -121.1,
+      "unreal_pct": -47.72,
       "note": "FDA/biotech bet - holding for approval re-rate"
     },
     {
       "symbol": "NXB",
       "qty": 3,
       "cost": 2.24,
-      "current": 1.87,
-      "unreal": -1.11,
-      "unreal_pct": -16.52,
+      "current": 1.7,
+      "unreal": -1.62,
+      "unreal_pct": -24.11,
       "note": "MarineMax partnership flyer (bubble-gum money)"
     }
   ],
