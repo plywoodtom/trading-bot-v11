@@ -93,13 +93,13 @@
         "qty": 100.0,
         "side": "long",
         "avgEntry": 13.9078,
-        "current": 12.535,
+        "current": 12.3105,
         "costBasis": 1390.78,
-        "marketValue": 1253.5,
-        "overallPnl": -137.28,
-        "overallPct": -9.87,
-        "todayPnl": 28.5,
-        "todayPct": 2.33
+        "marketValue": 1231.05,
+        "overallPnl": -159.73,
+        "overallPct": -11.48,
+        "todayPnl": 14.05,
+        "todayPct": 1.15
       },
       {
         "symbol": "UNCY",
@@ -107,13 +107,13 @@
         "qty": 265.0,
         "side": "long",
         "avgEntry": 4.553,
-        "current": 3.465,
+        "current": 3.9919,
         "costBasis": 1206.54,
-        "marketValue": 918.23,
-        "overallPnl": -288.32,
-        "overallPct": -23.9,
-        "todayPnl": -72.88,
-        "todayPct": -7.35
+        "marketValue": 1057.85,
+        "overallPnl": -148.69,
+        "overallPct": -12.32,
+        "todayPnl": 11.1,
+        "todayPct": 1.06
       },
       {
         "symbol": "GLDM",
@@ -121,13 +121,13 @@
         "qty": 10.0,
         "side": "long",
         "avgEntry": 82.9067,
-        "current": 77.97,
+        "current": 72.2235,
         "costBasis": 829.07,
-        "marketValue": 779.7,
-        "overallPnl": -49.37,
-        "overallPct": -5.96,
-        "todayPnl": 11.4,
-        "todayPct": 1.48
+        "marketValue": 722.24,
+        "overallPnl": -106.83,
+        "overallPct": -12.89,
+        "todayPnl": 15.34,
+        "todayPct": 2.17
       },
       {
         "symbol": "HIVE",
@@ -135,13 +135,27 @@
         "qty": 300.0,
         "side": "long",
         "avgEntry": 2.9376,
-        "current": 1.705,
+        "current": 1.34,
         "costBasis": 881.27,
-        "marketValue": 511.5,
-        "overallPnl": -369.77,
-        "overallPct": -41.96,
-        "todayPnl": -61.5,
-        "todayPct": -10.73
+        "marketValue": 402.0,
+        "overallPnl": -479.27,
+        "overallPct": -54.38,
+        "todayPnl": 21.0,
+        "todayPct": 5.51
+      },
+      {
+        "symbol": "F270115C00013000",
+        "assetClass": "us_option",
+        "qty": -1.0,
+        "side": "short",
+        "avgEntry": 0.3,
+        "current": 0.33,
+        "costBasis": -30.0,
+        "marketValue": -33.0,
+        "overallPnl": -3.0,
+        "overallPct": -10.0,
+        "todayPnl": -5.0,
+        "todayPct": -17.86
       },
       {
         "symbol": "UNCY270219C00010000",
@@ -149,470 +163,470 @@
         "qty": -1.0,
         "side": "short",
         "avgEntry": 0.35,
-        "current": 0.35,
+        "current": 0.15,
         "costBasis": -35.0,
-        "marketValue": -35.0,
-        "overallPnl": 0.0,
-        "overallPct": 0.0,
-        "todayPnl": -10.0,
-        "todayPct": -40.0
+        "marketValue": -15.0,
+        "overallPnl": 20.0,
+        "overallPct": 57.14,
+        "todayPnl": -3.0,
+        "todayPct": -25.0
       }
     ],
-    "equity": 3460.21,
-    "lastEquity": 3564.68,
-    "cash": 32.28,
-    "todayPnl": -104.48,
-    "todayPct": -2.93,
-    "totalOpenPnl": -844.74,
+    "equity": 3427.35,
+    "lastEquity": 3373.86,
+    "cash": 62.21,
+    "todayPnl": 53.49,
+    "todayPct": 1.59,
+    "totalOpenPnl": -877.52,
     "totalDeposited": 5050.0,
     "equityHistory": [
-      {
-        "date": "2026-08-04",
-        "equity": 3386.0,
-        "depositedToDate": 3900.0,
-        "tradingPnl": 0.0,
-        "adjEquity": 3386.0
-      },
-      {
-        "date": "2026-08-05",
-        "equity": 3252.47,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -133.53,
-        "adjEquity": 3252.47
-      },
-      {
-        "date": "2026-08-06",
-        "equity": 3438.27,
-        "depositedToDate": 3900.0,
-        "tradingPnl": 52.27,
-        "adjEquity": 3438.27
-      },
-      {
-        "date": "2026-08-07",
-        "equity": 3300.77,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -85.23,
-        "adjEquity": 3300.77
-      },
-      {
-        "date": "2026-08-08",
-        "equity": 3221.47,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -164.53,
-        "adjEquity": 3221.47
-      },
-      {
-        "date": "2026-08-11",
-        "equity": 3188.82,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -197.18,
-        "adjEquity": 3188.82
-      },
-      {
-        "date": "2026-08-12",
-        "equity": 3046.82,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -339.18,
-        "adjEquity": 3046.82
-      },
-      {
-        "date": "2026-08-13",
-        "equity": 3269.27,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -116.73,
-        "adjEquity": 3269.27
-      },
-      {
-        "date": "2026-08-14",
-        "equity": 3024.72,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -361.28,
-        "adjEquity": 3024.72
-      },
-      {
-        "date": "2026-08-15",
-        "equity": 3223.77,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -162.23,
-        "adjEquity": 3223.77
-      },
-      {
-        "date": "2026-08-18",
-        "equity": 3164.97,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -221.03,
-        "adjEquity": 3164.97
-      },
-      {
-        "date": "2026-08-19",
-        "equity": 3036.77,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -349.23,
-        "adjEquity": 3036.77
-      },
-      {
-        "date": "2026-08-20",
-        "equity": 3031.62,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -354.38,
-        "adjEquity": 3031.62
-      },
-      {
-        "date": "2026-08-21",
-        "equity": 3294.37,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -91.63,
-        "adjEquity": 3294.37
-      },
-      {
-        "date": "2026-08-22",
-        "equity": 3260.17,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -125.83,
-        "adjEquity": 3260.17
-      },
-      {
-        "date": "2026-08-25",
-        "equity": 3084.92,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -301.08,
-        "adjEquity": 3084.92
-      },
-      {
-        "date": "2026-08-26",
-        "equity": 3131.47,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -254.53,
-        "adjEquity": 3131.47
-      },
-      {
-        "date": "2026-08-27",
-        "equity": 3158.97,
-        "depositedToDate": 3900.0,
-        "tradingPnl": -227.03,
-        "adjEquity": 3158.97
-      },
       {
         "date": "2026-08-28",
         "equity": 3189.42,
         "depositedToDate": 3900.0,
-        "tradingPnl": -196.58,
+        "tradingPnl": 0.0,
         "adjEquity": 3189.42
       },
       {
         "date": "2026-08-29",
         "equity": 3113.35,
         "depositedToDate": 3900.0,
-        "tradingPnl": -272.65,
+        "tradingPnl": -76.07,
         "adjEquity": 3113.35
       },
       {
         "date": "2026-09-01",
         "equity": 2982.32,
         "depositedToDate": 3900.0,
-        "tradingPnl": -403.68,
+        "tradingPnl": -207.1,
         "adjEquity": 2982.32
       },
       {
         "date": "2026-09-02",
         "equity": 2987.37,
         "depositedToDate": 3900.0,
-        "tradingPnl": -398.63,
+        "tradingPnl": -202.05,
         "adjEquity": 2987.37
       },
       {
         "date": "2026-09-03",
         "equity": 3086.87,
         "depositedToDate": 3900.0,
-        "tradingPnl": -299.13,
+        "tradingPnl": -102.55,
         "adjEquity": 3086.87
       },
       {
         "date": "2026-09-04",
         "equity": 3058.92,
         "depositedToDate": 3900.0,
-        "tradingPnl": -327.08,
+        "tradingPnl": -130.5,
         "adjEquity": 3058.92
       },
       {
         "date": "2026-09-05",
         "equity": 3041.52,
         "depositedToDate": 3900.0,
-        "tradingPnl": -344.48,
+        "tradingPnl": -147.9,
         "adjEquity": 3041.52
       },
       {
         "date": "2026-09-09",
         "equity": 3062.27,
         "depositedToDate": 3900.0,
-        "tradingPnl": -323.73,
+        "tradingPnl": -127.15,
         "adjEquity": 3062.27
       },
       {
         "date": "2026-09-10",
         "equity": 3072.52,
         "depositedToDate": 3900.0,
-        "tradingPnl": -313.48,
+        "tradingPnl": -116.9,
         "adjEquity": 3072.52
       },
       {
         "date": "2026-09-11",
         "equity": 3002.07,
         "depositedToDate": 3900.0,
-        "tradingPnl": -383.93,
+        "tradingPnl": -187.35,
         "adjEquity": 3002.07
       },
       {
         "date": "2026-09-12",
         "equity": 3174.47,
         "depositedToDate": 3900.0,
-        "tradingPnl": -211.53,
+        "tradingPnl": -14.95,
         "adjEquity": 3174.47
       },
       {
         "date": "2026-09-15",
         "equity": 2912.27,
         "depositedToDate": 3900.0,
-        "tradingPnl": -473.73,
+        "tradingPnl": -277.15,
         "adjEquity": 2912.27
       },
       {
         "date": "2026-09-16",
         "equity": 2991.97,
         "depositedToDate": 4400.0,
-        "tradingPnl": -894.03,
+        "tradingPnl": -697.45,
         "adjEquity": 2491.97
       },
       {
         "date": "2026-09-17",
         "equity": 3453.01,
         "depositedToDate": 4400.0,
-        "tradingPnl": -432.99,
+        "tradingPnl": -236.41,
         "adjEquity": 2953.01
       },
       {
         "date": "2026-09-18",
         "equity": 3457.96,
         "depositedToDate": 4400.0,
-        "tradingPnl": -428.04,
+        "tradingPnl": -231.46,
         "adjEquity": 2957.96
       },
       {
         "date": "2026-09-19",
         "equity": 3388.11,
         "depositedToDate": 4400.0,
-        "tradingPnl": -497.89,
+        "tradingPnl": -301.31,
         "adjEquity": 2888.11
       },
       {
         "date": "2026-09-22",
         "equity": 3458.06,
         "depositedToDate": 4400.0,
-        "tradingPnl": -427.94,
+        "tradingPnl": -231.36,
         "adjEquity": 2958.06
       },
       {
         "date": "2026-09-23",
         "equity": 3460.33,
         "depositedToDate": 4400.0,
-        "tradingPnl": -425.67,
+        "tradingPnl": -229.09,
         "adjEquity": 2960.33
       },
       {
         "date": "2026-09-24",
         "equity": 3392.78,
         "depositedToDate": 4400.0,
-        "tradingPnl": -493.22,
+        "tradingPnl": -296.64,
         "adjEquity": 2892.78
       },
       {
         "date": "2026-09-25",
         "equity": 3349.48,
         "depositedToDate": 4400.0,
-        "tradingPnl": -536.52,
+        "tradingPnl": -339.94,
         "adjEquity": 2849.48
       },
       {
         "date": "2026-09-26",
         "equity": 3335.73,
         "depositedToDate": 4400.0,
-        "tradingPnl": -550.27,
+        "tradingPnl": -353.69,
         "adjEquity": 2835.73
       },
       {
         "date": "2026-09-29",
         "equity": 3255.55,
         "depositedToDate": 4400.0,
-        "tradingPnl": -630.45,
+        "tradingPnl": -433.87,
         "adjEquity": 2755.55
       },
       {
         "date": "2026-09-30",
         "equity": 3244.1,
         "depositedToDate": 4400.0,
-        "tradingPnl": -641.9,
+        "tradingPnl": -445.32,
         "adjEquity": 2744.1
       },
       {
         "date": "2026-10-01",
         "equity": 3227.63,
         "depositedToDate": 4400.0,
-        "tradingPnl": -658.37,
+        "tradingPnl": -461.79,
         "adjEquity": 2727.63
       },
       {
         "date": "2026-10-02",
         "equity": 3231.8,
         "depositedToDate": 4400.0,
-        "tradingPnl": -654.2,
+        "tradingPnl": -457.62,
         "adjEquity": 2731.8
       },
       {
         "date": "2026-10-03",
         "equity": 3175.45,
         "depositedToDate": 4400.0,
-        "tradingPnl": -710.55,
+        "tradingPnl": -513.97,
         "adjEquity": 2675.45
       },
       {
         "date": "2026-10-06",
         "equity": 3166.5,
         "depositedToDate": 4400.0,
-        "tradingPnl": -719.5,
+        "tradingPnl": -522.92,
         "adjEquity": 2666.5
       },
       {
         "date": "2026-10-07",
         "equity": 3191.6,
         "depositedToDate": 4400.0,
-        "tradingPnl": -694.4,
+        "tradingPnl": -497.82,
         "adjEquity": 2691.6
       },
       {
         "date": "2026-10-08",
         "equity": 3138.95,
         "depositedToDate": 4500.0,
-        "tradingPnl": -847.05,
+        "tradingPnl": -650.47,
         "adjEquity": 2538.95
       },
       {
         "date": "2026-10-09",
         "equity": 3223.12,
         "depositedToDate": 4500.0,
-        "tradingPnl": -762.88,
+        "tradingPnl": -566.3,
         "adjEquity": 2623.12
       },
       {
         "date": "2026-10-10",
         "equity": 3222.42,
         "depositedToDate": 4500.0,
-        "tradingPnl": -763.58,
+        "tradingPnl": -567.0,
         "adjEquity": 2622.42
       },
       {
         "date": "2026-10-13",
         "equity": 3170.32,
         "depositedToDate": 4850.0,
-        "tradingPnl": -1165.68,
+        "tradingPnl": -969.1,
         "adjEquity": 2220.32
       },
       {
         "date": "2026-10-14",
         "equity": 3474.91,
         "depositedToDate": 4850.0,
-        "tradingPnl": -861.09,
+        "tradingPnl": -664.51,
         "adjEquity": 2524.91
       },
       {
         "date": "2026-10-15",
         "equity": 3436.66,
         "depositedToDate": 4850.0,
-        "tradingPnl": -899.34,
+        "tradingPnl": -702.76,
         "adjEquity": 2486.66
       },
       {
         "date": "2026-10-16",
         "equity": 3446.11,
         "depositedToDate": 4850.0,
-        "tradingPnl": -889.89,
+        "tradingPnl": -693.31,
         "adjEquity": 2496.11
       },
       {
         "date": "2026-10-17",
         "equity": 3344.79,
         "depositedToDate": 4850.0,
-        "tradingPnl": -991.21,
+        "tradingPnl": -794.63,
         "adjEquity": 2394.79
       },
       {
         "date": "2026-10-20",
         "equity": 3357.34,
         "depositedToDate": 4850.0,
-        "tradingPnl": -978.66,
+        "tradingPnl": -782.08,
         "adjEquity": 2407.34
       },
       {
         "date": "2026-10-21",
         "equity": 3424.59,
         "depositedToDate": 5050.0,
-        "tradingPnl": -1111.41,
+        "tradingPnl": -914.83,
         "adjEquity": 2274.59
       },
       {
         "date": "2026-10-22",
         "equity": 3640.73,
         "depositedToDate": 5050.0,
-        "tradingPnl": -895.27,
+        "tradingPnl": -698.69,
         "adjEquity": 2490.73
       },
       {
         "date": "2026-10-23",
         "equity": 3618.98,
         "depositedToDate": 5050.0,
-        "tradingPnl": -917.02,
+        "tradingPnl": -720.44,
         "adjEquity": 2468.98
       },
       {
         "date": "2026-10-24",
         "equity": 3564.43,
         "depositedToDate": 5050.0,
-        "tradingPnl": -971.57,
+        "tradingPnl": -774.99,
         "adjEquity": 2414.43
       },
       {
         "date": "2026-10-27",
         "equity": 3474.78,
         "depositedToDate": 5050.0,
-        "tradingPnl": -1061.22,
+        "tradingPnl": -864.64,
         "adjEquity": 2324.78
       },
       {
         "date": "2026-10-28",
         "equity": 3540.13,
         "depositedToDate": 5050.0,
-        "tradingPnl": -995.87,
+        "tradingPnl": -799.29,
         "adjEquity": 2390.13
       },
       {
         "date": "2026-10-29",
         "equity": 3633.68,
         "depositedToDate": 5050.0,
-        "tradingPnl": -902.32,
+        "tradingPnl": -705.74,
         "adjEquity": 2483.68
       },
       {
         "date": "2026-10-30",
         "equity": 3668.53,
         "depositedToDate": 5050.0,
-        "tradingPnl": -867.47,
+        "tradingPnl": -670.89,
         "adjEquity": 2518.53
       },
       {
         "date": "2026-10-31",
         "equity": 3564.68,
         "depositedToDate": 5050.0,
-        "tradingPnl": -971.32,
+        "tradingPnl": -774.74,
         "adjEquity": 2414.68
+      },
+      {
+        "date": "2026-11-03",
+        "equity": 3485.43,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -853.99,
+        "adjEquity": 2335.43
+      },
+      {
+        "date": "2026-11-04",
+        "equity": 3507.93,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -831.49,
+        "adjEquity": 2357.93
+      },
+      {
+        "date": "2026-11-05",
+        "equity": 3617.83,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -721.59,
+        "adjEquity": 2467.83
+      },
+      {
+        "date": "2026-11-06",
+        "equity": 3482.08,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -857.34,
+        "adjEquity": 2332.08
+      },
+      {
+        "date": "2026-11-07",
+        "equity": 3528.13,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -811.29,
+        "adjEquity": 2378.13
+      },
+      {
+        "date": "2026-11-10",
+        "equity": 3599.88,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -739.54,
+        "adjEquity": 2449.88
+      },
+      {
+        "date": "2026-11-11",
+        "equity": 3516.68,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -822.74,
+        "adjEquity": 2366.68
+      },
+      {
+        "date": "2026-11-12",
+        "equity": 3545.08,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -794.34,
+        "adjEquity": 2395.08
+      },
+      {
+        "date": "2026-11-13",
+        "equity": 3420.88,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -918.54,
+        "adjEquity": 2270.88
+      },
+      {
+        "date": "2026-11-14",
+        "equity": 3375.03,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -964.39,
+        "adjEquity": 2225.03
+      },
+      {
+        "date": "2026-11-17",
+        "equity": 3342.38,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -997.04,
+        "adjEquity": 2192.38
+      },
+      {
+        "date": "2026-11-18",
+        "equity": 3309.78,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -1029.64,
+        "adjEquity": 2159.78
+      },
+      {
+        "date": "2026-11-19",
+        "equity": 3238.93,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -1100.49,
+        "adjEquity": 2088.93
+      },
+      {
+        "date": "2026-11-20",
+        "equity": 3193.13,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -1146.29,
+        "adjEquity": 2043.13
+      },
+      {
+        "date": "2026-11-21",
+        "equity": 3053.63,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -1285.79,
+        "adjEquity": 1903.63
+      },
+      {
+        "date": "2026-11-24",
+        "equity": 3247.63,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -1091.79,
+        "adjEquity": 2097.63
+      },
+      {
+        "date": "2026-11-25",
+        "equity": 3282.58,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -1056.84,
+        "adjEquity": 2132.58
+      },
+      {
+        "date": "2026-11-26",
+        "equity": 3373.86,
+        "depositedToDate": 5050.0,
+        "tradingPnl": -965.56,
+        "adjEquity": 2223.86
       }
     ],
     "deposits": [
@@ -649,11 +663,11 @@
       {
         "month": "2026-08",
         "label": "Aug 2026",
-        "startEquity": 3386.0,
+        "startEquity": 3189.42,
         "endEquity": 3113.35,
         "deposits": 0.0,
-        "tradingUsd": -272.65,
-        "tradingPct": -8.05,
+        "tradingUsd": -76.07,
+        "tradingPct": -2.39,
         "mtd": false
       },
       {
@@ -674,6 +688,16 @@
         "deposits": 650.0,
         "tradingUsd": -329.42,
         "tradingPct": -8.46,
+        "mtd": false
+      },
+      {
+        "month": "2026-11",
+        "label": "Nov 2026",
+        "startEquity": 3564.68,
+        "endEquity": 3373.86,
+        "deposits": 0.0,
+        "tradingUsd": -190.82,
+        "tradingPct": -5.35,
         "mtd": true
       }
     ],
@@ -693,8 +717,8 @@
         "pnlPct": 100.0
       }
     ],
-    "tradingPnl": -971.32,
-    "tradingPct": -21.41
+    "tradingPnl": -965.56,
+    "tradingPct": -22.25
   },
   "robinhood": {
     "startDate": "2026-06-22",
@@ -1078,6 +1102,10 @@
       },
       {
         "date": "2026-11-25",
+        "equity": 137.9
+      },
+      {
+        "date": "2026-11-27",
         "equity": 137.9
       }
     ]
@@ -1841,6 +1869,10 @@
       },
       {
         "date": "2026-11-26",
+        "equity": 97100.14
+      },
+      {
+        "date": "2026-11-27",
         "equity": 97100.14
       }
     ]
@@ -3395,9 +3427,9 @@
         "entry_date": "2026-06-22",
         "entry_price": 82.9067,
         "qty": 10.0,
-        "current": 70.68,
-        "unreal": -122.27,
-        "unreal_pct": -14.75
+        "current": 72.12,
+        "unreal": -107.87,
+        "unreal_pct": -13.01
       },
       {
         "system": "Manual",
@@ -3406,9 +3438,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 4.3,
         "qty": 100.0,
-        "current": 1.255,
-        "unreal": -304.5,
-        "unreal_pct": -70.81
+        "current": 1.335,
+        "unreal": -296.5,
+        "unreal_pct": -68.95
       },
       {
         "system": "Manual",
@@ -3417,9 +3449,9 @@
         "entry_date": "2026-10-08",
         "entry_price": 2.5377,
         "qty": 100.0,
-        "current": 1.255,
-        "unreal": -128.27,
-        "unreal_pct": -50.55
+        "current": 1.335,
+        "unreal": -120.27,
+        "unreal_pct": -47.39
       },
       {
         "system": "Manual",
@@ -3428,9 +3460,9 @@
         "entry_date": "2026-10-21",
         "entry_price": 1.975,
         "qty": 50.0,
-        "current": 1.255,
-        "unreal": -36.0,
-        "unreal_pct": -36.46
+        "current": 1.335,
+        "unreal": -32.0,
+        "unreal_pct": -32.41
       },
       {
         "system": "Manual",
@@ -3439,9 +3471,9 @@
         "entry_date": "2026-10-21",
         "entry_price": 1.975,
         "qty": 50.0,
-        "current": 1.255,
-        "unreal": -36.0,
-        "unreal_pct": -36.46
+        "current": 1.335,
+        "unreal": -32.0,
+        "unreal_pct": -32.41
       },
       {
         "system": "Manual",
@@ -3450,9 +3482,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 19.0,
-        "current": 3.95,
-        "unreal": -74.1,
-        "unreal_pct": -49.68
+        "current": 3.94,
+        "unreal": -74.29,
+        "unreal_pct": -49.81
       },
       {
         "system": "Manual",
@@ -3461,9 +3493,9 @@
         "entry_date": "2026-06-24",
         "entry_price": 7.85,
         "qty": 6.0,
-        "current": 3.95,
-        "unreal": -23.4,
-        "unreal_pct": -49.68
+        "current": 3.94,
+        "unreal": -23.46,
+        "unreal_pct": -49.81
       },
       {
         "system": "Manual",
@@ -3472,9 +3504,9 @@
         "entry_date": "2026-09-16",
         "entry_price": 4.75,
         "qty": 100.0,
-        "current": 3.95,
-        "unreal": -80.0,
-        "unreal_pct": -16.84
+        "current": 3.94,
+        "unreal": -81.0,
+        "unreal_pct": -17.05
       },
       {
         "system": "Manual",
@@ -3483,9 +3515,9 @@
         "entry_date": "2026-10-02",
         "entry_price": 4.1698,
         "qty": 40.0,
-        "current": 3.95,
-        "unreal": -8.79,
-        "unreal_pct": -5.27
+        "current": 3.94,
+        "unreal": -9.19,
+        "unreal_pct": -5.51
       },
       {
         "system": "Manual",
@@ -3494,9 +3526,9 @@
         "entry_date": "2026-10-13",
         "entry_price": 3.685,
         "qty": 100.0,
-        "current": 3.95,
-        "unreal": 26.5,
-        "unreal_pct": 7.19
+        "current": 3.94,
+        "unreal": 25.5,
+        "unreal_pct": 6.92
       },
       {
         "system": "Manual",
@@ -3505,9 +3537,9 @@
         "entry_date": "2026-06-30",
         "entry_price": 13.9078,
         "qty": 100.0,
-        "current": 12.16,
-        "unreal": -174.78,
-        "unreal_pct": -12.57
+        "current": 12.33,
+        "unreal": -157.78,
+        "unreal_pct": -11.34
       },
       {
         "system": "Manual",
@@ -3527,9 +3559,9 @@
         "entry_date": "2026-11-25",
         "entry_price": 0.3,
         "qty": 1.0,
-        "current": 0.295,
-        "unreal": 0.5,
-        "unreal_pct": 1.67
+        "current": 0.31,
+        "unreal": -1.0,
+        "unreal_pct": -3.33
       }
     ],
     "totals": {
@@ -3540,12 +3572,12 @@
       "realized_pnl": -1323.97,
       "avg_pct": -0.25,
       "open_count": 13,
-      "unrealized_pnl": -939.11,
-      "net_pnl": -2263.08,
+      "unrealized_pnl": -887.86,
+      "net_pnl": -2211.83,
       "excluded_pnl": -2429.0,
       "excluded_count": 3,
       "excluded_note": "CRM April 0DTE calls \u2014 the retired/abandoned 0DTE strategy",
-      "net_incl_excluded": -4692.08
+      "net_incl_excluded": -4640.83
     },
     "excluded": [
       {
@@ -3594,9 +3626,9 @@
       "symbol": "UNCY",
       "qty": 35,
       "cost": 7.25,
-      "current": 3.95,
-      "unreal": -115.5,
-      "unreal_pct": -45.52,
+      "current": 3.94,
+      "unreal": -115.85,
+      "unreal_pct": -45.66,
       "note": "FDA/biotech bet - holding for approval re-rate"
     },
     {
@@ -3609,5 +3641,5 @@
       "note": "MarineMax partnership flyer (bubble-gum money)"
     }
   ],
-  "generatedAt": "2026-10-31"
+  "generatedAt": "2026-11-26"
 }
